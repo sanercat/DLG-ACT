@@ -1,0 +1,888 @@
+Namespace(seed=42, output_dir='./logs/TinyImageNet/soteria', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=90.0, layer_num=64, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense soteria against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([170])
+Proxy_labels: tensor([176])
+Initial with TinyImageNet
+Namespace(seed=42, output_dir='./logs/TinyImageNet/soteria', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=90.0, layer_num=60, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense soteria against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([170])
+Proxy_labels: tensor([176])
+Initial with TinyImageNet
+torch.Size([200, 512]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([128, 64, 3, 3])
+16
+torch.Size([128])
+17
+torch.Size([128])
+18
+torch.Size([128, 128, 3, 3])
+19
+torch.Size([128])
+20
+torch.Size([128])
+21
+torch.Size([128, 64, 1, 1])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 128, 3, 3])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([256, 128, 3, 3])
+31
+torch.Size([256])
+32
+torch.Size([256])
+33
+torch.Size([256, 256, 3, 3])
+34
+torch.Size([256])
+35
+torch.Size([256])
+36
+torch.Size([256, 128, 1, 1])
+37
+torch.Size([256])
+38
+torch.Size([256])
+39
+torch.Size([256, 256, 3, 3])
+40
+torch.Size([256])
+41
+torch.Size([256])
+42
+torch.Size([256, 256, 3, 3])
+43
+torch.Size([256])
+44
+torch.Size([256])
+45
+torch.Size([512, 256, 3, 3])
+46
+torch.Size([512])
+47
+torch.Size([512])
+48
+torch.Size([512, 512, 3, 3])
+49
+torch.Size([512])
+50
+torch.Size([512])
+51
+torch.Size([512, 256, 1, 1])
+52
+torch.Size([512])
+53
+torch.Size([512])
+54
+torch.Size([512, 512, 3, 3])
+55
+torch.Size([512])
+56
+torch.Size([512])
+57
+torch.Size([512, 512, 3, 3])
+58
+torch.Size([512])
+59
+torch.Size([512])
+60
+torch.Size([200, 512])
+61
+torch.Size([200])
+62
+Finished defence with time: 0:00:25.791486
+Attack - Iter-0: Rec_loss-0.2471.
+Attack - Iter-1000: Rec_loss-0.1599.
+Attack - Iter-2000: Rec_loss-0.1606.
+Attack - Iter-3000: Rec_loss-0.1622.
+Attack - Iter-4000: Rec_loss-0.1610.
+Attack - Iter-5000: Rec_loss-0.1606.
+Attack - Iter-6000: Rec_loss-0.1601.
+Attack - Iter-7000: Rec_loss-0.1590.
+Attack - Iter-8000: Rec_loss-0.1586.
+Attack - Iter-9000: Rec_loss-0.1595.
+Attack - Iter-9999: Rec_loss-0.1590.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 7.4862 SSIM 0.0239 LPIPS 1.1842
+Wednesday, 30. October 2024 09:48AM
+Finished computations with time: 0:06:12.255505
+Namespace(seed=42, output_dir='./logs/TinyImageNet/soteria', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=90.0, layer_num=64, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense soteria against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([166])
+Proxy_labels: tensor([76])
+Initial with TinyImageNet
+torch.Size([256]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([64, 64, 3, 3])
+16
+torch.Size([64])
+17
+torch.Size([64])
+18
+torch.Size([64, 64, 3, 3])
+19
+torch.Size([64])
+20
+torch.Size([64])
+21
+torch.Size([128, 64, 3, 3])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 64, 1, 1])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([128, 128, 3, 3])
+31
+torch.Size([128])
+32
+torch.Size([128])
+33
+torch.Size([128, 128, 3, 3])
+34
+torch.Size([128])
+35
+torch.Size([128])
+36
+torch.Size([128, 128, 3, 3])
+37
+torch.Size([128])
+38
+torch.Size([128])
+39
+torch.Size([128, 128, 3, 3])
+40
+torch.Size([128])
+41
+torch.Size([128])
+42
+torch.Size([128, 128, 3, 3])
+43
+torch.Size([128])
+44
+torch.Size([128])
+45
+torch.Size([128, 128, 3, 3])
+46
+torch.Size([128])
+47
+torch.Size([128])
+48
+torch.Size([256, 128, 3, 3])
+49
+torch.Size([256])
+50
+torch.Size([256])
+51
+torch.Size([256, 256, 3, 3])
+52
+torch.Size([256])
+53
+torch.Size([256])
+54
+torch.Size([256, 128, 1, 1])
+55
+torch.Size([256])
+56
+torch.Size([256])
+57
+torch.Size([256, 256, 3, 3])
+58
+torch.Size([256])
+59
+torch.Size([256])
+60
+torch.Size([256, 256, 3, 3])
+61
+torch.Size([256])
+62
+torch.Size([256])
+63
+torch.Size([256, 256, 3, 3])
+64
+torch.Size([256])
+65
+torch.Size([256])
+66
+torch.Size([256, 256, 3, 3])
+67
+torch.Size([256])
+68
+torch.Size([256])
+69
+torch.Size([256, 256, 3, 3])
+70
+torch.Size([256])
+71
+torch.Size([256])
+72
+torch.Size([256, 256, 3, 3])
+73
+torch.Size([256])
+74
+torch.Size([256])
+75
+torch.Size([256, 256, 3, 3])
+76
+torch.Size([256])
+77
+torch.Size([256])
+78
+torch.Size([256, 256, 3, 3])
+79
+torch.Size([256])
+80
+torch.Size([256])
+81
+torch.Size([256, 256, 3, 3])
+82
+torch.Size([256])
+83
+torch.Size([256])
+84
+torch.Size([256, 256, 3, 3])
+85
+torch.Size([256])
+86
+torch.Size([256])
+87
+torch.Size([512, 256, 3, 3])
+88
+torch.Size([512])
+89
+torch.Size([512])
+90
+torch.Size([512, 512, 3, 3])
+91
+torch.Size([512])
+92
+torch.Size([512])
+93
+torch.Size([512, 256, 1, 1])
+94
+torch.Size([512])
+95
+torch.Size([512])
+96
+torch.Size([512, 512, 3, 3])
+97
+torch.Size([512])
+98
+torch.Size([512])
+99
+torch.Size([512, 512, 3, 3])
+100
+torch.Size([512])
+101
+torch.Size([512])
+102
+torch.Size([512, 512, 3, 3])
+103
+torch.Size([512])
+104
+torch.Size([512])
+105
+torch.Size([512, 512, 3, 3])
+106
+torch.Size([512])
+107
+torch.Size([512])
+108
+torch.Size([200, 512])
+109
+torch.Size([200])
+110
+Namespace(seed=42, output_dir='./logs/TinyImageNet/soteria', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=90.0, layer_num=108, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense soteria against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([166])
+Proxy_labels: tensor([76])
+Initial with TinyImageNet
+torch.Size([200, 512]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([64, 64, 3, 3])
+16
+torch.Size([64])
+17
+torch.Size([64])
+18
+torch.Size([64, 64, 3, 3])
+19
+torch.Size([64])
+20
+torch.Size([64])
+21
+torch.Size([128, 64, 3, 3])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 64, 1, 1])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([128, 128, 3, 3])
+31
+torch.Size([128])
+32
+torch.Size([128])
+33
+torch.Size([128, 128, 3, 3])
+34
+torch.Size([128])
+35
+torch.Size([128])
+36
+torch.Size([128, 128, 3, 3])
+37
+torch.Size([128])
+38
+torch.Size([128])
+39
+torch.Size([128, 128, 3, 3])
+40
+torch.Size([128])
+41
+torch.Size([128])
+42
+torch.Size([128, 128, 3, 3])
+43
+torch.Size([128])
+44
+torch.Size([128])
+45
+torch.Size([128, 128, 3, 3])
+46
+torch.Size([128])
+47
+torch.Size([128])
+48
+torch.Size([256, 128, 3, 3])
+49
+torch.Size([256])
+50
+torch.Size([256])
+51
+torch.Size([256, 256, 3, 3])
+52
+torch.Size([256])
+53
+torch.Size([256])
+54
+torch.Size([256, 128, 1, 1])
+55
+torch.Size([256])
+56
+torch.Size([256])
+57
+torch.Size([256, 256, 3, 3])
+58
+torch.Size([256])
+59
+torch.Size([256])
+60
+torch.Size([256, 256, 3, 3])
+61
+torch.Size([256])
+62
+torch.Size([256])
+63
+torch.Size([256, 256, 3, 3])
+64
+torch.Size([256])
+65
+torch.Size([256])
+66
+torch.Size([256, 256, 3, 3])
+67
+torch.Size([256])
+68
+torch.Size([256])
+69
+torch.Size([256, 256, 3, 3])
+70
+torch.Size([256])
+71
+torch.Size([256])
+72
+torch.Size([256, 256, 3, 3])
+73
+torch.Size([256])
+74
+torch.Size([256])
+75
+torch.Size([256, 256, 3, 3])
+76
+torch.Size([256])
+77
+torch.Size([256])
+78
+torch.Size([256, 256, 3, 3])
+79
+torch.Size([256])
+80
+torch.Size([256])
+81
+torch.Size([256, 256, 3, 3])
+82
+torch.Size([256])
+83
+torch.Size([256])
+84
+torch.Size([256, 256, 3, 3])
+85
+torch.Size([256])
+86
+torch.Size([256])
+87
+torch.Size([512, 256, 3, 3])
+88
+torch.Size([512])
+89
+torch.Size([512])
+90
+torch.Size([512, 512, 3, 3])
+91
+torch.Size([512])
+92
+torch.Size([512])
+93
+torch.Size([512, 256, 1, 1])
+94
+torch.Size([512])
+95
+torch.Size([512])
+96
+torch.Size([512, 512, 3, 3])
+97
+torch.Size([512])
+98
+torch.Size([512])
+99
+torch.Size([512, 512, 3, 3])
+100
+torch.Size([512])
+101
+torch.Size([512])
+102
+torch.Size([512, 512, 3, 3])
+103
+torch.Size([512])
+104
+torch.Size([512])
+105
+torch.Size([512, 512, 3, 3])
+106
+torch.Size([512])
+107
+torch.Size([512])
+108
+torch.Size([200, 512])
+109
+torch.Size([200])
+110
+Finished defence with time: 0:00:29.213290
+Attack - Iter-0: Rec_loss-0.2750.
+Attack - Iter-1000: Rec_loss-0.2702.
+Attack - Iter-2000: Rec_loss-0.4649.
+Attack - Iter-3000: Rec_loss-0.2714.
+Attack - Iter-4000: Rec_loss-0.4624.
+Attack - Iter-5000: Rec_loss-0.4592.
+Attack - Iter-6000: Rec_loss-0.4611.
+Attack - Iter-7000: Rec_loss-0.4598.
+Attack - Iter-8000: Rec_loss-0.4614.
+Attack - Iter-9000: Rec_loss-0.4591.
+Attack - Iter-9999: Rec_loss-0.4573.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 5.7873 SSIM 0.0113 LPIPS 1.4701
+Wednesday, 30. October 2024 11:39AM
+Finished computations with time: 0:08:29.037381
+Namespace(seed=42, output_dir='./logs/TinyImageNet/soteria', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=70.0, layer_num=108, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense soteria against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([166])
+Proxy_labels: tensor([76])
+Initial with TinyImageNet
+torch.Size([200, 512]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([64, 64, 3, 3])
+16
+torch.Size([64])
+17
+torch.Size([64])
+18
+torch.Size([64, 64, 3, 3])
+19
+torch.Size([64])
+20
+torch.Size([64])
+21
+torch.Size([128, 64, 3, 3])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 64, 1, 1])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([128, 128, 3, 3])
+31
+torch.Size([128])
+32
+torch.Size([128])
+33
+torch.Size([128, 128, 3, 3])
+34
+torch.Size([128])
+35
+torch.Size([128])
+36
+torch.Size([128, 128, 3, 3])
+37
+torch.Size([128])
+38
+torch.Size([128])
+39
+torch.Size([128, 128, 3, 3])
+40
+torch.Size([128])
+41
+torch.Size([128])
+42
+torch.Size([128, 128, 3, 3])
+43
+torch.Size([128])
+44
+torch.Size([128])
+45
+torch.Size([128, 128, 3, 3])
+46
+torch.Size([128])
+47
+torch.Size([128])
+48
+torch.Size([256, 128, 3, 3])
+49
+torch.Size([256])
+50
+torch.Size([256])
+51
+torch.Size([256, 256, 3, 3])
+52
+torch.Size([256])
+53
+torch.Size([256])
+54
+torch.Size([256, 128, 1, 1])
+55
+torch.Size([256])
+56
+torch.Size([256])
+57
+torch.Size([256, 256, 3, 3])
+58
+torch.Size([256])
+59
+torch.Size([256])
+60
+torch.Size([256, 256, 3, 3])
+61
+torch.Size([256])
+62
+torch.Size([256])
+63
+torch.Size([256, 256, 3, 3])
+64
+torch.Size([256])
+65
+torch.Size([256])
+66
+torch.Size([256, 256, 3, 3])
+67
+torch.Size([256])
+68
+torch.Size([256])
+69
+torch.Size([256, 256, 3, 3])
+70
+torch.Size([256])
+71
+torch.Size([256])
+72
+torch.Size([256, 256, 3, 3])
+73
+torch.Size([256])
+74
+torch.Size([256])
+75
+torch.Size([256, 256, 3, 3])
+76
+torch.Size([256])
+77
+torch.Size([256])
+78
+torch.Size([256, 256, 3, 3])
+79
+torch.Size([256])
+80
+torch.Size([256])
+81
+torch.Size([256, 256, 3, 3])
+82
+torch.Size([256])
+83
+torch.Size([256])
+84
+torch.Size([256, 256, 3, 3])
+85
+torch.Size([256])
+86
+torch.Size([256])
+87
+torch.Size([512, 256, 3, 3])
+88
+torch.Size([512])
+89
+torch.Size([512])
+90
+torch.Size([512, 512, 3, 3])
+91
+torch.Size([512])
+92
+torch.Size([512])
+93
+torch.Size([512, 256, 1, 1])
+94
+torch.Size([512])
+95
+torch.Size([512])
+96
+torch.Size([512, 512, 3, 3])
+97
+torch.Size([512])
+98
+torch.Size([512])
+99
+torch.Size([512, 512, 3, 3])
+100
+torch.Size([512])
+101
+torch.Size([512])
+102
+torch.Size([512, 512, 3, 3])
+103
+torch.Size([512])
+104
+torch.Size([512])
+105
+torch.Size([512, 512, 3, 3])
+106
+torch.Size([512])
+107
+torch.Size([512])
+108
+torch.Size([200, 512])
+109
+torch.Size([200])
+110
+Finished defence with time: 0:00:26.482312
+Attack - Iter-0: Rec_loss-0.2741.
+Attack - Iter-1000: Rec_loss-0.4524.
+Attack - Iter-2000: Rec_loss-0.2708.
+Attack - Iter-3000: Rec_loss-0.2679.
+Attack - Iter-4000: Rec_loss-0.2696.
+Attack - Iter-5000: Rec_loss-0.2691.
+Attack - Iter-6000: Rec_loss-0.2712.
+Attack - Iter-7000: Rec_loss-0.2457.
+Attack - Iter-8000: Rec_loss-0.1623.
+Attack - Iter-9000: Rec_loss-0.1620.
+Attack - Iter-9999: Rec_loss-0.1626.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 6.2423 SSIM 0.0127 LPIPS 1.4317
+Wednesday, 30. October 2024 03:57PM
+Finished computations with time: 0:09:33.954931

@@ -1,0 +1,399 @@
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=1000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=50.0, layer_num=32, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense soteria against Attack dlg on Dataset CIFAR10.
+Sensitive_labels: tensor([2])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=1000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=50.0, layer_num=4, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense soteria against Attack dlg on Dataset CIFAR10.
+Sensitive_labels: tensor([2])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+torch.Size([12, 12, 5, 5]) torch.Size([768])
+0
+torch.Size([12, 3, 5, 5])
+1
+torch.Size([12])
+2
+torch.Size([12, 12, 5, 5])
+3
+torch.Size([12])
+4
+torch.Size([12, 12, 5, 5])
+5
+torch.Size([12])
+6
+torch.Size([10, 768])
+7
+torch.Size([10])
+8
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=1000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=50.0, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense soteria against Attack dlg on Dataset CIFAR10.
+Sensitive_labels: tensor([2])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+torch.Size([10, 768]) torch.Size([768])
+0
+torch.Size([12, 3, 5, 5])
+1
+torch.Size([12])
+2
+torch.Size([12, 12, 5, 5])
+3
+torch.Size([12])
+4
+torch.Size([12, 12, 5, 5])
+5
+torch.Size([12])
+6
+torch.Size([10, 768])
+7
+torch.Size([10])
+8
+Finished defence with time: 0:00:33.063223
+Attack - Iter-0: Rec_loss-740.7597.
+Attack - Iter-100: Rec_loss-nan.
+Attack - Iter-200: Rec_loss-nan.
+Attack - Iter-300: Rec_loss-nan.
+Attack - Iter-400: Rec_loss-nan.
+Attack - Iter-500: Rec_loss-nan.
+Attack - Iter-600: Rec_loss-nan.
+Attack - Iter-700: Rec_loss-nan.
+Attack - Iter-800: Rec_loss-nan.
+Attack - Iter-900: Rec_loss-nan.
+Attack - Iter-999: Rec_loss-nan.
+PSNR nan SSIM nan LPIPS -0.0000
+Monday, 28. October 2024 02:34PM
+Finished computations with time: 0:01:47.170162
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=50.0, layer_num=0, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense soteria against Attack dlg on Dataset CIFAR10.
+Sensitive_labels: tensor([2])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+torch.Size([12, 3, 5, 5]) torch.Size([768])
+0
+torch.Size([12, 3, 5, 5])
+1
+torch.Size([12])
+2
+torch.Size([12, 12, 5, 5])
+3
+torch.Size([12])
+4
+torch.Size([12, 12, 5, 5])
+5
+torch.Size([12])
+6
+torch.Size([10, 768])
+7
+torch.Size([10])
+8
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=50.0, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense soteria against Attack dlg on Dataset CIFAR10.
+Sensitive_labels: tensor([2])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+torch.Size([10, 768]) torch.Size([768])
+0
+torch.Size([12, 3, 5, 5])
+1
+torch.Size([12])
+2
+torch.Size([12, 12, 5, 5])
+3
+torch.Size([12])
+4
+torch.Size([12, 12, 5, 5])
+5
+torch.Size([12])
+6
+torch.Size([10, 768])
+7
+torch.Size([10])
+8
+Finished defence with time: 0:00:33.202847
+Attack - Iter-0: Rec_loss-740.7597.
+Attack - Iter-10: Rec_loss-547912.6250.
+Attack - Iter-20: Rec_loss-nan.
+Attack - Iter-30: Rec_loss-nan.
+Attack - Iter-40: Rec_loss-nan.
+Attack - Iter-50: Rec_loss-nan.
+Attack - Iter-60: Rec_loss-nan.
+Attack - Iter-70: Rec_loss-nan.
+Attack - Iter-80: Rec_loss-nan.
+Attack - Iter-90: Rec_loss-nan.
+Attack - Iter-100: Rec_loss-nan.
+Attack - Iter-110: Rec_loss-nan.
+Attack - Iter-120: Rec_loss-nan.
+Attack - Iter-130: Rec_loss-nan.
+Attack - Iter-140: Rec_loss-nan.
+Attack - Iter-150: Rec_loss-nan.
+Attack - Iter-160: Rec_loss-nan.
+Attack - Iter-170: Rec_loss-nan.
+Attack - Iter-180: Rec_loss-nan.
+Attack - Iter-190: Rec_loss-nan.
+Attack - Iter-200: Rec_loss-nan.
+Attack - Iter-210: Rec_loss-nan.
+Attack - Iter-220: Rec_loss-nan.
+Attack - Iter-230: Rec_loss-nan.
+Attack - Iter-240: Rec_loss-nan.
+Attack - Iter-250: Rec_loss-nan.
+Attack - Iter-260: Rec_loss-nan.
+Attack - Iter-270: Rec_loss-nan.
+Attack - Iter-280: Rec_loss-nan.
+Attack - Iter-290: Rec_loss-nan.
+Attack - Iter-299: Rec_loss-nan.
+PSNR nan SSIM nan LPIPS -0.0000
+Monday, 28. October 2024 03:39PM
+Finished computations with time: 0:00:55.574744
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=20.0, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense soteria against Attack dlg on Dataset CIFAR10.
+Sensitive_labels: tensor([2])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+torch.Size([10, 768]) torch.Size([768])
+0
+torch.Size([12, 3, 5, 5])
+1
+torch.Size([12])
+2
+torch.Size([12, 12, 5, 5])
+3
+torch.Size([12])
+4
+torch.Size([12, 12, 5, 5])
+5
+torch.Size([12])
+6
+torch.Size([10, 768])
+7
+torch.Size([10])
+8
+Finished defence with time: 0:00:33.270807
+Attack - Iter-0: Rec_loss-779.8190.
+Attack - Iter-10: Rec_loss-194.3132.
+Attack - Iter-20: Rec_loss-183.7900.
+Attack - Iter-30: Rec_loss-181.1038.
+Attack - Iter-40: Rec_loss-179.4925.
+Attack - Iter-50: Rec_loss-178.6534.
+Attack - Iter-60: Rec_loss-177.9583.
+Attack - Iter-70: Rec_loss-177.5367.
+Attack - Iter-80: Rec_loss-177.1283.
+Attack - Iter-90: Rec_loss-176.8129.
+Attack - Iter-100: Rec_loss-176.6221.
+Attack - Iter-110: Rec_loss-176.4558.
+Attack - Iter-120: Rec_loss-176.3913.
+Attack - Iter-130: Rec_loss-176.3755.
+Attack - Iter-140: Rec_loss-176.3267.
+Attack - Iter-150: Rec_loss-176.2989.
+Attack - Iter-160: Rec_loss-176.2755.
+Attack - Iter-170: Rec_loss-176.2501.
+Attack - Iter-180: Rec_loss-176.2281.
+Attack - Iter-190: Rec_loss-176.2067.
+Attack - Iter-200: Rec_loss-1630.5381.
+Attack - Iter-210: Rec_loss-190.8884.
+Attack - Iter-220: Rec_loss-180.6545.
+Attack - Iter-230: Rec_loss-179.8360.
+Attack - Iter-240: Rec_loss-179.3535.
+Attack - Iter-250: Rec_loss-179.1950.
+Attack - Iter-260: Rec_loss-179.0075.
+Attack - Iter-270: Rec_loss-178.9222.
+Attack - Iter-280: Rec_loss-178.8793.
+Attack - Iter-290: Rec_loss-178.9279.
+Attack - Iter-299: Rec_loss-178.8709.
+PSNR 7.9218 SSIM 0.3257 LPIPS -0.0000
+Monday, 28. October 2024 03:41PM
+Finished computations with time: 0:01:02.129495
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=50.0, layer_num=60, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense soteria against Attack dlg on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+torch.Size([10, 512]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([128, 64, 3, 3])
+16
+torch.Size([128])
+17
+torch.Size([128])
+18
+torch.Size([128, 128, 3, 3])
+19
+torch.Size([128])
+20
+torch.Size([128])
+21
+torch.Size([128, 64, 1, 1])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 128, 3, 3])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([256, 128, 3, 3])
+31
+torch.Size([256])
+32
+torch.Size([256])
+33
+torch.Size([256, 256, 3, 3])
+34
+torch.Size([256])
+35
+torch.Size([256])
+36
+torch.Size([256, 128, 1, 1])
+37
+torch.Size([256])
+38
+torch.Size([256])
+39
+torch.Size([256, 256, 3, 3])
+40
+torch.Size([256])
+41
+torch.Size([256])
+42
+torch.Size([256, 256, 3, 3])
+43
+torch.Size([256])
+44
+torch.Size([256])
+45
+torch.Size([512, 256, 3, 3])
+46
+torch.Size([512])
+47
+torch.Size([512])
+48
+torch.Size([512, 512, 3, 3])
+49
+torch.Size([512])
+50
+torch.Size([512])
+51
+torch.Size([512, 256, 1, 1])
+52
+torch.Size([512])
+53
+torch.Size([512])
+54
+torch.Size([512, 512, 3, 3])
+55
+torch.Size([512])
+56
+torch.Size([512])
+57
+torch.Size([512, 512, 3, 3])
+58
+torch.Size([512])
+59
+torch.Size([512])
+60
+torch.Size([10, 512])
+61
+torch.Size([10])
+62
+Finished defence with time: 0:00:23.920524
+Attack - Iter-0: Rec_loss-472.0536.
+Attack - Iter-10: Rec_loss-79.8977.
+Attack - Iter-20: Rec_loss-69.7469.
+Attack - Iter-30: Rec_loss-61.0753.
+Attack - Iter-40: Rec_loss-63.0443.
+Attack - Iter-50: Rec_loss-239.0205.
+Attack - Iter-60: Rec_loss-239.0205.
+Attack - Iter-70: Rec_loss-239.0205.
+Attack - Iter-80: Rec_loss-239.0205.
+Attack - Iter-90: Rec_loss-239.0205.
+Attack - Iter-100: Rec_loss-239.0205.
+Attack - Iter-110: Rec_loss-239.0205.
+Attack - Iter-120: Rec_loss-239.0205.
+Attack - Iter-130: Rec_loss-239.0205.
+Attack - Iter-140: Rec_loss-239.0205.
+Attack - Iter-150: Rec_loss-239.0205.
+Attack - Iter-160: Rec_loss-239.0205.
+Attack - Iter-170: Rec_loss-239.0205.
+Attack - Iter-180: Rec_loss-239.0205.
+Attack - Iter-190: Rec_loss-239.0205.
+Attack - Iter-200: Rec_loss-239.0205.
+Attack - Iter-210: Rec_loss-239.0205.
+Attack - Iter-220: Rec_loss-239.0205.
+Attack - Iter-230: Rec_loss-239.0205.
+Attack - Iter-240: Rec_loss-239.0205.
+Attack - Iter-250: Rec_loss-239.0205.
+Attack - Iter-260: Rec_loss-239.0205.
+Attack - Iter-270: Rec_loss-239.0205.
+Attack - Iter-280: Rec_loss-239.0205.
+Attack - Iter-290: Rec_loss-239.0205.
+Attack - Iter-299: Rec_loss-239.0205.
+PSNR 5.8931 SSIM 0.0998 LPIPS -0.0000
+Tuesday, 29. October 2024 09:27PM
+Finished computations with time: 0:00:44.298419

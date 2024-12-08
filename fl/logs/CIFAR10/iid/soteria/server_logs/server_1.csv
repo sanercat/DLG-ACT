@@ -1,0 +1,39 @@
+Namespace(seed=42, output_dir='./logs', cnt=1, method='iid', TotalDevNum=10, pretrained=False, dataset='CIFAR10', resume=False, ckp_path='./weights/model_round_100.pth', defense='soteria', precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', minfit=10, mineval=10, minavl=10, num_rounds=30, save_rnd=100, train_lr=0.01, local_epochs=1, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+cuda
+Round 001 	 FL_loss 2.8931 	 FL_acc 12.0994 	 Test images 10000
+Round 002 	 FL_loss 2.2755 	 FL_acc 13.8121 	 Test images 10000
+Round 003 	 FL_loss 2.2091 	 FL_acc 16.8069 	 Test images 10000
+Round 004 	 FL_loss 2.1574 	 FL_acc 19.2408 	 Test images 10000
+Round 005 	 FL_loss 2.1157 	 FL_acc 20.5829 	 Test images 10000
+Round 006 	 FL_loss 2.0838 	 FL_acc 21.6647 	 Test images 10000
+Round 007 	 FL_loss 2.0585 	 FL_acc 22.6362 	 Test images 10000
+Round 008 	 FL_loss 2.0379 	 FL_acc 23.6979 	 Test images 10000
+Round 009 	 FL_loss 2.0155 	 FL_acc 25.2204 	 Test images 10000
+Round 010 	 FL_loss 2.0005 	 FL_acc 25.9115 	 Test images 10000
+Round 011 	 FL_loss 1.9876 	 FL_acc 26.7027 	 Test images 10000
+Round 012 	 FL_loss 1.9775 	 FL_acc 27.0433 	 Test images 10000
+Round 013 	 FL_loss 1.9686 	 FL_acc 27.6943 	 Test images 10000
+Round 014 	 FL_loss 1.9564 	 FL_acc 28.0549 	 Test images 10000
+Round 015 	 FL_loss 1.9490 	 FL_acc 29.0365 	 Test images 10000
+Round 016 	 FL_loss 1.9390 	 FL_acc 28.9964 	 Test images 10000
+Round 017 	 FL_loss 1.9311 	 FL_acc 30.1182 	 Test images 10000
+Round 018 	 FL_loss 1.9202 	 FL_acc 30.5789 	 Test images 10000
+Round 019 	 FL_loss 1.9134 	 FL_acc 30.4487 	 Test images 10000
+Round 020 	 FL_loss 1.9064 	 FL_acc 31.3602 	 Test images 10000
+Round 021 	 FL_loss 1.8994 	 FL_acc 31.6306 	 Test images 10000
+Round 022 	 FL_loss 1.8932 	 FL_acc 31.7608 	 Test images 10000
+Round 023 	 FL_loss 1.8836 	 FL_acc 32.4018 	 Test images 10000
+Round 024 	 FL_loss 1.8780 	 FL_acc 32.4920 	 Test images 10000
+Round 025 	 FL_loss 1.8727 	 FL_acc 32.7224 	 Test images 10000
+Round 026 	 FL_loss 1.8658 	 FL_acc 32.8325 	 Test images 10000
+Round 027 	 FL_loss 1.8563 	 FL_acc 33.6438 	 Test images 10000
+Round 028 	 FL_loss 1.8518 	 FL_acc 33.7841 	 Test images 10000
+Round 029 	 FL_loss 1.8468 	 FL_acc 34.0645 	 Test images 10000
+Round 030 	 FL_loss 1.8433 	 FL_acc 34.2648 	 Test images 10000
+Best FL accuracy: 34.26482391357422 on round 30
+Defense Method:  soteria
+Finished computations with time: 6:17:03.544477
+

@@ -1,0 +1,54 @@
+Namespace(seed=42, output_dir='./logs/lambda_y/0.9', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='dcs', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.001, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=400.0, lambda_y=0.9, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense dcs against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([170])
+Proxy_labels: tensor([176])
+Initial with TinyImageNet
+dotg: 0
+Finished defence with time: 0:00:00.384481
+Attack - Iter-0: Rec_loss-0.3174.
+Attack - Iter-1000: Rec_loss-0.2536.
+Attack - Iter-2000: Rec_loss-0.2508.
+Attack - Iter-3000: Rec_loss-0.2518.
+Attack - Iter-4000: Rec_loss-0.2508.
+Attack - Iter-5000: Rec_loss-0.2521.
+Attack - Iter-6000: Rec_loss-0.2488.
+Attack - Iter-7000: Rec_loss-0.2478.
+Attack - Iter-8000: Rec_loss-0.2487.
+Attack - Iter-9000: Rec_loss-0.2489.
+Attack - Iter-9999: Rec_loss-0.2488.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 6.6072 SSIM 0.0281 LPIPS 0.9340
+Wednesday, 30. October 2024 09:53AM
+Finished computations with time: 0:05:42.528207
+Namespace(seed=42, output_dir='./logs/lambda_y/0.9', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='dcs', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.001, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=400.0, lambda_y=0.9, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense dcs against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([166])
+Proxy_labels: tensor([76])
+Initial with TinyImageNet
+dotg: 0
+Finished defence with time: 0:00:00.419353
+Attack - Iter-0: Rec_loss-0.1481.
+Attack - Iter-1000: Rec_loss-0.1469.
+Attack - Iter-2000: Rec_loss-0.1458.
+Attack - Iter-3000: Rec_loss-0.1411.
+Attack - Iter-4000: Rec_loss-0.1430.
+Attack - Iter-5000: Rec_loss-0.1403.
+Attack - Iter-6000: Rec_loss-0.1391.
+Attack - Iter-7000: Rec_loss-0.3748.
+Attack - Iter-8000: Rec_loss-0.1415.
+Attack - Iter-9000: Rec_loss-0.1424.
+Attack - Iter-9999: Rec_loss-0.1433.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 6.2189 SSIM 0.0133 LPIPS 1.4478
+Wednesday, 30. October 2024 10:28AM
+Finished computations with time: 0:08:06.237503

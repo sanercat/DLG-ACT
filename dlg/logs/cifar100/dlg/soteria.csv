@@ -1,0 +1,824 @@
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='cifar100', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=30.0, layer_num=32, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on cifar100
+Defense soteria against Attack dlg on Dataset cifar100.
+Sensitive_labels: tensor([68])
+Proxy_labels: tensor([46])
+Initial with cifar100
+torch.Size([256]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([128, 64, 3, 3])
+16
+torch.Size([128])
+17
+torch.Size([128])
+18
+torch.Size([128, 128, 3, 3])
+19
+torch.Size([128])
+20
+torch.Size([128])
+21
+torch.Size([128, 64, 1, 1])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 128, 3, 3])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([256, 128, 3, 3])
+31
+torch.Size([256])
+32
+torch.Size([256])
+33
+torch.Size([256, 256, 3, 3])
+34
+torch.Size([256])
+35
+torch.Size([256])
+36
+torch.Size([256, 128, 1, 1])
+37
+torch.Size([256])
+38
+torch.Size([256])
+39
+torch.Size([256, 256, 3, 3])
+40
+torch.Size([256])
+41
+torch.Size([256])
+42
+torch.Size([256, 256, 3, 3])
+43
+torch.Size([256])
+44
+torch.Size([256])
+45
+torch.Size([512, 256, 3, 3])
+46
+torch.Size([512])
+47
+torch.Size([512])
+48
+torch.Size([512, 512, 3, 3])
+49
+torch.Size([512])
+50
+torch.Size([512])
+51
+torch.Size([512, 256, 1, 1])
+52
+torch.Size([512])
+53
+torch.Size([512])
+54
+torch.Size([512, 512, 3, 3])
+55
+torch.Size([512])
+56
+torch.Size([512])
+57
+torch.Size([512, 512, 3, 3])
+58
+torch.Size([512])
+59
+torch.Size([512])
+60
+torch.Size([100, 512])
+61
+torch.Size([100])
+62
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='cifar100', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=30.0, layer_num=60, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on cifar100
+Defense soteria against Attack dlg on Dataset cifar100.
+Sensitive_labels: tensor([68])
+Proxy_labels: tensor([46])
+Initial with cifar100
+torch.Size([100, 512]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([128, 64, 3, 3])
+16
+torch.Size([128])
+17
+torch.Size([128])
+18
+torch.Size([128, 128, 3, 3])
+19
+torch.Size([128])
+20
+torch.Size([128])
+21
+torch.Size([128, 64, 1, 1])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 128, 3, 3])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([256, 128, 3, 3])
+31
+torch.Size([256])
+32
+torch.Size([256])
+33
+torch.Size([256, 256, 3, 3])
+34
+torch.Size([256])
+35
+torch.Size([256])
+36
+torch.Size([256, 128, 1, 1])
+37
+torch.Size([256])
+38
+torch.Size([256])
+39
+torch.Size([256, 256, 3, 3])
+40
+torch.Size([256])
+41
+torch.Size([256])
+42
+torch.Size([256, 256, 3, 3])
+43
+torch.Size([256])
+44
+torch.Size([256])
+45
+torch.Size([512, 256, 3, 3])
+46
+torch.Size([512])
+47
+torch.Size([512])
+48
+torch.Size([512, 512, 3, 3])
+49
+torch.Size([512])
+50
+torch.Size([512])
+51
+torch.Size([512, 256, 1, 1])
+52
+torch.Size([512])
+53
+torch.Size([512])
+54
+torch.Size([512, 512, 3, 3])
+55
+torch.Size([512])
+56
+torch.Size([512])
+57
+torch.Size([512, 512, 3, 3])
+58
+torch.Size([512])
+59
+torch.Size([512])
+60
+torch.Size([100, 512])
+61
+torch.Size([100])
+62
+Finished defence with time: 0:00:23.601203
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='cifar100', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=30.0, layer_num=60, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on cifar100
+Defense soteria against Attack dlg on Dataset cifar100.
+Sensitive_labels: tensor([68])
+Proxy_labels: tensor([46])
+Initial with cifar100
+torch.Size([100, 512]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([128, 64, 3, 3])
+16
+torch.Size([128])
+17
+torch.Size([128])
+18
+torch.Size([128, 128, 3, 3])
+19
+torch.Size([128])
+20
+torch.Size([128])
+21
+torch.Size([128, 64, 1, 1])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 128, 3, 3])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([256, 128, 3, 3])
+31
+torch.Size([256])
+32
+torch.Size([256])
+33
+torch.Size([256, 256, 3, 3])
+34
+torch.Size([256])
+35
+torch.Size([256])
+36
+torch.Size([256, 128, 1, 1])
+37
+torch.Size([256])
+38
+torch.Size([256])
+39
+torch.Size([256, 256, 3, 3])
+40
+torch.Size([256])
+41
+torch.Size([256])
+42
+torch.Size([256, 256, 3, 3])
+43
+torch.Size([256])
+44
+torch.Size([256])
+45
+torch.Size([512, 256, 3, 3])
+46
+torch.Size([512])
+47
+torch.Size([512])
+48
+torch.Size([512, 512, 3, 3])
+49
+torch.Size([512])
+50
+torch.Size([512])
+51
+torch.Size([512, 256, 1, 1])
+52
+torch.Size([512])
+53
+torch.Size([512])
+54
+torch.Size([512, 512, 3, 3])
+55
+torch.Size([512])
+56
+torch.Size([512])
+57
+torch.Size([512, 512, 3, 3])
+58
+torch.Size([512])
+59
+torch.Size([512])
+60
+torch.Size([100, 512])
+61
+torch.Size([100])
+62
+Finished defence with time: 0:00:24.153927
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='cifar100', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=30.0, layer_num=60, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on cifar100
+Defense soteria against Attack dlg on Dataset cifar100.
+Sensitive_labels: tensor([68])
+Proxy_labels: tensor([46])
+Initial with cifar100
+torch.Size([100, 512]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([128, 64, 3, 3])
+16
+torch.Size([128])
+17
+torch.Size([128])
+18
+torch.Size([128, 128, 3, 3])
+19
+torch.Size([128])
+20
+torch.Size([128])
+21
+torch.Size([128, 64, 1, 1])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 128, 3, 3])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([256, 128, 3, 3])
+31
+torch.Size([256])
+32
+torch.Size([256])
+33
+torch.Size([256, 256, 3, 3])
+34
+torch.Size([256])
+35
+torch.Size([256])
+36
+torch.Size([256, 128, 1, 1])
+37
+torch.Size([256])
+38
+torch.Size([256])
+39
+torch.Size([256, 256, 3, 3])
+40
+torch.Size([256])
+41
+torch.Size([256])
+42
+torch.Size([256, 256, 3, 3])
+43
+torch.Size([256])
+44
+torch.Size([256])
+45
+torch.Size([512, 256, 3, 3])
+46
+torch.Size([512])
+47
+torch.Size([512])
+48
+torch.Size([512, 512, 3, 3])
+49
+torch.Size([512])
+50
+torch.Size([512])
+51
+torch.Size([512, 256, 1, 1])
+52
+torch.Size([512])
+53
+torch.Size([512])
+54
+torch.Size([512, 512, 3, 3])
+55
+torch.Size([512])
+56
+torch.Size([512])
+57
+torch.Size([512, 512, 3, 3])
+58
+torch.Size([512])
+59
+torch.Size([512])
+60
+torch.Size([100, 512])
+61
+torch.Size([100])
+62
+Finished defence with time: 0:00:23.118406
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='cifar100', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=30.0, layer_num=59, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on cifar100
+Defense soteria against Attack dlg on Dataset cifar100.
+Sensitive_labels: tensor([68])
+Proxy_labels: tensor([46])
+Initial with cifar100
+torch.Size([512]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([128, 64, 3, 3])
+16
+torch.Size([128])
+17
+torch.Size([128])
+18
+torch.Size([128, 128, 3, 3])
+19
+torch.Size([128])
+20
+torch.Size([128])
+21
+torch.Size([128, 64, 1, 1])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 128, 3, 3])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([256, 128, 3, 3])
+31
+torch.Size([256])
+32
+torch.Size([256])
+33
+torch.Size([256, 256, 3, 3])
+34
+torch.Size([256])
+35
+torch.Size([256])
+36
+torch.Size([256, 128, 1, 1])
+37
+torch.Size([256])
+38
+torch.Size([256])
+39
+torch.Size([256, 256, 3, 3])
+40
+torch.Size([256])
+41
+torch.Size([256])
+42
+torch.Size([256, 256, 3, 3])
+43
+torch.Size([256])
+44
+torch.Size([256])
+45
+torch.Size([512, 256, 3, 3])
+46
+torch.Size([512])
+47
+torch.Size([512])
+48
+torch.Size([512, 512, 3, 3])
+49
+torch.Size([512])
+50
+torch.Size([512])
+51
+torch.Size([512, 256, 1, 1])
+52
+torch.Size([512])
+53
+torch.Size([512])
+54
+torch.Size([512, 512, 3, 3])
+55
+torch.Size([512])
+56
+torch.Size([512])
+57
+torch.Size([512, 512, 3, 3])
+58
+torch.Size([512])
+59
+torch.Size([512])
+60
+torch.Size([100, 512])
+61
+torch.Size([100])
+62
+Finished defence with time: 0:00:23.434450
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='cifar100', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=30.0, layer_num=32, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on cifar100
+Defense soteria against Attack dlg on Dataset cifar100.
+Sensitive_labels: tensor([68])
+Proxy_labels: tensor([46])
+Initial with cifar100
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='cifar100', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='dlg', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='soteria', percent_num=30.0, layer_num=60, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on cifar100
+Defense soteria against Attack dlg on Dataset cifar100.
+Sensitive_labels: tensor([68])
+Proxy_labels: tensor([46])
+Initial with cifar100
+torch.Size([100, 512]) torch.Size([512])
+0
+torch.Size([64, 3, 7, 7])
+1
+torch.Size([64])
+2
+torch.Size([64])
+3
+torch.Size([64, 64, 3, 3])
+4
+torch.Size([64])
+5
+torch.Size([64])
+6
+torch.Size([64, 64, 3, 3])
+7
+torch.Size([64])
+8
+torch.Size([64])
+9
+torch.Size([64, 64, 3, 3])
+10
+torch.Size([64])
+11
+torch.Size([64])
+12
+torch.Size([64, 64, 3, 3])
+13
+torch.Size([64])
+14
+torch.Size([64])
+15
+torch.Size([128, 64, 3, 3])
+16
+torch.Size([128])
+17
+torch.Size([128])
+18
+torch.Size([128, 128, 3, 3])
+19
+torch.Size([128])
+20
+torch.Size([128])
+21
+torch.Size([128, 64, 1, 1])
+22
+torch.Size([128])
+23
+torch.Size([128])
+24
+torch.Size([128, 128, 3, 3])
+25
+torch.Size([128])
+26
+torch.Size([128])
+27
+torch.Size([128, 128, 3, 3])
+28
+torch.Size([128])
+29
+torch.Size([128])
+30
+torch.Size([256, 128, 3, 3])
+31
+torch.Size([256])
+32
+torch.Size([256])
+33
+torch.Size([256, 256, 3, 3])
+34
+torch.Size([256])
+35
+torch.Size([256])
+36
+torch.Size([256, 128, 1, 1])
+37
+torch.Size([256])
+38
+torch.Size([256])
+39
+torch.Size([256, 256, 3, 3])
+40
+torch.Size([256])
+41
+torch.Size([256])
+42
+torch.Size([256, 256, 3, 3])
+43
+torch.Size([256])
+44
+torch.Size([256])
+45
+torch.Size([512, 256, 3, 3])
+46
+torch.Size([512])
+47
+torch.Size([512])
+48
+torch.Size([512, 512, 3, 3])
+49
+torch.Size([512])
+50
+torch.Size([512])
+51
+torch.Size([512, 256, 1, 1])
+52
+torch.Size([512])
+53
+torch.Size([512])
+54
+torch.Size([512, 512, 3, 3])
+55
+torch.Size([512])
+56
+torch.Size([512])
+57
+torch.Size([512, 512, 3, 3])
+58
+torch.Size([512])
+59
+torch.Size([512])
+60
+torch.Size([100, 512])
+61
+torch.Size([100])
+62
+Finished defence with time: 0:00:23.959974

@@ -1,0 +1,2553 @@
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='MNIST', num_workers=2, batch_size=64, num_sen=64, defense='none', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=3, n_data=200, Pro_dev=5)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 6.3938 	 LR 0.0099 	 Train images 200 	 Round   1
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 3.8742 	 LR 0.0098 	 Train images 200 	 Round   2
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 3.2434 	 LR 0.0097 	 Train images 200 	 Round   3
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 3.4070 	 LR 0.0096 	 Train images 200 	 Round   4
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 2.5283 	 LR 0.0095 	 Train images 200 	 Round   5
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 2.5743 	 LR 0.0094 	 Train images 200 	 Round   6
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 2.4884 	 LR 0.0093 	 Train images 200 	 Round   7
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 2.1222 	 LR 0.0092 	 Train images 200 	 Round   8
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 2.1100 	 LR 0.0091 	 Train images 200 	 Round   9
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.9928 	 LR 0.0090 	 Train images 200 	 Round  10
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.8416 	 LR 0.0090 	 Train images 200 	 Round  11
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.8540 	 LR 0.0089 	 Train images 200 	 Round  12
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.7311 	 LR 0.0088 	 Train images 200 	 Round  13
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.6768 	 LR 0.0087 	 Train images 200 	 Round  14
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.6049 	 LR 0.0086 	 Train images 200 	 Round  15
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.5414 	 LR 0.0085 	 Train images 200 	 Round  16
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.5101 	 LR 0.0084 	 Train images 200 	 Round  17
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.4561 	 LR 0.0083 	 Train images 200 	 Round  18
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.3668 	 LR 0.0083 	 Train images 200 	 Round  19
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.3431 	 LR 0.0082 	 Train images 200 	 Round  20
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.3093 	 LR 0.0081 	 Train images 200 	 Round  21
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.2769 	 LR 0.0080 	 Train images 200 	 Round  22
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.2435 	 LR 0.0079 	 Train images 200 	 Round  23
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.2004 	 LR 0.0079 	 Train images 200 	 Round  24
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.1549 	 LR 0.0078 	 Train images 200 	 Round  25
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.1416 	 LR 0.0077 	 Train images 200 	 Round  26
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.0882 	 LR 0.0076 	 Train images 200 	 Round  27
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.0676 	 LR 0.0075 	 Train images 200 	 Round  28
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.0561 	 LR 0.0075 	 Train images 200 	 Round  29
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.0317 	 LR 0.0074 	 Train images 200 	 Round  30
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.9851 	 LR 0.0073 	 Train images 200 	 Round  31
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.9868 	 LR 0.0072 	 Train images 200 	 Round  32
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.9475 	 LR 0.0072 	 Train images 200 	 Round  33
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.9351 	 LR 0.0071 	 Train images 200 	 Round  34
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.9241 	 LR 0.0070 	 Train images 200 	 Round  35
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.9016 	 LR 0.0070 	 Train images 200 	 Round  36
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.8982 	 LR 0.0069 	 Train images 200 	 Round  37
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.8743 	 LR 0.0068 	 Train images 200 	 Round  38
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.8498 	 LR 0.0068 	 Train images 200 	 Round  39
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.8609 	 LR 0.0067 	 Train images 200 	 Round  40
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.8347 	 LR 0.0066 	 Train images 200 	 Round  41
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.8292 	 LR 0.0066 	 Train images 200 	 Round  42
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7687 	 LR 0.0065 	 Train images 200 	 Round  43
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7788 	 LR 0.0064 	 Train images 200 	 Round  44
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7951 	 LR 0.0064 	 Train images 200 	 Round  45
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7694 	 LR 0.0063 	 Train images 200 	 Round  46
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7648 	 LR 0.0062 	 Train images 200 	 Round  47
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7550 	 LR 0.0062 	 Train images 200 	 Round  48
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7659 	 LR 0.0061 	 Train images 200 	 Round  49
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7294 	 LR 0.0061 	 Train images 200 	 Round  50
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7284 	 LR 0.0060 	 Train images 200 	 Round  51
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7312 	 LR 0.0059 	 Train images 200 	 Round  52
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7271 	 LR 0.0059 	 Train images 200 	 Round  53
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6975 	 LR 0.0058 	 Train images 200 	 Round  54
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6835 	 LR 0.0058 	 Train images 200 	 Round  55
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7128 	 LR 0.0057 	 Train images 200 	 Round  56
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6794 	 LR 0.0056 	 Train images 200 	 Round  57
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6793 	 LR 0.0056 	 Train images 200 	 Round  58
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6646 	 LR 0.0055 	 Train images 200 	 Round  59
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6754 	 LR 0.0055 	 Train images 200 	 Round  60
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6712 	 LR 0.0054 	 Train images 200 	 Round  61
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6490 	 LR 0.0054 	 Train images 200 	 Round  62
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6525 	 LR 0.0053 	 Train images 200 	 Round  63
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6384 	 LR 0.0053 	 Train images 200 	 Round  64
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6468 	 LR 0.0052 	 Train images 200 	 Round  65
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6362 	 LR 0.0052 	 Train images 200 	 Round  66
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6474 	 LR 0.0051 	 Train images 200 	 Round  67
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6133 	 LR 0.0050 	 Train images 200 	 Round  68
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6244 	 LR 0.0050 	 Train images 200 	 Round  69
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6261 	 LR 0.0049 	 Train images 200 	 Round  70
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5859 	 LR 0.0049 	 Train images 200 	 Round  71
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6087 	 LR 0.0048 	 Train images 200 	 Round  72
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5931 	 LR 0.0048 	 Train images 200 	 Round  73
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6214 	 LR 0.0048 	 Train images 200 	 Round  74
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5833 	 LR 0.0047 	 Train images 200 	 Round  75
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5710 	 LR 0.0047 	 Train images 200 	 Round  76
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5991 	 LR 0.0046 	 Train images 200 	 Round  77
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5766 	 LR 0.0046 	 Train images 200 	 Round  78
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5768 	 LR 0.0045 	 Train images 200 	 Round  79
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5534 	 LR 0.0045 	 Train images 200 	 Round  80
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5762 	 LR 0.0044 	 Train images 200 	 Round  81
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5739 	 LR 0.0044 	 Train images 200 	 Round  82
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5505 	 LR 0.0043 	 Train images 200 	 Round  83
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5553 	 LR 0.0043 	 Train images 200 	 Round  84
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5492 	 LR 0.0043 	 Train images 200 	 Round  85
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5624 	 LR 0.0042 	 Train images 200 	 Round  86
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5560 	 LR 0.0042 	 Train images 200 	 Round  87
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5549 	 LR 0.0041 	 Train images 200 	 Round  88
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5646 	 LR 0.0041 	 Train images 200 	 Round  89
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5628 	 LR 0.0040 	 Train images 200 	 Round  90
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5373 	 LR 0.0040 	 Train images 200 	 Round  91
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5551 	 LR 0.0040 	 Train images 200 	 Round  92
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5338 	 LR 0.0039 	 Train images 200 	 Round  93
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5389 	 LR 0.0039 	 Train images 200 	 Round  94
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5327 	 LR 0.0038 	 Train images 200 	 Round  95
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5231 	 LR 0.0038 	 Train images 200 	 Round  96
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5294 	 LR 0.0038 	 Train images 200 	 Round  97
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5134 	 LR 0.0037 	 Train images 200 	 Round  98
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5279 	 LR 0.0037 	 Train images 200 	 Round  99
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5312 	 LR 0.0037 	 Train images 200 	 Round 100
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5206 	 LR 0.0036 	 Train images 200 	 Round 101
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5010 	 LR 0.0036 	 Train images 200 	 Round 102
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5291 	 LR 0.0036 	 Train images 200 	 Round 103
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5296 	 LR 0.0035 	 Train images 200 	 Round 104
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5200 	 LR 0.0035 	 Train images 200 	 Round 105
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5065 	 LR 0.0034 	 Train images 200 	 Round 106
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5153 	 LR 0.0034 	 Train images 200 	 Round 107
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5095 	 LR 0.0034 	 Train images 200 	 Round 108
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4943 	 LR 0.0033 	 Train images 200 	 Round 109
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5093 	 LR 0.0033 	 Train images 200 	 Round 110
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5085 	 LR 0.0033 	 Train images 200 	 Round 111
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5221 	 LR 0.0032 	 Train images 200 	 Round 112
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4971 	 LR 0.0032 	 Train images 200 	 Round 113
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4931 	 LR 0.0032 	 Train images 200 	 Round 114
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5077 	 LR 0.0031 	 Train images 200 	 Round 115
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5040 	 LR 0.0031 	 Train images 200 	 Round 116
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4897 	 LR 0.0031 	 Train images 200 	 Round 117
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5065 	 LR 0.0031 	 Train images 200 	 Round 118
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4847 	 LR 0.0030 	 Train images 200 	 Round 119
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4739 	 LR 0.0030 	 Train images 200 	 Round 120
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4959 	 LR 0.0030 	 Train images 200 	 Round 121
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5013 	 LR 0.0029 	 Train images 200 	 Round 122
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4832 	 LR 0.0029 	 Train images 200 	 Round 123
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4944 	 LR 0.0029 	 Train images 200 	 Round 124
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4893 	 LR 0.0028 	 Train images 200 	 Round 125
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4905 	 LR 0.0028 	 Train images 200 	 Round 126
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4645 	 LR 0.0028 	 Train images 200 	 Round 127
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4680 	 LR 0.0028 	 Train images 200 	 Round 128
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4798 	 LR 0.0027 	 Train images 200 	 Round 129
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4886 	 LR 0.0027 	 Train images 200 	 Round 130
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4775 	 LR 0.0027 	 Train images 200 	 Round 131
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4670 	 LR 0.0027 	 Train images 200 	 Round 132
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4692 	 LR 0.0026 	 Train images 200 	 Round 133
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4516 	 LR 0.0026 	 Train images 200 	 Round 134
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4521 	 LR 0.0026 	 Train images 200 	 Round 135
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4816 	 LR 0.0025 	 Train images 200 	 Round 136
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4864 	 LR 0.0025 	 Train images 200 	 Round 137
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4584 	 LR 0.0025 	 Train images 200 	 Round 138
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4672 	 LR 0.0025 	 Train images 200 	 Round 139
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4631 	 LR 0.0024 	 Train images 200 	 Round 140
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4599 	 LR 0.0024 	 Train images 200 	 Round 141
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4677 	 LR 0.0024 	 Train images 200 	 Round 142
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4811 	 LR 0.0024 	 Train images 200 	 Round 143
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4733 	 LR 0.0024 	 Train images 200 	 Round 144
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4492 	 LR 0.0023 	 Train images 200 	 Round 145
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4611 	 LR 0.0023 	 Train images 200 	 Round 146
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4600 	 LR 0.0023 	 Train images 200 	 Round 147
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4452 	 LR 0.0023 	 Train images 200 	 Round 148
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4587 	 LR 0.0022 	 Train images 200 	 Round 149
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4423 	 LR 0.0022 	 Train images 200 	 Round 150
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4636 	 LR 0.0022 	 Train images 200 	 Round 151
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4654 	 LR 0.0022 	 Train images 200 	 Round 152
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4632 	 LR 0.0021 	 Train images 200 	 Round 153
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4614 	 LR 0.0021 	 Train images 200 	 Round 154
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4490 	 LR 0.0021 	 Train images 200 	 Round 155
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4441 	 LR 0.0021 	 Train images 200 	 Round 156
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4674 	 LR 0.0021 	 Train images 200 	 Round 157
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4570 	 LR 0.0020 	 Train images 200 	 Round 158
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4617 	 LR 0.0020 	 Train images 200 	 Round 159
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4381 	 LR 0.0020 	 Train images 200 	 Round 160
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4566 	 LR 0.0020 	 Train images 200 	 Round 161
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4478 	 LR 0.0020 	 Train images 200 	 Round 162
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4541 	 LR 0.0019 	 Train images 200 	 Round 163
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4420 	 LR 0.0019 	 Train images 200 	 Round 164
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4511 	 LR 0.0019 	 Train images 200 	 Round 165
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4369 	 LR 0.0019 	 Train images 200 	 Round 166
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4497 	 LR 0.0019 	 Train images 200 	 Round 167
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4537 	 LR 0.0018 	 Train images 200 	 Round 168
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4470 	 LR 0.0018 	 Train images 200 	 Round 169
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4483 	 LR 0.0018 	 Train images 200 	 Round 170
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4455 	 LR 0.0018 	 Train images 200 	 Round 171
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4498 	 LR 0.0018 	 Train images 200 	 Round 172
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4411 	 LR 0.0018 	 Train images 200 	 Round 173
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4359 	 LR 0.0017 	 Train images 200 	 Round 174
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4546 	 LR 0.0017 	 Train images 200 	 Round 175
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4469 	 LR 0.0017 	 Train images 200 	 Round 176
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4560 	 LR 0.0017 	 Train images 200 	 Round 177
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4445 	 LR 0.0017 	 Train images 200 	 Round 178
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4387 	 LR 0.0017 	 Train images 200 	 Round 179
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4496 	 LR 0.0016 	 Train images 200 	 Round 180
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4161 	 LR 0.0016 	 Train images 200 	 Round 181
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4358 	 LR 0.0016 	 Train images 200 	 Round 182
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4201 	 LR 0.0016 	 Train images 200 	 Round 183
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4381 	 LR 0.0016 	 Train images 200 	 Round 184
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4350 	 LR 0.0016 	 Train images 200 	 Round 185
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4470 	 LR 0.0015 	 Train images 200 	 Round 186
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4429 	 LR 0.0015 	 Train images 200 	 Round 187
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4307 	 LR 0.0015 	 Train images 200 	 Round 188
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4338 	 LR 0.0015 	 Train images 200 	 Round 189
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4433 	 LR 0.0015 	 Train images 200 	 Round 190
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4043 	 LR 0.0015 	 Train images 200 	 Round 191
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4266 	 LR 0.0015 	 Train images 200 	 Round 192
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4279 	 LR 0.0014 	 Train images 200 	 Round 193
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4231 	 LR 0.0014 	 Train images 200 	 Round 194
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4446 	 LR 0.0014 	 Train images 200 	 Round 195
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4246 	 LR 0.0014 	 Train images 200 	 Round 196
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4342 	 LR 0.0014 	 Train images 200 	 Round 197
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4272 	 LR 0.0014 	 Train images 200 	 Round 198
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4302 	 LR 0.0014 	 Train images 200 	 Round 199
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4198 	 LR 0.0013 	 Train images 200 	 Round 200
+Defense none on Dataset MNIST.
+Finished computations with time: 0:05:03.412244
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='MNIST', num_workers=2, batch_size=64, num_sen=64, defense='none', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=3, n_data=200, Pro_dev=5)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 6.2742 	 LR 0.0099 	 Train images 200 	 Round   1
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 3.5682 	 LR 0.0098 	 Train images 200 	 Round   2
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 2.7812 	 LR 0.0097 	 Train images 200 	 Round   3
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 2.2431 	 LR 0.0096 	 Train images 200 	 Round   4
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 2.1163 	 LR 0.0095 	 Train images 200 	 Round   5
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.9343 	 LR 0.0094 	 Train images 200 	 Round   6
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.8094 	 LR 0.0093 	 Train images 200 	 Round   7
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.6736 	 LR 0.0092 	 Train images 200 	 Round   8
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.5520 	 LR 0.0091 	 Train images 200 	 Round   9
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.4839 	 LR 0.0090 	 Train images 200 	 Round  10
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.4514 	 LR 0.0090 	 Train images 200 	 Round  11
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.3147 	 LR 0.0089 	 Train images 200 	 Round  12
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.2504 	 LR 0.0088 	 Train images 200 	 Round  13
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.1954 	 LR 0.0087 	 Train images 200 	 Round  14
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.1503 	 LR 0.0086 	 Train images 200 	 Round  15
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.0806 	 LR 0.0085 	 Train images 200 	 Round  16
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 1.0321 	 LR 0.0084 	 Train images 200 	 Round  17
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.9763 	 LR 0.0083 	 Train images 200 	 Round  18
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.9141 	 LR 0.0083 	 Train images 200 	 Round  19
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.8942 	 LR 0.0082 	 Train images 200 	 Round  20
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.8578 	 LR 0.0081 	 Train images 200 	 Round  21
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.8487 	 LR 0.0080 	 Train images 200 	 Round  22
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.8126 	 LR 0.0079 	 Train images 200 	 Round  23
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7763 	 LR 0.0079 	 Train images 200 	 Round  24
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7445 	 LR 0.0078 	 Train images 200 	 Round  25
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.7324 	 LR 0.0077 	 Train images 200 	 Round  26
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6873 	 LR 0.0076 	 Train images 200 	 Round  27
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6926 	 LR 0.0075 	 Train images 200 	 Round  28
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6817 	 LR 0.0075 	 Train images 200 	 Round  29
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6620 	 LR 0.0074 	 Train images 200 	 Round  30
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6384 	 LR 0.0073 	 Train images 200 	 Round  31
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6447 	 LR 0.0072 	 Train images 200 	 Round  32
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.6094 	 LR 0.0072 	 Train images 200 	 Round  33
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5981 	 LR 0.0071 	 Train images 200 	 Round  34
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5851 	 LR 0.0070 	 Train images 200 	 Round  35
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5856 	 LR 0.0070 	 Train images 200 	 Round  36
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5768 	 LR 0.0069 	 Train images 200 	 Round  37
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5655 	 LR 0.0068 	 Train images 200 	 Round  38
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5406 	 LR 0.0068 	 Train images 200 	 Round  39
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5614 	 LR 0.0067 	 Train images 200 	 Round  40
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5391 	 LR 0.0066 	 Train images 200 	 Round  41
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5394 	 LR 0.0066 	 Train images 200 	 Round  42
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4947 	 LR 0.0065 	 Train images 200 	 Round  43
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4968 	 LR 0.0064 	 Train images 200 	 Round  44
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.5205 	 LR 0.0064 	 Train images 200 	 Round  45
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4992 	 LR 0.0063 	 Train images 200 	 Round  46
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4903 	 LR 0.0062 	 Train images 200 	 Round  47
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4843 	 LR 0.0062 	 Train images 200 	 Round  48
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4882 	 LR 0.0061 	 Train images 200 	 Round  49
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4697 	 LR 0.0061 	 Train images 200 	 Round  50
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4666 	 LR 0.0060 	 Train images 200 	 Round  51
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4753 	 LR 0.0059 	 Train images 200 	 Round  52
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4696 	 LR 0.0059 	 Train images 200 	 Round  53
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4526 	 LR 0.0058 	 Train images 200 	 Round  54
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4451 	 LR 0.0058 	 Train images 200 	 Round  55
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4546 	 LR 0.0057 	 Train images 200 	 Round  56
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4427 	 LR 0.0056 	 Train images 200 	 Round  57
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4378 	 LR 0.0056 	 Train images 200 	 Round  58
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4306 	 LR 0.0055 	 Train images 200 	 Round  59
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4360 	 LR 0.0055 	 Train images 200 	 Round  60
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4337 	 LR 0.0054 	 Train images 200 	 Round  61
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4052 	 LR 0.0054 	 Train images 200 	 Round  62
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4172 	 LR 0.0053 	 Train images 200 	 Round  63
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4057 	 LR 0.0053 	 Train images 200 	 Round  64
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4219 	 LR 0.0052 	 Train images 200 	 Round  65
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4089 	 LR 0.0052 	 Train images 200 	 Round  66
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.4188 	 LR 0.0051 	 Train images 200 	 Round  67
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3898 	 LR 0.0050 	 Train images 200 	 Round  68
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3982 	 LR 0.0050 	 Train images 200 	 Round  69
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3990 	 LR 0.0049 	 Train images 200 	 Round  70
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3688 	 LR 0.0049 	 Train images 200 	 Round  71
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3823 	 LR 0.0048 	 Train images 200 	 Round  72
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3853 	 LR 0.0048 	 Train images 200 	 Round  73
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3938 	 LR 0.0048 	 Train images 200 	 Round  74
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3745 	 LR 0.0047 	 Train images 200 	 Round  75
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3622 	 LR 0.0047 	 Train images 200 	 Round  76
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3790 	 LR 0.0046 	 Train images 200 	 Round  77
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3622 	 LR 0.0046 	 Train images 200 	 Round  78
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3562 	 LR 0.0045 	 Train images 200 	 Round  79
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3547 	 LR 0.0045 	 Train images 200 	 Round  80
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3616 	 LR 0.0044 	 Train images 200 	 Round  81
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3576 	 LR 0.0044 	 Train images 200 	 Round  82
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3501 	 LR 0.0043 	 Train images 200 	 Round  83
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3540 	 LR 0.0043 	 Train images 200 	 Round  84
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3480 	 LR 0.0043 	 Train images 200 	 Round  85
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3547 	 LR 0.0042 	 Train images 200 	 Round  86
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3529 	 LR 0.0042 	 Train images 200 	 Round  87
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3518 	 LR 0.0041 	 Train images 200 	 Round  88
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3622 	 LR 0.0041 	 Train images 200 	 Round  89
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3580 	 LR 0.0040 	 Train images 200 	 Round  90
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3388 	 LR 0.0040 	 Train images 200 	 Round  91
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3491 	 LR 0.0040 	 Train images 200 	 Round  92
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3336 	 LR 0.0039 	 Train images 200 	 Round  93
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3296 	 LR 0.0039 	 Train images 200 	 Round  94
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3415 	 LR 0.0038 	 Train images 200 	 Round  95
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3288 	 LR 0.0038 	 Train images 200 	 Round  96
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3331 	 LR 0.0038 	 Train images 200 	 Round  97
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3268 	 LR 0.0037 	 Train images 200 	 Round  98
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3248 	 LR 0.0037 	 Train images 200 	 Round  99
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3378 	 LR 0.0037 	 Train images 200 	 Round 100
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3185 	 LR 0.0036 	 Train images 200 	 Round 101
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3148 	 LR 0.0036 	 Train images 200 	 Round 102
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3302 	 LR 0.0036 	 Train images 200 	 Round 103
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3311 	 LR 0.0035 	 Train images 200 	 Round 104
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3288 	 LR 0.0035 	 Train images 200 	 Round 105
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3148 	 LR 0.0034 	 Train images 200 	 Round 106
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3176 	 LR 0.0034 	 Train images 200 	 Round 107
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3216 	 LR 0.0034 	 Train images 200 	 Round 108
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3147 	 LR 0.0033 	 Train images 200 	 Round 109
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3203 	 LR 0.0033 	 Train images 200 	 Round 110
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3128 	 LR 0.0033 	 Train images 200 	 Round 111
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3273 	 LR 0.0032 	 Train images 200 	 Round 112
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3085 	 LR 0.0032 	 Train images 200 	 Round 113
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3150 	 LR 0.0032 	 Train images 200 	 Round 114
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3180 	 LR 0.0031 	 Train images 200 	 Round 115
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3115 	 LR 0.0031 	 Train images 200 	 Round 116
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3095 	 LR 0.0031 	 Train images 200 	 Round 117
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3111 	 LR 0.0031 	 Train images 200 	 Round 118
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3093 	 LR 0.0030 	 Train images 200 	 Round 119
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3006 	 LR 0.0030 	 Train images 200 	 Round 120
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3091 	 LR 0.0030 	 Train images 200 	 Round 121
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3135 	 LR 0.0029 	 Train images 200 	 Round 122
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2889 	 LR 0.0029 	 Train images 200 	 Round 123
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3049 	 LR 0.0029 	 Train images 200 	 Round 124
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3007 	 LR 0.0028 	 Train images 200 	 Round 125
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3052 	 LR 0.0028 	 Train images 200 	 Round 126
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2863 	 LR 0.0028 	 Train images 200 	 Round 127
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2875 	 LR 0.0028 	 Train images 200 	 Round 128
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2952 	 LR 0.0027 	 Train images 200 	 Round 129
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3024 	 LR 0.0027 	 Train images 200 	 Round 130
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2986 	 LR 0.0027 	 Train images 200 	 Round 131
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2889 	 LR 0.0027 	 Train images 200 	 Round 132
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2821 	 LR 0.0026 	 Train images 200 	 Round 133
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2884 	 LR 0.0026 	 Train images 200 	 Round 134
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2939 	 LR 0.0026 	 Train images 200 	 Round 135
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2955 	 LR 0.0025 	 Train images 200 	 Round 136
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.3006 	 LR 0.0025 	 Train images 200 	 Round 137
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2775 	 LR 0.0025 	 Train images 200 	 Round 138
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2863 	 LR 0.0025 	 Train images 200 	 Round 139
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2863 	 LR 0.0024 	 Train images 200 	 Round 140
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2776 	 LR 0.0024 	 Train images 200 	 Round 141
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2896 	 LR 0.0024 	 Train images 200 	 Round 142
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2937 	 LR 0.0024 	 Train images 200 	 Round 143
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2882 	 LR 0.0024 	 Train images 200 	 Round 144
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2746 	 LR 0.0023 	 Train images 200 	 Round 145
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2864 	 LR 0.0023 	 Train images 200 	 Round 146
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2799 	 LR 0.0023 	 Train images 200 	 Round 147
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2781 	 LR 0.0023 	 Train images 200 	 Round 148
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2825 	 LR 0.0022 	 Train images 200 	 Round 149
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2663 	 LR 0.0022 	 Train images 200 	 Round 150
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2792 	 LR 0.0022 	 Train images 200 	 Round 151
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2852 	 LR 0.0022 	 Train images 200 	 Round 152
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2856 	 LR 0.0021 	 Train images 200 	 Round 153
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2833 	 LR 0.0021 	 Train images 200 	 Round 154
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2749 	 LR 0.0021 	 Train images 200 	 Round 155
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2747 	 LR 0.0021 	 Train images 200 	 Round 156
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2859 	 LR 0.0021 	 Train images 200 	 Round 157
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2765 	 LR 0.0020 	 Train images 200 	 Round 158
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2802 	 LR 0.0020 	 Train images 200 	 Round 159
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2691 	 LR 0.0020 	 Train images 200 	 Round 160
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2779 	 LR 0.0020 	 Train images 200 	 Round 161
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2787 	 LR 0.0020 	 Train images 200 	 Round 162
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2746 	 LR 0.0019 	 Train images 200 	 Round 163
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2632 	 LR 0.0019 	 Train images 200 	 Round 164
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2708 	 LR 0.0019 	 Train images 200 	 Round 165
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2674 	 LR 0.0019 	 Train images 200 	 Round 166
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2699 	 LR 0.0019 	 Train images 200 	 Round 167
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2714 	 LR 0.0018 	 Train images 200 	 Round 168
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2753 	 LR 0.0018 	 Train images 200 	 Round 169
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2725 	 LR 0.0018 	 Train images 200 	 Round 170
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2720 	 LR 0.0018 	 Train images 200 	 Round 171
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2737 	 LR 0.0018 	 Train images 200 	 Round 172
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2658 	 LR 0.0018 	 Train images 200 	 Round 173
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2630 	 LR 0.0017 	 Train images 200 	 Round 174
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2730 	 LR 0.0017 	 Train images 200 	 Round 175
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2707 	 LR 0.0017 	 Train images 200 	 Round 176
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2764 	 LR 0.0017 	 Train images 200 	 Round 177
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2703 	 LR 0.0017 	 Train images 200 	 Round 178
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2618 	 LR 0.0017 	 Train images 200 	 Round 179
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2731 	 LR 0.0016 	 Train images 200 	 Round 180
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2511 	 LR 0.0016 	 Train images 200 	 Round 181
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2677 	 LR 0.0016 	 Train images 200 	 Round 182
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2545 	 LR 0.0016 	 Train images 200 	 Round 183
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2694 	 LR 0.0016 	 Train images 200 	 Round 184
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2649 	 LR 0.0016 	 Train images 200 	 Round 185
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2690 	 LR 0.0015 	 Train images 200 	 Round 186
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2691 	 LR 0.0015 	 Train images 200 	 Round 187
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2504 	 LR 0.0015 	 Train images 200 	 Round 188
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2638 	 LR 0.0015 	 Train images 200 	 Round 189
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2661 	 LR 0.0015 	 Train images 200 	 Round 190
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2473 	 LR 0.0015 	 Train images 200 	 Round 191
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2536 	 LR 0.0015 	 Train images 200 	 Round 192
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2564 	 LR 0.0014 	 Train images 200 	 Round 193
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2572 	 LR 0.0014 	 Train images 200 	 Round 194
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2673 	 LR 0.0014 	 Train images 200 	 Round 195
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2607 	 LR 0.0014 	 Train images 200 	 Round 196
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2626 	 LR 0.0014 	 Train images 200 	 Round 197
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2592 	 LR 0.0014 	 Train images 200 	 Round 198
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2642 	 LR 0.0014 	 Train images 200 	 Round 199
+No defenses!
+No defenses!
+No defenses!
+Device  3 	 Train loss 0.2539 	 LR 0.0013 	 Train images 200 	 Round 200
+Defense none on Dataset MNIST.
+Finished computations with time: 0:05:04.034737
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='MNIST', num_workers=2, batch_size=64, num_sen=64, defense='none', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=3, n_data=200, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Device  3 	 Train loss 6.2742 	 LR 0.0099 	 Train images 200 	 Round   1
+Device  3 	 Train loss 3.5682 	 LR 0.0098 	 Train images 200 	 Round   2
+Device  3 	 Train loss 2.7812 	 LR 0.0097 	 Train images 200 	 Round   3
+Device  3 	 Train loss 2.2431 	 LR 0.0096 	 Train images 200 	 Round   4
+Device  3 	 Train loss 2.1163 	 LR 0.0095 	 Train images 200 	 Round   5
+Device  3 	 Train loss 1.9343 	 LR 0.0094 	 Train images 200 	 Round   6
+Device  3 	 Train loss 1.8094 	 LR 0.0093 	 Train images 200 	 Round   7
+Device  3 	 Train loss 1.6735 	 LR 0.0092 	 Train images 200 	 Round   8
+Device  3 	 Train loss 1.5520 	 LR 0.0091 	 Train images 200 	 Round   9
+Device  3 	 Train loss 1.4839 	 LR 0.0090 	 Train images 200 	 Round  10
+Device  3 	 Train loss 1.4514 	 LR 0.0090 	 Train images 200 	 Round  11
+Device  3 	 Train loss 1.3147 	 LR 0.0089 	 Train images 200 	 Round  12
+Device  3 	 Train loss 1.2504 	 LR 0.0088 	 Train images 200 	 Round  13
+Device  3 	 Train loss 1.1954 	 LR 0.0087 	 Train images 200 	 Round  14
+Device  3 	 Train loss 1.1503 	 LR 0.0086 	 Train images 200 	 Round  15
+Device  3 	 Train loss 1.0806 	 LR 0.0085 	 Train images 200 	 Round  16
+Device  3 	 Train loss 1.0321 	 LR 0.0084 	 Train images 200 	 Round  17
+Device  3 	 Train loss 0.9763 	 LR 0.0083 	 Train images 200 	 Round  18
+Device  3 	 Train loss 0.9141 	 LR 0.0083 	 Train images 200 	 Round  19
+Device  3 	 Train loss 0.8942 	 LR 0.0082 	 Train images 200 	 Round  20
+Device  3 	 Train loss 0.8578 	 LR 0.0081 	 Train images 200 	 Round  21
+Device  3 	 Train loss 0.8488 	 LR 0.0080 	 Train images 200 	 Round  22
+Device  3 	 Train loss 0.8126 	 LR 0.0079 	 Train images 200 	 Round  23
+Device  3 	 Train loss 0.7763 	 LR 0.0079 	 Train images 200 	 Round  24
+Device  3 	 Train loss 0.7445 	 LR 0.0078 	 Train images 200 	 Round  25
+Device  3 	 Train loss 0.7325 	 LR 0.0077 	 Train images 200 	 Round  26
+Device  3 	 Train loss 0.6873 	 LR 0.0076 	 Train images 200 	 Round  27
+Device  3 	 Train loss 0.6926 	 LR 0.0075 	 Train images 200 	 Round  28
+Device  3 	 Train loss 0.6817 	 LR 0.0075 	 Train images 200 	 Round  29
+Device  3 	 Train loss 0.6620 	 LR 0.0074 	 Train images 200 	 Round  30
+Device  3 	 Train loss 0.6384 	 LR 0.0073 	 Train images 200 	 Round  31
+Device  3 	 Train loss 0.6447 	 LR 0.0072 	 Train images 200 	 Round  32
+Device  3 	 Train loss 0.6094 	 LR 0.0072 	 Train images 200 	 Round  33
+Device  3 	 Train loss 0.5982 	 LR 0.0071 	 Train images 200 	 Round  34
+Device  3 	 Train loss 0.5851 	 LR 0.0070 	 Train images 200 	 Round  35
+Device  3 	 Train loss 0.5856 	 LR 0.0070 	 Train images 200 	 Round  36
+Device  3 	 Train loss 0.5768 	 LR 0.0069 	 Train images 200 	 Round  37
+Device  3 	 Train loss 0.5655 	 LR 0.0068 	 Train images 200 	 Round  38
+Device  3 	 Train loss 0.5406 	 LR 0.0068 	 Train images 200 	 Round  39
+Device  3 	 Train loss 0.5614 	 LR 0.0067 	 Train images 200 	 Round  40
+Device  3 	 Train loss 0.5391 	 LR 0.0066 	 Train images 200 	 Round  41
+Device  3 	 Train loss 0.5394 	 LR 0.0066 	 Train images 200 	 Round  42
+Device  3 	 Train loss 0.4947 	 LR 0.0065 	 Train images 200 	 Round  43
+Device  3 	 Train loss 0.4969 	 LR 0.0064 	 Train images 200 	 Round  44
+Device  3 	 Train loss 0.5205 	 LR 0.0064 	 Train images 200 	 Round  45
+Device  3 	 Train loss 0.4993 	 LR 0.0063 	 Train images 200 	 Round  46
+Device  3 	 Train loss 0.4903 	 LR 0.0062 	 Train images 200 	 Round  47
+Device  3 	 Train loss 0.4843 	 LR 0.0062 	 Train images 200 	 Round  48
+Device  3 	 Train loss 0.4882 	 LR 0.0061 	 Train images 200 	 Round  49
+Device  3 	 Train loss 0.4698 	 LR 0.0061 	 Train images 200 	 Round  50
+Device  3 	 Train loss 0.4666 	 LR 0.0060 	 Train images 200 	 Round  51
+Device  3 	 Train loss 0.4753 	 LR 0.0059 	 Train images 200 	 Round  52
+Device  3 	 Train loss 0.4696 	 LR 0.0059 	 Train images 200 	 Round  53
+Device  3 	 Train loss 0.4526 	 LR 0.0058 	 Train images 200 	 Round  54
+Device  3 	 Train loss 0.4451 	 LR 0.0058 	 Train images 200 	 Round  55
+Device  3 	 Train loss 0.4546 	 LR 0.0057 	 Train images 200 	 Round  56
+Device  3 	 Train loss 0.4427 	 LR 0.0056 	 Train images 200 	 Round  57
+Device  3 	 Train loss 0.4378 	 LR 0.0056 	 Train images 200 	 Round  58
+Device  3 	 Train loss 0.4306 	 LR 0.0055 	 Train images 200 	 Round  59
+Device  3 	 Train loss 0.4360 	 LR 0.0055 	 Train images 200 	 Round  60
+Device  3 	 Train loss 0.4337 	 LR 0.0054 	 Train images 200 	 Round  61
+Device  3 	 Train loss 0.4052 	 LR 0.0054 	 Train images 200 	 Round  62
+Device  3 	 Train loss 0.4172 	 LR 0.0053 	 Train images 200 	 Round  63
+Device  3 	 Train loss 0.4057 	 LR 0.0053 	 Train images 200 	 Round  64
+Device  3 	 Train loss 0.4219 	 LR 0.0052 	 Train images 200 	 Round  65
+Device  3 	 Train loss 0.4088 	 LR 0.0052 	 Train images 200 	 Round  66
+Device  3 	 Train loss 0.4188 	 LR 0.0051 	 Train images 200 	 Round  67
+Device  3 	 Train loss 0.3898 	 LR 0.0050 	 Train images 200 	 Round  68
+Device  3 	 Train loss 0.3982 	 LR 0.0050 	 Train images 200 	 Round  69
+Device  3 	 Train loss 0.3990 	 LR 0.0049 	 Train images 200 	 Round  70
+Device  3 	 Train loss 0.3688 	 LR 0.0049 	 Train images 200 	 Round  71
+Device  3 	 Train loss 0.3823 	 LR 0.0048 	 Train images 200 	 Round  72
+Device  3 	 Train loss 0.3853 	 LR 0.0048 	 Train images 200 	 Round  73
+Device  3 	 Train loss 0.3938 	 LR 0.0048 	 Train images 200 	 Round  74
+Device  3 	 Train loss 0.3745 	 LR 0.0047 	 Train images 200 	 Round  75
+Device  3 	 Train loss 0.3622 	 LR 0.0047 	 Train images 200 	 Round  76
+Device  3 	 Train loss 0.3790 	 LR 0.0046 	 Train images 200 	 Round  77
+Device  3 	 Train loss 0.3622 	 LR 0.0046 	 Train images 200 	 Round  78
+Device  3 	 Train loss 0.3562 	 LR 0.0045 	 Train images 200 	 Round  79
+Device  3 	 Train loss 0.3547 	 LR 0.0045 	 Train images 200 	 Round  80
+Device  3 	 Train loss 0.3616 	 LR 0.0044 	 Train images 200 	 Round  81
+Device  3 	 Train loss 0.3576 	 LR 0.0044 	 Train images 200 	 Round  82
+Device  3 	 Train loss 0.3501 	 LR 0.0043 	 Train images 200 	 Round  83
+Device  3 	 Train loss 0.3540 	 LR 0.0043 	 Train images 200 	 Round  84
+Device  3 	 Train loss 0.3480 	 LR 0.0043 	 Train images 200 	 Round  85
+Device  3 	 Train loss 0.3547 	 LR 0.0042 	 Train images 200 	 Round  86
+Device  3 	 Train loss 0.3529 	 LR 0.0042 	 Train images 200 	 Round  87
+Device  3 	 Train loss 0.3518 	 LR 0.0041 	 Train images 200 	 Round  88
+Device  3 	 Train loss 0.3622 	 LR 0.0041 	 Train images 200 	 Round  89
+Device  3 	 Train loss 0.3579 	 LR 0.0040 	 Train images 200 	 Round  90
+Device  3 	 Train loss 0.3388 	 LR 0.0040 	 Train images 200 	 Round  91
+Device  3 	 Train loss 0.3491 	 LR 0.0040 	 Train images 200 	 Round  92
+Device  3 	 Train loss 0.3336 	 LR 0.0039 	 Train images 200 	 Round  93
+Device  3 	 Train loss 0.3296 	 LR 0.0039 	 Train images 200 	 Round  94
+Device  3 	 Train loss 0.3415 	 LR 0.0038 	 Train images 200 	 Round  95
+Device  3 	 Train loss 0.3288 	 LR 0.0038 	 Train images 200 	 Round  96
+Device  3 	 Train loss 0.3331 	 LR 0.0038 	 Train images 200 	 Round  97
+Device  3 	 Train loss 0.3268 	 LR 0.0037 	 Train images 200 	 Round  98
+Device  3 	 Train loss 0.3248 	 LR 0.0037 	 Train images 200 	 Round  99
+Device  3 	 Train loss 0.3378 	 LR 0.0037 	 Train images 200 	 Round 100
+Device  3 	 Train loss 0.3185 	 LR 0.0036 	 Train images 200 	 Round 101
+Device  3 	 Train loss 0.3148 	 LR 0.0036 	 Train images 200 	 Round 102
+Device  3 	 Train loss 0.3302 	 LR 0.0036 	 Train images 200 	 Round 103
+Device  3 	 Train loss 0.3311 	 LR 0.0035 	 Train images 200 	 Round 104
+Device  3 	 Train loss 0.3288 	 LR 0.0035 	 Train images 200 	 Round 105
+Device  3 	 Train loss 0.3148 	 LR 0.0034 	 Train images 200 	 Round 106
+Device  3 	 Train loss 0.3176 	 LR 0.0034 	 Train images 200 	 Round 107
+Device  3 	 Train loss 0.3216 	 LR 0.0034 	 Train images 200 	 Round 108
+Device  3 	 Train loss 0.3148 	 LR 0.0033 	 Train images 200 	 Round 109
+Device  3 	 Train loss 0.3203 	 LR 0.0033 	 Train images 200 	 Round 110
+Device  3 	 Train loss 0.3128 	 LR 0.0033 	 Train images 200 	 Round 111
+Device  3 	 Train loss 0.3273 	 LR 0.0032 	 Train images 200 	 Round 112
+Device  3 	 Train loss 0.3085 	 LR 0.0032 	 Train images 200 	 Round 113
+Device  3 	 Train loss 0.3150 	 LR 0.0032 	 Train images 200 	 Round 114
+Device  3 	 Train loss 0.3180 	 LR 0.0031 	 Train images 200 	 Round 115
+Device  3 	 Train loss 0.3115 	 LR 0.0031 	 Train images 200 	 Round 116
+Device  3 	 Train loss 0.3095 	 LR 0.0031 	 Train images 200 	 Round 117
+Device  3 	 Train loss 0.3111 	 LR 0.0031 	 Train images 200 	 Round 118
+Device  3 	 Train loss 0.3093 	 LR 0.0030 	 Train images 200 	 Round 119
+Device  3 	 Train loss 0.3006 	 LR 0.0030 	 Train images 200 	 Round 120
+Device  3 	 Train loss 0.3091 	 LR 0.0030 	 Train images 200 	 Round 121
+Device  3 	 Train loss 0.3135 	 LR 0.0029 	 Train images 200 	 Round 122
+Device  3 	 Train loss 0.2889 	 LR 0.0029 	 Train images 200 	 Round 123
+Device  3 	 Train loss 0.3049 	 LR 0.0029 	 Train images 200 	 Round 124
+Device  3 	 Train loss 0.3007 	 LR 0.0028 	 Train images 200 	 Round 125
+Device  3 	 Train loss 0.3053 	 LR 0.0028 	 Train images 200 	 Round 126
+Device  3 	 Train loss 0.2863 	 LR 0.0028 	 Train images 200 	 Round 127
+Device  3 	 Train loss 0.2875 	 LR 0.0028 	 Train images 200 	 Round 128
+Device  3 	 Train loss 0.2952 	 LR 0.0027 	 Train images 200 	 Round 129
+Device  3 	 Train loss 0.3024 	 LR 0.0027 	 Train images 200 	 Round 130
+Device  3 	 Train loss 0.2986 	 LR 0.0027 	 Train images 200 	 Round 131
+Device  3 	 Train loss 0.2889 	 LR 0.0027 	 Train images 200 	 Round 132
+Device  3 	 Train loss 0.2821 	 LR 0.0026 	 Train images 200 	 Round 133
+Device  3 	 Train loss 0.2884 	 LR 0.0026 	 Train images 200 	 Round 134
+Device  3 	 Train loss 0.2939 	 LR 0.0026 	 Train images 200 	 Round 135
+Device  3 	 Train loss 0.2955 	 LR 0.0025 	 Train images 200 	 Round 136
+Device  3 	 Train loss 0.3006 	 LR 0.0025 	 Train images 200 	 Round 137
+Device  3 	 Train loss 0.2775 	 LR 0.0025 	 Train images 200 	 Round 138
+Device  3 	 Train loss 0.2863 	 LR 0.0025 	 Train images 200 	 Round 139
+Device  3 	 Train loss 0.2863 	 LR 0.0024 	 Train images 200 	 Round 140
+Device  3 	 Train loss 0.2776 	 LR 0.0024 	 Train images 200 	 Round 141
+Device  3 	 Train loss 0.2896 	 LR 0.0024 	 Train images 200 	 Round 142
+Device  3 	 Train loss 0.2937 	 LR 0.0024 	 Train images 200 	 Round 143
+Device  3 	 Train loss 0.2882 	 LR 0.0024 	 Train images 200 	 Round 144
+Device  3 	 Train loss 0.2746 	 LR 0.0023 	 Train images 200 	 Round 145
+Device  3 	 Train loss 0.2864 	 LR 0.0023 	 Train images 200 	 Round 146
+Device  3 	 Train loss 0.2799 	 LR 0.0023 	 Train images 200 	 Round 147
+Device  3 	 Train loss 0.2781 	 LR 0.0023 	 Train images 200 	 Round 148
+Device  3 	 Train loss 0.2825 	 LR 0.0022 	 Train images 200 	 Round 149
+Device  3 	 Train loss 0.2663 	 LR 0.0022 	 Train images 200 	 Round 150
+Device  3 	 Train loss 0.2792 	 LR 0.0022 	 Train images 200 	 Round 151
+Device  3 	 Train loss 0.2852 	 LR 0.0022 	 Train images 200 	 Round 152
+Device  3 	 Train loss 0.2856 	 LR 0.0021 	 Train images 200 	 Round 153
+Device  3 	 Train loss 0.2834 	 LR 0.0021 	 Train images 200 	 Round 154
+Device  3 	 Train loss 0.2749 	 LR 0.0021 	 Train images 200 	 Round 155
+Device  3 	 Train loss 0.2747 	 LR 0.0021 	 Train images 200 	 Round 156
+Device  3 	 Train loss 0.2859 	 LR 0.0021 	 Train images 200 	 Round 157
+Device  3 	 Train loss 0.2765 	 LR 0.0020 	 Train images 200 	 Round 158
+Device  3 	 Train loss 0.2802 	 LR 0.0020 	 Train images 200 	 Round 159
+Device  3 	 Train loss 0.2691 	 LR 0.0020 	 Train images 200 	 Round 160
+Device  3 	 Train loss 0.2779 	 LR 0.0020 	 Train images 200 	 Round 161
+Device  3 	 Train loss 0.2787 	 LR 0.0020 	 Train images 200 	 Round 162
+Device  3 	 Train loss 0.2745 	 LR 0.0019 	 Train images 200 	 Round 163
+Device  3 	 Train loss 0.2632 	 LR 0.0019 	 Train images 200 	 Round 164
+Device  3 	 Train loss 0.2708 	 LR 0.0019 	 Train images 200 	 Round 165
+Device  3 	 Train loss 0.2674 	 LR 0.0019 	 Train images 200 	 Round 166
+Device  3 	 Train loss 0.2699 	 LR 0.0019 	 Train images 200 	 Round 167
+Device  3 	 Train loss 0.2714 	 LR 0.0018 	 Train images 200 	 Round 168
+Device  3 	 Train loss 0.2753 	 LR 0.0018 	 Train images 200 	 Round 169
+Device  3 	 Train loss 0.2725 	 LR 0.0018 	 Train images 200 	 Round 170
+Device  3 	 Train loss 0.2720 	 LR 0.0018 	 Train images 200 	 Round 171
+Device  3 	 Train loss 0.2737 	 LR 0.0018 	 Train images 200 	 Round 172
+Device  3 	 Train loss 0.2658 	 LR 0.0018 	 Train images 200 	 Round 173
+Device  3 	 Train loss 0.2630 	 LR 0.0017 	 Train images 200 	 Round 174
+Device  3 	 Train loss 0.2730 	 LR 0.0017 	 Train images 200 	 Round 175
+Device  3 	 Train loss 0.2707 	 LR 0.0017 	 Train images 200 	 Round 176
+Device  3 	 Train loss 0.2763 	 LR 0.0017 	 Train images 200 	 Round 177
+Device  3 	 Train loss 0.2703 	 LR 0.0017 	 Train images 200 	 Round 178
+Device  3 	 Train loss 0.2618 	 LR 0.0017 	 Train images 200 	 Round 179
+Device  3 	 Train loss 0.2731 	 LR 0.0016 	 Train images 200 	 Round 180
+Device  3 	 Train loss 0.2511 	 LR 0.0016 	 Train images 200 	 Round 181
+Device  3 	 Train loss 0.2677 	 LR 0.0016 	 Train images 200 	 Round 182
+Device  3 	 Train loss 0.2545 	 LR 0.0016 	 Train images 200 	 Round 183
+Device  3 	 Train loss 0.2694 	 LR 0.0016 	 Train images 200 	 Round 184
+Device  3 	 Train loss 0.2649 	 LR 0.0016 	 Train images 200 	 Round 185
+Device  3 	 Train loss 0.2690 	 LR 0.0015 	 Train images 200 	 Round 186
+Device  3 	 Train loss 0.2691 	 LR 0.0015 	 Train images 200 	 Round 187
+Device  3 	 Train loss 0.2504 	 LR 0.0015 	 Train images 200 	 Round 188
+Device  3 	 Train loss 0.2638 	 LR 0.0015 	 Train images 200 	 Round 189
+Device  3 	 Train loss 0.2661 	 LR 0.0015 	 Train images 200 	 Round 190
+Device  3 	 Train loss 0.2473 	 LR 0.0015 	 Train images 200 	 Round 191
+Device  3 	 Train loss 0.2536 	 LR 0.0015 	 Train images 200 	 Round 192
+Device  3 	 Train loss 0.2564 	 LR 0.0014 	 Train images 200 	 Round 193
+Device  3 	 Train loss 0.2572 	 LR 0.0014 	 Train images 200 	 Round 194
+Device  3 	 Train loss 0.2673 	 LR 0.0014 	 Train images 200 	 Round 195
+Device  3 	 Train loss 0.2607 	 LR 0.0014 	 Train images 200 	 Round 196
+Device  3 	 Train loss 0.2626 	 LR 0.0014 	 Train images 200 	 Round 197
+Device  3 	 Train loss 0.2592 	 LR 0.0014 	 Train images 200 	 Round 198
+Device  3 	 Train loss 0.2642 	 LR 0.0014 	 Train images 200 	 Round 199
+Device  3 	 Train loss 0.2539 	 LR 0.0013 	 Train images 200 	 Round 200
+Defense none on Dataset MNIST.
+Finished computations with time: 0:05:01.718686
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='MNIST', num_workers=2, batch_size=64, num_sen=64, defense='none', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=3, n_data=200, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.mnist.MNIST'>
+Device  3 	 Train loss 6.4117 	 LR 0.0099 	 Train images 200 	 Round   1
+Device  3 	 Train loss 3.8751 	 LR 0.0098 	 Train images 200 	 Round   2
+Device  3 	 Train loss 3.1881 	 LR 0.0097 	 Train images 200 	 Round   3
+Device  3 	 Train loss 3.3233 	 LR 0.0096 	 Train images 200 	 Round   4
+Device  3 	 Train loss 2.5169 	 LR 0.0095 	 Train images 200 	 Round   5
+Device  3 	 Train loss 2.5441 	 LR 0.0094 	 Train images 200 	 Round   6
+Device  3 	 Train loss 2.3996 	 LR 0.0093 	 Train images 200 	 Round   7
+Device  3 	 Train loss 2.1419 	 LR 0.0092 	 Train images 200 	 Round   8
+Device  3 	 Train loss 2.0433 	 LR 0.0091 	 Train images 200 	 Round   9
+Device  3 	 Train loss 1.9637 	 LR 0.0090 	 Train images 200 	 Round  10
+Device  3 	 Train loss 1.8592 	 LR 0.0090 	 Train images 200 	 Round  11
+Device  3 	 Train loss 1.8313 	 LR 0.0089 	 Train images 200 	 Round  12
+Device  3 	 Train loss 1.7549 	 LR 0.0088 	 Train images 200 	 Round  13
+Device  3 	 Train loss 1.7267 	 LR 0.0087 	 Train images 200 	 Round  14
+Device  3 	 Train loss 1.6447 	 LR 0.0086 	 Train images 200 	 Round  15
+Device  3 	 Train loss 1.6157 	 LR 0.0085 	 Train images 200 	 Round  16
+Device  3 	 Train loss 1.5764 	 LR 0.0084 	 Train images 200 	 Round  17
+Device  3 	 Train loss 1.5301 	 LR 0.0083 	 Train images 200 	 Round  18
+Device  3 	 Train loss 1.4350 	 LR 0.0083 	 Train images 200 	 Round  19
+Device  3 	 Train loss 1.4107 	 LR 0.0082 	 Train images 200 	 Round  20
+Device  3 	 Train loss 1.3776 	 LR 0.0081 	 Train images 200 	 Round  21
+Device  3 	 Train loss 1.3446 	 LR 0.0080 	 Train images 200 	 Round  22
+Device  3 	 Train loss 1.3099 	 LR 0.0079 	 Train images 200 	 Round  23
+Device  3 	 Train loss 1.2624 	 LR 0.0079 	 Train images 200 	 Round  24
+Device  3 	 Train loss 1.2243 	 LR 0.0078 	 Train images 200 	 Round  25
+Device  3 	 Train loss 1.2132 	 LR 0.0077 	 Train images 200 	 Round  26
+Device  3 	 Train loss 1.1605 	 LR 0.0076 	 Train images 200 	 Round  27
+Device  3 	 Train loss 1.1444 	 LR 0.0075 	 Train images 200 	 Round  28
+Device  3 	 Train loss 1.1335 	 LR 0.0075 	 Train images 200 	 Round  29
+Device  3 	 Train loss 1.1072 	 LR 0.0074 	 Train images 200 	 Round  30
+Device  3 	 Train loss 1.0641 	 LR 0.0073 	 Train images 200 	 Round  31
+Device  3 	 Train loss 1.0537 	 LR 0.0072 	 Train images 200 	 Round  32
+Device  3 	 Train loss 1.0138 	 LR 0.0072 	 Train images 200 	 Round  33
+Device  3 	 Train loss 1.0015 	 LR 0.0071 	 Train images 200 	 Round  34
+Device  3 	 Train loss 0.9815 	 LR 0.0070 	 Train images 200 	 Round  35
+Device  3 	 Train loss 0.9621 	 LR 0.0070 	 Train images 200 	 Round  36
+Device  3 	 Train loss 0.9563 	 LR 0.0069 	 Train images 200 	 Round  37
+Device  3 	 Train loss 0.9328 	 LR 0.0068 	 Train images 200 	 Round  38
+Device  3 	 Train loss 0.9025 	 LR 0.0068 	 Train images 200 	 Round  39
+Device  3 	 Train loss 0.9140 	 LR 0.0067 	 Train images 200 	 Round  40
+Device  3 	 Train loss 0.8827 	 LR 0.0066 	 Train images 200 	 Round  41
+Device  3 	 Train loss 0.8800 	 LR 0.0066 	 Train images 200 	 Round  42
+Device  3 	 Train loss 0.8224 	 LR 0.0065 	 Train images 200 	 Round  43
+Device  3 	 Train loss 0.8338 	 LR 0.0064 	 Train images 200 	 Round  44
+Device  3 	 Train loss 0.8398 	 LR 0.0064 	 Train images 200 	 Round  45
+Device  3 	 Train loss 0.8130 	 LR 0.0063 	 Train images 200 	 Round  46
+Device  3 	 Train loss 0.8084 	 LR 0.0062 	 Train images 200 	 Round  47
+Device  3 	 Train loss 0.7934 	 LR 0.0062 	 Train images 200 	 Round  48
+Device  3 	 Train loss 0.8046 	 LR 0.0061 	 Train images 200 	 Round  49
+Device  3 	 Train loss 0.7654 	 LR 0.0061 	 Train images 200 	 Round  50
+Device  3 	 Train loss 0.7623 	 LR 0.0060 	 Train images 200 	 Round  51
+Device  3 	 Train loss 0.7672 	 LR 0.0059 	 Train images 200 	 Round  52
+Device  3 	 Train loss 0.7626 	 LR 0.0059 	 Train images 200 	 Round  53
+Device  3 	 Train loss 0.7345 	 LR 0.0058 	 Train images 200 	 Round  54
+Device  3 	 Train loss 0.7199 	 LR 0.0058 	 Train images 200 	 Round  55
+Device  3 	 Train loss 0.7448 	 LR 0.0057 	 Train images 200 	 Round  56
+Device  3 	 Train loss 0.7114 	 LR 0.0056 	 Train images 200 	 Round  57
+Device  3 	 Train loss 0.7087 	 LR 0.0056 	 Train images 200 	 Round  58
+Device  3 	 Train loss 0.6963 	 LR 0.0055 	 Train images 200 	 Round  59
+Device  3 	 Train loss 0.7044 	 LR 0.0055 	 Train images 200 	 Round  60
+Device  3 	 Train loss 0.6991 	 LR 0.0054 	 Train images 200 	 Round  61
+Device  3 	 Train loss 0.6715 	 LR 0.0054 	 Train images 200 	 Round  62
+Device  3 	 Train loss 0.6826 	 LR 0.0053 	 Train images 200 	 Round  63
+Device  3 	 Train loss 0.6666 	 LR 0.0053 	 Train images 200 	 Round  64
+Device  3 	 Train loss 0.6792 	 LR 0.0052 	 Train images 200 	 Round  65
+Device  3 	 Train loss 0.6619 	 LR 0.0052 	 Train images 200 	 Round  66
+Device  3 	 Train loss 0.6713 	 LR 0.0051 	 Train images 200 	 Round  67
+Device  3 	 Train loss 0.6492 	 LR 0.0050 	 Train images 200 	 Round  68
+Device  3 	 Train loss 0.6470 	 LR 0.0050 	 Train images 200 	 Round  69
+Device  3 	 Train loss 0.6466 	 LR 0.0049 	 Train images 200 	 Round  70
+Device  3 	 Train loss 0.6131 	 LR 0.0049 	 Train images 200 	 Round  71
+Device  3 	 Train loss 0.6373 	 LR 0.0048 	 Train images 200 	 Round  72
+Device  3 	 Train loss 0.6230 	 LR 0.0048 	 Train images 200 	 Round  73
+Device  3 	 Train loss 0.6452 	 LR 0.0048 	 Train images 200 	 Round  74
+Device  3 	 Train loss 0.6045 	 LR 0.0047 	 Train images 200 	 Round  75
+Device  3 	 Train loss 0.5898 	 LR 0.0047 	 Train images 200 	 Round  76
+Device  3 	 Train loss 0.6241 	 LR 0.0046 	 Train images 200 	 Round  77
+Device  3 	 Train loss 0.5981 	 LR 0.0046 	 Train images 200 	 Round  78
+Device  3 	 Train loss 0.5874 	 LR 0.0045 	 Train images 200 	 Round  79
+Device  3 	 Train loss 0.5758 	 LR 0.0045 	 Train images 200 	 Round  80
+Device  3 	 Train loss 0.5917 	 LR 0.0044 	 Train images 200 	 Round  81
+Device  3 	 Train loss 0.5900 	 LR 0.0044 	 Train images 200 	 Round  82
+Device  3 	 Train loss 0.5713 	 LR 0.0043 	 Train images 200 	 Round  83
+Device  3 	 Train loss 0.5751 	 LR 0.0043 	 Train images 200 	 Round  84
+Device  3 	 Train loss 0.5660 	 LR 0.0043 	 Train images 200 	 Round  85
+Device  3 	 Train loss 0.5770 	 LR 0.0042 	 Train images 200 	 Round  86
+Device  3 	 Train loss 0.5679 	 LR 0.0042 	 Train images 200 	 Round  87
+Device  3 	 Train loss 0.5734 	 LR 0.0041 	 Train images 200 	 Round  88
+Device  3 	 Train loss 0.5832 	 LR 0.0041 	 Train images 200 	 Round  89
+Device  3 	 Train loss 0.5803 	 LR 0.0040 	 Train images 200 	 Round  90
+Device  3 	 Train loss 0.5516 	 LR 0.0040 	 Train images 200 	 Round  91
+Device  3 	 Train loss 0.5712 	 LR 0.0040 	 Train images 200 	 Round  92
+Device  3 	 Train loss 0.5535 	 LR 0.0039 	 Train images 200 	 Round  93
+Device  3 	 Train loss 0.5523 	 LR 0.0039 	 Train images 200 	 Round  94
+Device  3 	 Train loss 0.5562 	 LR 0.0038 	 Train images 200 	 Round  95
+Device  3 	 Train loss 0.5382 	 LR 0.0038 	 Train images 200 	 Round  96
+Device  3 	 Train loss 0.5472 	 LR 0.0038 	 Train images 200 	 Round  97
+Device  3 	 Train loss 0.5316 	 LR 0.0037 	 Train images 200 	 Round  98
+Device  3 	 Train loss 0.5480 	 LR 0.0037 	 Train images 200 	 Round  99
+Device  3 	 Train loss 0.5485 	 LR 0.0037 	 Train images 200 	 Round 100
+Device  3 	 Train loss 0.5371 	 LR 0.0036 	 Train images 200 	 Round 101
+Device  3 	 Train loss 0.5203 	 LR 0.0036 	 Train images 200 	 Round 102
+Device  3 	 Train loss 0.5441 	 LR 0.0036 	 Train images 200 	 Round 103
+Device  3 	 Train loss 0.5452 	 LR 0.0035 	 Train images 200 	 Round 104
+Device  3 	 Train loss 0.5337 	 LR 0.0035 	 Train images 200 	 Round 105
+Device  3 	 Train loss 0.5255 	 LR 0.0034 	 Train images 200 	 Round 106
+Device  3 	 Train loss 0.5300 	 LR 0.0034 	 Train images 200 	 Round 107
+Device  3 	 Train loss 0.5235 	 LR 0.0034 	 Train images 200 	 Round 108
+Device  3 	 Train loss 0.5135 	 LR 0.0033 	 Train images 200 	 Round 109
+Device  3 	 Train loss 0.5251 	 LR 0.0033 	 Train images 200 	 Round 110
+Device  3 	 Train loss 0.5207 	 LR 0.0033 	 Train images 200 	 Round 111
+Device  3 	 Train loss 0.5356 	 LR 0.0032 	 Train images 200 	 Round 112
+Device  3 	 Train loss 0.5148 	 LR 0.0032 	 Train images 200 	 Round 113
+Device  3 	 Train loss 0.5110 	 LR 0.0032 	 Train images 200 	 Round 114
+Device  3 	 Train loss 0.5220 	 LR 0.0031 	 Train images 200 	 Round 115
+Device  3 	 Train loss 0.5166 	 LR 0.0031 	 Train images 200 	 Round 116
+Device  3 	 Train loss 0.5067 	 LR 0.0031 	 Train images 200 	 Round 117
+Device  3 	 Train loss 0.5194 	 LR 0.0031 	 Train images 200 	 Round 118
+Device  3 	 Train loss 0.5001 	 LR 0.0030 	 Train images 200 	 Round 119
+Device  3 	 Train loss 0.4891 	 LR 0.0030 	 Train images 200 	 Round 120
+Device  3 	 Train loss 0.5102 	 LR 0.0030 	 Train images 200 	 Round 121
+Device  3 	 Train loss 0.5176 	 LR 0.0029 	 Train images 200 	 Round 122
+Device  3 	 Train loss 0.4971 	 LR 0.0029 	 Train images 200 	 Round 123
+Device  3 	 Train loss 0.5098 	 LR 0.0029 	 Train images 200 	 Round 124
+Device  3 	 Train loss 0.5032 	 LR 0.0028 	 Train images 200 	 Round 125
+Device  3 	 Train loss 0.5070 	 LR 0.0028 	 Train images 200 	 Round 126
+Device  3 	 Train loss 0.4791 	 LR 0.0028 	 Train images 200 	 Round 127
+Device  3 	 Train loss 0.4787 	 LR 0.0028 	 Train images 200 	 Round 128
+Device  3 	 Train loss 0.4929 	 LR 0.0027 	 Train images 200 	 Round 129
+Device  3 	 Train loss 0.5018 	 LR 0.0027 	 Train images 200 	 Round 130
+Device  3 	 Train loss 0.4872 	 LR 0.0027 	 Train images 200 	 Round 131
+Device  3 	 Train loss 0.4788 	 LR 0.0027 	 Train images 200 	 Round 132
+Device  3 	 Train loss 0.4867 	 LR 0.0026 	 Train images 200 	 Round 133
+Device  3 	 Train loss 0.4715 	 LR 0.0026 	 Train images 200 	 Round 134
+Device  3 	 Train loss 0.4702 	 LR 0.0026 	 Train images 200 	 Round 135
+Device  3 	 Train loss 0.4945 	 LR 0.0025 	 Train images 200 	 Round 136
+Device  3 	 Train loss 0.5019 	 LR 0.0025 	 Train images 200 	 Round 137
+Device  3 	 Train loss 0.4725 	 LR 0.0025 	 Train images 200 	 Round 138
+Device  3 	 Train loss 0.4805 	 LR 0.0025 	 Train images 200 	 Round 139
+Device  3 	 Train loss 0.4748 	 LR 0.0024 	 Train images 200 	 Round 140
+Device  3 	 Train loss 0.4762 	 LR 0.0024 	 Train images 200 	 Round 141
+Device  3 	 Train loss 0.4811 	 LR 0.0024 	 Train images 200 	 Round 142
+Device  3 	 Train loss 0.4956 	 LR 0.0024 	 Train images 200 	 Round 143
+Device  3 	 Train loss 0.4863 	 LR 0.0024 	 Train images 200 	 Round 144
+Device  3 	 Train loss 0.4571 	 LR 0.0023 	 Train images 200 	 Round 145
+Device  3 	 Train loss 0.4756 	 LR 0.0023 	 Train images 200 	 Round 146
+Device  3 	 Train loss 0.4790 	 LR 0.0023 	 Train images 200 	 Round 147
+Device  3 	 Train loss 0.4660 	 LR 0.0023 	 Train images 200 	 Round 148
+Device  3 	 Train loss 0.4711 	 LR 0.0022 	 Train images 200 	 Round 149
+Device  3 	 Train loss 0.4539 	 LR 0.0022 	 Train images 200 	 Round 150
+Device  3 	 Train loss 0.4762 	 LR 0.0022 	 Train images 200 	 Round 151
+Device  3 	 Train loss 0.4784 	 LR 0.0022 	 Train images 200 	 Round 152
+Device  3 	 Train loss 0.4765 	 LR 0.0021 	 Train images 200 	 Round 153
+Device  3 	 Train loss 0.4740 	 LR 0.0021 	 Train images 200 	 Round 154
+Device  3 	 Train loss 0.4619 	 LR 0.0021 	 Train images 200 	 Round 155
+Device  3 	 Train loss 0.4529 	 LR 0.0021 	 Train images 200 	 Round 156
+Device  3 	 Train loss 0.4793 	 LR 0.0021 	 Train images 200 	 Round 157
+Device  3 	 Train loss 0.4700 	 LR 0.0020 	 Train images 200 	 Round 158
+Device  3 	 Train loss 0.4722 	 LR 0.0020 	 Train images 200 	 Round 159
+Device  3 	 Train loss 0.4539 	 LR 0.0020 	 Train images 200 	 Round 160
+Device  3 	 Train loss 0.4706 	 LR 0.0020 	 Train images 200 	 Round 161
+Device  3 	 Train loss 0.4636 	 LR 0.0020 	 Train images 200 	 Round 162
+Device  3 	 Train loss 0.4654 	 LR 0.0019 	 Train images 200 	 Round 163
+Device  3 	 Train loss 0.4523 	 LR 0.0019 	 Train images 200 	 Round 164
+Device  3 	 Train loss 0.4606 	 LR 0.0019 	 Train images 200 	 Round 165
+Device  3 	 Train loss 0.4469 	 LR 0.0019 	 Train images 200 	 Round 166
+Device  3 	 Train loss 0.4613 	 LR 0.0019 	 Train images 200 	 Round 167
+Device  3 	 Train loss 0.4651 	 LR 0.0018 	 Train images 200 	 Round 168
+Device  3 	 Train loss 0.4586 	 LR 0.0018 	 Train images 200 	 Round 169
+Device  3 	 Train loss 0.4595 	 LR 0.0018 	 Train images 200 	 Round 170
+Device  3 	 Train loss 0.4576 	 LR 0.0018 	 Train images 200 	 Round 171
+Device  3 	 Train loss 0.4619 	 LR 0.0018 	 Train images 200 	 Round 172
+Device  3 	 Train loss 0.4576 	 LR 0.0018 	 Train images 200 	 Round 173
+Device  3 	 Train loss 0.4497 	 LR 0.0017 	 Train images 200 	 Round 174
+Device  3 	 Train loss 0.4669 	 LR 0.0017 	 Train images 200 	 Round 175
+Device  3 	 Train loss 0.4582 	 LR 0.0017 	 Train images 200 	 Round 176
+Device  3 	 Train loss 0.4689 	 LR 0.0017 	 Train images 200 	 Round 177
+Device  3 	 Train loss 0.4560 	 LR 0.0017 	 Train images 200 	 Round 178
+Device  3 	 Train loss 0.4542 	 LR 0.0017 	 Train images 200 	 Round 179
+Device  3 	 Train loss 0.4618 	 LR 0.0016 	 Train images 200 	 Round 180
+Device  3 	 Train loss 0.4358 	 LR 0.0016 	 Train images 200 	 Round 181
+Device  3 	 Train loss 0.4423 	 LR 0.0016 	 Train images 200 	 Round 182
+Device  3 	 Train loss 0.4342 	 LR 0.0016 	 Train images 200 	 Round 183
+Device  3 	 Train loss 0.4496 	 LR 0.0016 	 Train images 200 	 Round 184
+Device  3 	 Train loss 0.4455 	 LR 0.0016 	 Train images 200 	 Round 185
+Device  3 	 Train loss 0.4610 	 LR 0.0015 	 Train images 200 	 Round 186
+Device  3 	 Train loss 0.4569 	 LR 0.0015 	 Train images 200 	 Round 187
+Device  3 	 Train loss 0.4425 	 LR 0.0015 	 Train images 200 	 Round 188
+Device  3 	 Train loss 0.4443 	 LR 0.0015 	 Train images 200 	 Round 189
+Device  3 	 Train loss 0.4544 	 LR 0.0015 	 Train images 200 	 Round 190
+Device  3 	 Train loss 0.4265 	 LR 0.0015 	 Train images 200 	 Round 191
+Device  3 	 Train loss 0.4412 	 LR 0.0015 	 Train images 200 	 Round 192
+Device  3 	 Train loss 0.4417 	 LR 0.0014 	 Train images 200 	 Round 193
+Device  3 	 Train loss 0.4278 	 LR 0.0014 	 Train images 200 	 Round 194
+Device  3 	 Train loss 0.4561 	 LR 0.0014 	 Train images 200 	 Round 195
+Device  3 	 Train loss 0.4398 	 LR 0.0014 	 Train images 200 	 Round 196
+Device  3 	 Train loss 0.4471 	 LR 0.0014 	 Train images 200 	 Round 197
+Device  3 	 Train loss 0.4413 	 LR 0.0014 	 Train images 200 	 Round 198
+Device  3 	 Train loss 0.4421 	 LR 0.0014 	 Train images 200 	 Round 199
+Device  3 	 Train loss 0.4356 	 LR 0.0013 	 Train images 200 	 Round 200
+Defense none on Dataset MNIST.
+Finished computations with time: 0:05:01.324687
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='MNIST', num_workers=2, batch_size=64, num_sen=64, defense='none', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=3, n_data=200, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.mnist.MNIST'>
+Device  3 	 Train loss 6.4201 	 LR 0.0099 	 Train images 200 	 Round   1
+Device  3 	 Train loss 3.8061 	 LR 0.0098 	 Train images 200 	 Round   2
+Device  3 	 Train loss 3.1234 	 LR 0.0097 	 Train images 200 	 Round   3
+Device  3 	 Train loss 3.1608 	 LR 0.0096 	 Train images 200 	 Round   4
+Device  3 	 Train loss 2.5792 	 LR 0.0095 	 Train images 200 	 Round   5
+Device  3 	 Train loss 2.5378 	 LR 0.0094 	 Train images 200 	 Round   6
+Device  3 	 Train loss 2.2836 	 LR 0.0093 	 Train images 200 	 Round   7
+Device  3 	 Train loss 2.1742 	 LR 0.0092 	 Train images 200 	 Round   8
+Device  3 	 Train loss 2.0003 	 LR 0.0091 	 Train images 200 	 Round   9
+Device  3 	 Train loss 1.9655 	 LR 0.0090 	 Train images 200 	 Round  10
+Device  3 	 Train loss 1.9320 	 LR 0.0090 	 Train images 200 	 Round  11
+Device  3 	 Train loss 1.8301 	 LR 0.0089 	 Train images 200 	 Round  12
+Device  3 	 Train loss 1.8057 	 LR 0.0088 	 Train images 200 	 Round  13
+Device  3 	 Train loss 1.7741 	 LR 0.0087 	 Train images 200 	 Round  14
+Device  3 	 Train loss 1.7062 	 LR 0.0086 	 Train images 200 	 Round  15
+Device  3 	 Train loss 1.6807 	 LR 0.0085 	 Train images 200 	 Round  16
+Device  3 	 Train loss 1.6296 	 LR 0.0084 	 Train images 200 	 Round  17
+Device  3 	 Train loss 1.6049 	 LR 0.0083 	 Train images 200 	 Round  18
+Device  3 	 Train loss 1.5332 	 LR 0.0083 	 Train images 200 	 Round  19
+Device  3 	 Train loss 1.5094 	 LR 0.0082 	 Train images 200 	 Round  20
+Device  3 	 Train loss 1.4876 	 LR 0.0081 	 Train images 200 	 Round  21
+Device  3 	 Train loss 1.4558 	 LR 0.0080 	 Train images 200 	 Round  22
+Device  3 	 Train loss 1.4123 	 LR 0.0079 	 Train images 200 	 Round  23
+Device  3 	 Train loss 1.3785 	 LR 0.0079 	 Train images 200 	 Round  24
+Device  3 	 Train loss 1.3442 	 LR 0.0078 	 Train images 200 	 Round  25
+Device  3 	 Train loss 1.3266 	 LR 0.0077 	 Train images 200 	 Round  26
+Device  3 	 Train loss 1.2824 	 LR 0.0076 	 Train images 200 	 Round  27
+Device  3 	 Train loss 1.2736 	 LR 0.0075 	 Train images 200 	 Round  28
+Device  3 	 Train loss 1.2594 	 LR 0.0075 	 Train images 200 	 Round  29
+Device  3 	 Train loss 1.2389 	 LR 0.0074 	 Train images 200 	 Round  30
+Device  3 	 Train loss 1.1826 	 LR 0.0073 	 Train images 200 	 Round  31
+Device  3 	 Train loss 1.1824 	 LR 0.0072 	 Train images 200 	 Round  32
+Device  3 	 Train loss 1.1432 	 LR 0.0072 	 Train images 200 	 Round  33
+Device  3 	 Train loss 1.1254 	 LR 0.0071 	 Train images 200 	 Round  34
+Device  3 	 Train loss 1.1130 	 LR 0.0070 	 Train images 200 	 Round  35
+Device  3 	 Train loss 1.0924 	 LR 0.0070 	 Train images 200 	 Round  36
+Device  3 	 Train loss 1.0763 	 LR 0.0069 	 Train images 200 	 Round  37
+Device  3 	 Train loss 1.0595 	 LR 0.0068 	 Train images 200 	 Round  38
+Device  3 	 Train loss 1.0336 	 LR 0.0068 	 Train images 200 	 Round  39
+Device  3 	 Train loss 1.0410 	 LR 0.0067 	 Train images 200 	 Round  40
+Device  3 	 Train loss 1.0098 	 LR 0.0066 	 Train images 200 	 Round  41
+Device  3 	 Train loss 0.9993 	 LR 0.0066 	 Train images 200 	 Round  42
+Device  3 	 Train loss 0.9462 	 LR 0.0065 	 Train images 200 	 Round  43
+Device  3 	 Train loss 0.9570 	 LR 0.0064 	 Train images 200 	 Round  44
+Device  3 	 Train loss 0.9611 	 LR 0.0064 	 Train images 200 	 Round  45
+Device  3 	 Train loss 0.9383 	 LR 0.0063 	 Train images 200 	 Round  46
+Device  3 	 Train loss 0.9251 	 LR 0.0062 	 Train images 200 	 Round  47
+Device  3 	 Train loss 0.9080 	 LR 0.0062 	 Train images 200 	 Round  48
+Device  3 	 Train loss 0.9221 	 LR 0.0061 	 Train images 200 	 Round  49
+Device  3 	 Train loss 0.8940 	 LR 0.0061 	 Train images 200 	 Round  50
+Device  3 	 Train loss 0.8840 	 LR 0.0060 	 Train images 200 	 Round  51
+Device  3 	 Train loss 0.8854 	 LR 0.0059 	 Train images 200 	 Round  52
+Device  3 	 Train loss 0.8645 	 LR 0.0059 	 Train images 200 	 Round  53
+Device  3 	 Train loss 0.8548 	 LR 0.0058 	 Train images 200 	 Round  54
+Device  3 	 Train loss 0.8384 	 LR 0.0058 	 Train images 200 	 Round  55
+Device  3 	 Train loss 0.8600 	 LR 0.0057 	 Train images 200 	 Round  56
+Device  3 	 Train loss 0.8314 	 LR 0.0056 	 Train images 200 	 Round  57
+Device  3 	 Train loss 0.8240 	 LR 0.0056 	 Train images 200 	 Round  58
+Device  3 	 Train loss 0.8179 	 LR 0.0055 	 Train images 200 	 Round  59
+Device  3 	 Train loss 0.8179 	 LR 0.0055 	 Train images 200 	 Round  60
+Device  3 	 Train loss 0.8111 	 LR 0.0054 	 Train images 200 	 Round  61
+Device  3 	 Train loss 0.7875 	 LR 0.0054 	 Train images 200 	 Round  62
+Device  3 	 Train loss 0.8001 	 LR 0.0053 	 Train images 200 	 Round  63
+Device  3 	 Train loss 0.7798 	 LR 0.0053 	 Train images 200 	 Round  64
+Device  3 	 Train loss 0.7924 	 LR 0.0052 	 Train images 200 	 Round  65
+Device  3 	 Train loss 0.7680 	 LR 0.0052 	 Train images 200 	 Round  66
+Device  3 	 Train loss 0.7867 	 LR 0.0051 	 Train images 200 	 Round  67
+Device  3 	 Train loss 0.7567 	 LR 0.0050 	 Train images 200 	 Round  68
+Device  3 	 Train loss 0.7654 	 LR 0.0050 	 Train images 200 	 Round  69
+Device  3 	 Train loss 0.7554 	 LR 0.0049 	 Train images 200 	 Round  70
+Device  3 	 Train loss 0.7202 	 LR 0.0049 	 Train images 200 	 Round  71
+Device  3 	 Train loss 0.7457 	 LR 0.0048 	 Train images 200 	 Round  72
+Device  3 	 Train loss 0.7378 	 LR 0.0048 	 Train images 200 	 Round  73
+Device  3 	 Train loss 0.7577 	 LR 0.0048 	 Train images 200 	 Round  74
+Device  3 	 Train loss 0.7179 	 LR 0.0047 	 Train images 200 	 Round  75
+Device  3 	 Train loss 0.7062 	 LR 0.0047 	 Train images 200 	 Round  76
+Device  3 	 Train loss 0.7364 	 LR 0.0046 	 Train images 200 	 Round  77
+Device  3 	 Train loss 0.7022 	 LR 0.0046 	 Train images 200 	 Round  78
+Device  3 	 Train loss 0.6999 	 LR 0.0045 	 Train images 200 	 Round  79
+Device  3 	 Train loss 0.6919 	 LR 0.0045 	 Train images 200 	 Round  80
+Device  3 	 Train loss 0.7049 	 LR 0.0044 	 Train images 200 	 Round  81
+Device  3 	 Train loss 0.6924 	 LR 0.0044 	 Train images 200 	 Round  82
+Device  3 	 Train loss 0.6813 	 LR 0.0043 	 Train images 200 	 Round  83
+Device  3 	 Train loss 0.6819 	 LR 0.0043 	 Train images 200 	 Round  84
+Device  3 	 Train loss 0.6752 	 LR 0.0043 	 Train images 200 	 Round  85
+Device  3 	 Train loss 0.6807 	 LR 0.0042 	 Train images 200 	 Round  86
+Device  3 	 Train loss 0.6802 	 LR 0.0042 	 Train images 200 	 Round  87
+Device  3 	 Train loss 0.6849 	 LR 0.0041 	 Train images 200 	 Round  88
+Device  3 	 Train loss 0.6928 	 LR 0.0041 	 Train images 200 	 Round  89
+Device  3 	 Train loss 0.6868 	 LR 0.0040 	 Train images 200 	 Round  90
+Device  3 	 Train loss 0.6638 	 LR 0.0040 	 Train images 200 	 Round  91
+Device  3 	 Train loss 0.6740 	 LR 0.0040 	 Train images 200 	 Round  92
+Device  3 	 Train loss 0.6577 	 LR 0.0039 	 Train images 200 	 Round  93
+Device  3 	 Train loss 0.6607 	 LR 0.0039 	 Train images 200 	 Round  94
+Device  3 	 Train loss 0.6640 	 LR 0.0038 	 Train images 200 	 Round  95
+Device  3 	 Train loss 0.6534 	 LR 0.0038 	 Train images 200 	 Round  96
+Device  3 	 Train loss 0.6530 	 LR 0.0038 	 Train images 200 	 Round  97
+Device  3 	 Train loss 0.6346 	 LR 0.0037 	 Train images 200 	 Round  98
+Device  3 	 Train loss 0.6554 	 LR 0.0037 	 Train images 200 	 Round  99
+Device  3 	 Train loss 0.6559 	 LR 0.0037 	 Train images 200 	 Round 100
+Defense none on Dataset MNIST.
+Finished computations with time: 0:02:48.451079
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='MNIST', num_workers=2, batch_size=64, num_sen=64, defense='none', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=3, n_data=200, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.mnist.MNIST'>
+Device  3 	 Train loss 6.4201 	 LR 0.0099 	 Train images 200 	 Round   1
+Device  3 	 Train loss 3.8061 	 LR 0.0098 	 Train images 200 	 Round   2
+Device  3 	 Train loss 3.1234 	 LR 0.0097 	 Train images 200 	 Round   3
+Device  3 	 Train loss 3.1608 	 LR 0.0096 	 Train images 200 	 Round   4
+Device  3 	 Train loss 2.5792 	 LR 0.0095 	 Train images 200 	 Round   5
+Device  3 	 Train loss 2.5377 	 LR 0.0094 	 Train images 200 	 Round   6
+Device  3 	 Train loss 2.2836 	 LR 0.0093 	 Train images 200 	 Round   7
+Device  3 	 Train loss 2.1742 	 LR 0.0092 	 Train images 200 	 Round   8
+Device  3 	 Train loss 2.0003 	 LR 0.0091 	 Train images 200 	 Round   9
+Device  3 	 Train loss 1.9655 	 LR 0.0090 	 Train images 200 	 Round  10
+Device  3 	 Train loss 1.9320 	 LR 0.0090 	 Train images 200 	 Round  11
+Device  3 	 Train loss 1.8301 	 LR 0.0089 	 Train images 200 	 Round  12
+Device  3 	 Train loss 1.8057 	 LR 0.0088 	 Train images 200 	 Round  13
+Device  3 	 Train loss 1.7740 	 LR 0.0087 	 Train images 200 	 Round  14
+Device  3 	 Train loss 1.7062 	 LR 0.0086 	 Train images 200 	 Round  15
+Device  3 	 Train loss 1.6807 	 LR 0.0085 	 Train images 200 	 Round  16
+Device  3 	 Train loss 1.6296 	 LR 0.0084 	 Train images 200 	 Round  17
+Device  3 	 Train loss 1.6048 	 LR 0.0083 	 Train images 200 	 Round  18
+Device  3 	 Train loss 1.5332 	 LR 0.0083 	 Train images 200 	 Round  19
+Device  3 	 Train loss 1.5094 	 LR 0.0082 	 Train images 200 	 Round  20
+Device  3 	 Train loss 1.4876 	 LR 0.0081 	 Train images 200 	 Round  21
+Device  3 	 Train loss 1.4558 	 LR 0.0080 	 Train images 200 	 Round  22
+Device  3 	 Train loss 1.4122 	 LR 0.0079 	 Train images 200 	 Round  23
+Device  3 	 Train loss 1.3784 	 LR 0.0079 	 Train images 200 	 Round  24
+Device  3 	 Train loss 1.3442 	 LR 0.0078 	 Train images 200 	 Round  25
+Device  3 	 Train loss 1.3265 	 LR 0.0077 	 Train images 200 	 Round  26
+Device  3 	 Train loss 1.2823 	 LR 0.0076 	 Train images 200 	 Round  27
+Device  3 	 Train loss 1.2736 	 LR 0.0075 	 Train images 200 	 Round  28
+Device  3 	 Train loss 1.2594 	 LR 0.0075 	 Train images 200 	 Round  29
+Device  3 	 Train loss 1.2389 	 LR 0.0074 	 Train images 200 	 Round  30
+Device  3 	 Train loss 1.1826 	 LR 0.0073 	 Train images 200 	 Round  31
+Device  3 	 Train loss 1.1823 	 LR 0.0072 	 Train images 200 	 Round  32
+Device  3 	 Train loss 1.1432 	 LR 0.0072 	 Train images 200 	 Round  33
+Device  3 	 Train loss 1.1254 	 LR 0.0071 	 Train images 200 	 Round  34
+Device  3 	 Train loss 1.1130 	 LR 0.0070 	 Train images 200 	 Round  35
+Device  3 	 Train loss 1.0923 	 LR 0.0070 	 Train images 200 	 Round  36
+Device  3 	 Train loss 1.0764 	 LR 0.0069 	 Train images 200 	 Round  37
+Device  3 	 Train loss 1.0596 	 LR 0.0068 	 Train images 200 	 Round  38
+Device  3 	 Train loss 1.0336 	 LR 0.0068 	 Train images 200 	 Round  39
+Device  3 	 Train loss 1.0409 	 LR 0.0067 	 Train images 200 	 Round  40
+Device  3 	 Train loss 1.0097 	 LR 0.0066 	 Train images 200 	 Round  41
+Device  3 	 Train loss 0.9993 	 LR 0.0066 	 Train images 200 	 Round  42
+Device  3 	 Train loss 0.9461 	 LR 0.0065 	 Train images 200 	 Round  43
+Device  3 	 Train loss 0.9570 	 LR 0.0064 	 Train images 200 	 Round  44
+Device  3 	 Train loss 0.9611 	 LR 0.0064 	 Train images 200 	 Round  45
+Device  3 	 Train loss 0.9382 	 LR 0.0063 	 Train images 200 	 Round  46
+Device  3 	 Train loss 0.9251 	 LR 0.0062 	 Train images 200 	 Round  47
+Device  3 	 Train loss 0.9080 	 LR 0.0062 	 Train images 200 	 Round  48
+Device  3 	 Train loss 0.9221 	 LR 0.0061 	 Train images 200 	 Round  49
+Device  3 	 Train loss 0.8940 	 LR 0.0061 	 Train images 200 	 Round  50
+Device  3 	 Train loss 0.8839 	 LR 0.0060 	 Train images 200 	 Round  51
+Device  3 	 Train loss 0.8854 	 LR 0.0059 	 Train images 200 	 Round  52
+Device  3 	 Train loss 0.8644 	 LR 0.0059 	 Train images 200 	 Round  53
+Device  3 	 Train loss 0.8549 	 LR 0.0058 	 Train images 200 	 Round  54
+Device  3 	 Train loss 0.8384 	 LR 0.0058 	 Train images 200 	 Round  55
+Device  3 	 Train loss 0.8600 	 LR 0.0057 	 Train images 200 	 Round  56
+Device  3 	 Train loss 0.8315 	 LR 0.0056 	 Train images 200 	 Round  57
+Device  3 	 Train loss 0.8241 	 LR 0.0056 	 Train images 200 	 Round  58
+Device  3 	 Train loss 0.8179 	 LR 0.0055 	 Train images 200 	 Round  59
+Device  3 	 Train loss 0.8179 	 LR 0.0055 	 Train images 200 	 Round  60
+Device  3 	 Train loss 0.8112 	 LR 0.0054 	 Train images 200 	 Round  61
+Device  3 	 Train loss 0.7876 	 LR 0.0054 	 Train images 200 	 Round  62
+Device  3 	 Train loss 0.8001 	 LR 0.0053 	 Train images 200 	 Round  63
+Device  3 	 Train loss 0.7798 	 LR 0.0053 	 Train images 200 	 Round  64
+Device  3 	 Train loss 0.7924 	 LR 0.0052 	 Train images 200 	 Round  65
+Device  3 	 Train loss 0.7681 	 LR 0.0052 	 Train images 200 	 Round  66
+Device  3 	 Train loss 0.7867 	 LR 0.0051 	 Train images 200 	 Round  67
+Device  3 	 Train loss 0.7567 	 LR 0.0050 	 Train images 200 	 Round  68
+Device  3 	 Train loss 0.7655 	 LR 0.0050 	 Train images 200 	 Round  69
+Device  3 	 Train loss 0.7555 	 LR 0.0049 	 Train images 200 	 Round  70
+Device  3 	 Train loss 0.7203 	 LR 0.0049 	 Train images 200 	 Round  71
+Device  3 	 Train loss 0.7458 	 LR 0.0048 	 Train images 200 	 Round  72
+Device  3 	 Train loss 0.7378 	 LR 0.0048 	 Train images 200 	 Round  73
+Device  3 	 Train loss 0.7578 	 LR 0.0048 	 Train images 200 	 Round  74
+Device  3 	 Train loss 0.7180 	 LR 0.0047 	 Train images 200 	 Round  75
+Device  3 	 Train loss 0.7062 	 LR 0.0047 	 Train images 200 	 Round  76
+Device  3 	 Train loss 0.7365 	 LR 0.0046 	 Train images 200 	 Round  77
+Device  3 	 Train loss 0.7023 	 LR 0.0046 	 Train images 200 	 Round  78
+Device  3 	 Train loss 0.6999 	 LR 0.0045 	 Train images 200 	 Round  79
+Device  3 	 Train loss 0.6919 	 LR 0.0045 	 Train images 200 	 Round  80
+Device  3 	 Train loss 0.7049 	 LR 0.0044 	 Train images 200 	 Round  81
+Device  3 	 Train loss 0.6925 	 LR 0.0044 	 Train images 200 	 Round  82
+Device  3 	 Train loss 0.6813 	 LR 0.0043 	 Train images 200 	 Round  83
+Device  3 	 Train loss 0.6819 	 LR 0.0043 	 Train images 200 	 Round  84
+Device  3 	 Train loss 0.6752 	 LR 0.0043 	 Train images 200 	 Round  85
+Device  3 	 Train loss 0.6807 	 LR 0.0042 	 Train images 200 	 Round  86
+Device  3 	 Train loss 0.6802 	 LR 0.0042 	 Train images 200 	 Round  87
+Device  3 	 Train loss 0.6849 	 LR 0.0041 	 Train images 200 	 Round  88
+Device  3 	 Train loss 0.6928 	 LR 0.0041 	 Train images 200 	 Round  89
+Device  3 	 Train loss 0.6869 	 LR 0.0040 	 Train images 200 	 Round  90
+Device  3 	 Train loss 0.6638 	 LR 0.0040 	 Train images 200 	 Round  91
+Device  3 	 Train loss 0.6740 	 LR 0.0040 	 Train images 200 	 Round  92
+Device  3 	 Train loss 0.6577 	 LR 0.0039 	 Train images 200 	 Round  93
+Device  3 	 Train loss 0.6607 	 LR 0.0039 	 Train images 200 	 Round  94
+Device  3 	 Train loss 0.6641 	 LR 0.0038 	 Train images 200 	 Round  95
+Device  3 	 Train loss 0.6534 	 LR 0.0038 	 Train images 200 	 Round  96
+Device  3 	 Train loss 0.6530 	 LR 0.0038 	 Train images 200 	 Round  97
+Device  3 	 Train loss 0.6347 	 LR 0.0037 	 Train images 200 	 Round  98
+Device  3 	 Train loss 0.6554 	 LR 0.0037 	 Train images 200 	 Round  99
+Device  3 	 Train loss 0.6559 	 LR 0.0037 	 Train images 200 	 Round 100
+Device  3 	 Train loss 0.6441 	 LR 0.0036 	 Train images 200 	 Round 101
+Device  3 	 Train loss 0.6271 	 LR 0.0036 	 Train images 200 	 Round 102
+Device  3 	 Train loss 0.6424 	 LR 0.0036 	 Train images 200 	 Round 103
+Device  3 	 Train loss 0.6472 	 LR 0.0035 	 Train images 200 	 Round 104
+Device  3 	 Train loss 0.6342 	 LR 0.0035 	 Train images 200 	 Round 105
+Device  3 	 Train loss 0.6303 	 LR 0.0034 	 Train images 200 	 Round 106
+Device  3 	 Train loss 0.6308 	 LR 0.0034 	 Train images 200 	 Round 107
+Device  3 	 Train loss 0.6273 	 LR 0.0034 	 Train images 200 	 Round 108
+Device  3 	 Train loss 0.6220 	 LR 0.0033 	 Train images 200 	 Round 109
+Device  3 	 Train loss 0.6260 	 LR 0.0033 	 Train images 200 	 Round 110
+Device  3 	 Train loss 0.6203 	 LR 0.0033 	 Train images 200 	 Round 111
+Device  3 	 Train loss 0.6340 	 LR 0.0032 	 Train images 200 	 Round 112
+Device  3 	 Train loss 0.6198 	 LR 0.0032 	 Train images 200 	 Round 113
+Device  3 	 Train loss 0.6149 	 LR 0.0032 	 Train images 200 	 Round 114
+Device  3 	 Train loss 0.6240 	 LR 0.0031 	 Train images 200 	 Round 115
+Device  3 	 Train loss 0.6115 	 LR 0.0031 	 Train images 200 	 Round 116
+Device  3 	 Train loss 0.6115 	 LR 0.0031 	 Train images 200 	 Round 117
+Device  3 	 Train loss 0.6136 	 LR 0.0031 	 Train images 200 	 Round 118
+Device  3 	 Train loss 0.6003 	 LR 0.0030 	 Train images 200 	 Round 119
+Device  3 	 Train loss 0.5914 	 LR 0.0030 	 Train images 200 	 Round 120
+Device  3 	 Train loss 0.6036 	 LR 0.0030 	 Train images 200 	 Round 121
+Device  3 	 Train loss 0.6121 	 LR 0.0029 	 Train images 200 	 Round 122
+Device  3 	 Train loss 0.5934 	 LR 0.0029 	 Train images 200 	 Round 123
+Device  3 	 Train loss 0.6084 	 LR 0.0029 	 Train images 200 	 Round 124
+Device  3 	 Train loss 0.5975 	 LR 0.0028 	 Train images 200 	 Round 125
+Device  3 	 Train loss 0.6039 	 LR 0.0028 	 Train images 200 	 Round 126
+Device  3 	 Train loss 0.5752 	 LR 0.0028 	 Train images 200 	 Round 127
+Device  3 	 Train loss 0.5777 	 LR 0.0028 	 Train images 200 	 Round 128
+Device  3 	 Train loss 0.5865 	 LR 0.0027 	 Train images 200 	 Round 129
+Device  3 	 Train loss 0.6010 	 LR 0.0027 	 Train images 200 	 Round 130
+Device  3 	 Train loss 0.5919 	 LR 0.0027 	 Train images 200 	 Round 131
+Device  3 	 Train loss 0.5732 	 LR 0.0027 	 Train images 200 	 Round 132
+Device  3 	 Train loss 0.5864 	 LR 0.0026 	 Train images 200 	 Round 133
+Device  3 	 Train loss 0.5621 	 LR 0.0026 	 Train images 200 	 Round 134
+Device  3 	 Train loss 0.5666 	 LR 0.0026 	 Train images 200 	 Round 135
+Device  3 	 Train loss 0.5940 	 LR 0.0025 	 Train images 200 	 Round 136
+Device  3 	 Train loss 0.5967 	 LR 0.0025 	 Train images 200 	 Round 137
+Device  3 	 Train loss 0.5681 	 LR 0.0025 	 Train images 200 	 Round 138
+Device  3 	 Train loss 0.5723 	 LR 0.0025 	 Train images 200 	 Round 139
+Device  3 	 Train loss 0.5626 	 LR 0.0024 	 Train images 200 	 Round 140
+Device  3 	 Train loss 0.5698 	 LR 0.0024 	 Train images 200 	 Round 141
+Device  3 	 Train loss 0.5772 	 LR 0.0024 	 Train images 200 	 Round 142
+Device  3 	 Train loss 0.5898 	 LR 0.0024 	 Train images 200 	 Round 143
+Device  3 	 Train loss 0.5808 	 LR 0.0024 	 Train images 200 	 Round 144
+Device  3 	 Train loss 0.5548 	 LR 0.0023 	 Train images 200 	 Round 145
+Device  3 	 Train loss 0.5640 	 LR 0.0023 	 Train images 200 	 Round 146
+Device  3 	 Train loss 0.5675 	 LR 0.0023 	 Train images 200 	 Round 147
+Device  3 	 Train loss 0.5628 	 LR 0.0023 	 Train images 200 	 Round 148
+Device  3 	 Train loss 0.5623 	 LR 0.0022 	 Train images 200 	 Round 149
+Device  3 	 Train loss 0.5435 	 LR 0.0022 	 Train images 200 	 Round 150
+Device  3 	 Train loss 0.5611 	 LR 0.0022 	 Train images 200 	 Round 151
+Device  3 	 Train loss 0.5712 	 LR 0.0022 	 Train images 200 	 Round 152
+Device  3 	 Train loss 0.5669 	 LR 0.0021 	 Train images 200 	 Round 153
+Device  3 	 Train loss 0.5659 	 LR 0.0021 	 Train images 200 	 Round 154
+Device  3 	 Train loss 0.5535 	 LR 0.0021 	 Train images 200 	 Round 155
+Device  3 	 Train loss 0.5499 	 LR 0.0021 	 Train images 200 	 Round 156
+Device  3 	 Train loss 0.5756 	 LR 0.0021 	 Train images 200 	 Round 157
+Device  3 	 Train loss 0.5616 	 LR 0.0020 	 Train images 200 	 Round 158
+Device  3 	 Train loss 0.5635 	 LR 0.0020 	 Train images 200 	 Round 159
+Device  3 	 Train loss 0.5482 	 LR 0.0020 	 Train images 200 	 Round 160
+Device  3 	 Train loss 0.5601 	 LR 0.0020 	 Train images 200 	 Round 161
+Device  3 	 Train loss 0.5558 	 LR 0.0020 	 Train images 200 	 Round 162
+Device  3 	 Train loss 0.5561 	 LR 0.0019 	 Train images 200 	 Round 163
+Device  3 	 Train loss 0.5515 	 LR 0.0019 	 Train images 200 	 Round 164
+Device  3 	 Train loss 0.5438 	 LR 0.0019 	 Train images 200 	 Round 165
+Device  3 	 Train loss 0.5410 	 LR 0.0019 	 Train images 200 	 Round 166
+Device  3 	 Train loss 0.5499 	 LR 0.0019 	 Train images 200 	 Round 167
+Device  3 	 Train loss 0.5580 	 LR 0.0018 	 Train images 200 	 Round 168
+Device  3 	 Train loss 0.5526 	 LR 0.0018 	 Train images 200 	 Round 169
+Device  3 	 Train loss 0.5525 	 LR 0.0018 	 Train images 200 	 Round 170
+Device  3 	 Train loss 0.5363 	 LR 0.0018 	 Train images 200 	 Round 171
+Device  3 	 Train loss 0.5561 	 LR 0.0018 	 Train images 200 	 Round 172
+Device  3 	 Train loss 0.5499 	 LR 0.0018 	 Train images 200 	 Round 173
+Device  3 	 Train loss 0.5325 	 LR 0.0017 	 Train images 200 	 Round 174
+Device  3 	 Train loss 0.5586 	 LR 0.0017 	 Train images 200 	 Round 175
+Device  3 	 Train loss 0.5471 	 LR 0.0017 	 Train images 200 	 Round 176
+Device  3 	 Train loss 0.5600 	 LR 0.0017 	 Train images 200 	 Round 177
+Device  3 	 Train loss 0.5414 	 LR 0.0017 	 Train images 200 	 Round 178
+Device  3 	 Train loss 0.5388 	 LR 0.0017 	 Train images 200 	 Round 179
+Device  3 	 Train loss 0.5513 	 LR 0.0016 	 Train images 200 	 Round 180
+Device  3 	 Train loss 0.5255 	 LR 0.0016 	 Train images 200 	 Round 181
+Device  3 	 Train loss 0.5369 	 LR 0.0016 	 Train images 200 	 Round 182
+Device  3 	 Train loss 0.5124 	 LR 0.0016 	 Train images 200 	 Round 183
+Device  3 	 Train loss 0.5439 	 LR 0.0016 	 Train images 200 	 Round 184
+Device  3 	 Train loss 0.5414 	 LR 0.0016 	 Train images 200 	 Round 185
+Device  3 	 Train loss 0.5495 	 LR 0.0015 	 Train images 200 	 Round 186
+Device  3 	 Train loss 0.5450 	 LR 0.0015 	 Train images 200 	 Round 187
+Device  3 	 Train loss 0.5309 	 LR 0.0015 	 Train images 200 	 Round 188
+Device  3 	 Train loss 0.5328 	 LR 0.0015 	 Train images 200 	 Round 189
+Device  3 	 Train loss 0.5389 	 LR 0.0015 	 Train images 200 	 Round 190
+Device  3 	 Train loss 0.5127 	 LR 0.0015 	 Train images 200 	 Round 191
+Device  3 	 Train loss 0.5344 	 LR 0.0015 	 Train images 200 	 Round 192
+Device  3 	 Train loss 0.5298 	 LR 0.0014 	 Train images 200 	 Round 193
+Device  3 	 Train loss 0.5214 	 LR 0.0014 	 Train images 200 	 Round 194
+Device  3 	 Train loss 0.5409 	 LR 0.0014 	 Train images 200 	 Round 195
+Device  3 	 Train loss 0.5317 	 LR 0.0014 	 Train images 200 	 Round 196
+Device  3 	 Train loss 0.5334 	 LR 0.0014 	 Train images 200 	 Round 197
+Device  3 	 Train loss 0.5311 	 LR 0.0014 	 Train images 200 	 Round 198
+Device  3 	 Train loss 0.5242 	 LR 0.0014 	 Train images 200 	 Round 199
+Device  3 	 Train loss 0.5253 	 LR 0.0013 	 Train images 200 	 Round 200
+Defense none on Dataset MNIST.
+Finished computations with time: 0:05:01.823779
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='MNIST', num_workers=2, batch_size=64, num_sen=64, defense='none', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=3, n_data=200, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.mnist.MNIST'>
+Device  3 	 Train loss 6.3353 	 LR 0.0099 	 Train images 200 	 Round   1
+Device  3 	 Train loss 3.6550 	 LR 0.0098 	 Train images 200 	 Round   2
+Device  3 	 Train loss 3.0295 	 LR 0.0097 	 Train images 200 	 Round   3
+Device  3 	 Train loss 3.1891 	 LR 0.0096 	 Train images 200 	 Round   4
+Device  3 	 Train loss 2.5286 	 LR 0.0095 	 Train images 200 	 Round   5
+Device  3 	 Train loss 2.6111 	 LR 0.0094 	 Train images 200 	 Round   6
+Device  3 	 Train loss 2.3803 	 LR 0.0093 	 Train images 200 	 Round   7
+Device  3 	 Train loss 2.1961 	 LR 0.0092 	 Train images 200 	 Round   8
+Device  3 	 Train loss 2.1525 	 LR 0.0091 	 Train images 200 	 Round   9
+Device  3 	 Train loss 2.1726 	 LR 0.0090 	 Train images 200 	 Round  10
+Device  3 	 Train loss 2.1251 	 LR 0.0090 	 Train images 200 	 Round  11
+Device  3 	 Train loss 2.0730 	 LR 0.0089 	 Train images 200 	 Round  12
+Device  3 	 Train loss 2.0348 	 LR 0.0088 	 Train images 200 	 Round  13
+Device  3 	 Train loss 2.0449 	 LR 0.0087 	 Train images 200 	 Round  14
+Device  3 	 Train loss 1.9872 	 LR 0.0086 	 Train images 200 	 Round  15
+Device  3 	 Train loss 1.9881 	 LR 0.0085 	 Train images 200 	 Round  16
+Device  3 	 Train loss 1.9496 	 LR 0.0084 	 Train images 200 	 Round  17
+Device  3 	 Train loss 1.9025 	 LR 0.0083 	 Train images 200 	 Round  18
+Device  3 	 Train loss 1.8704 	 LR 0.0083 	 Train images 200 	 Round  19
+Device  3 	 Train loss 1.8477 	 LR 0.0082 	 Train images 200 	 Round  20
+Device  3 	 Train loss 1.8288 	 LR 0.0081 	 Train images 200 	 Round  21
+Device  3 	 Train loss 1.8108 	 LR 0.0080 	 Train images 200 	 Round  22
+Device  3 	 Train loss 1.7738 	 LR 0.0079 	 Train images 200 	 Round  23
+Device  3 	 Train loss 1.7782 	 LR 0.0079 	 Train images 200 	 Round  24
+Device  3 	 Train loss 1.7267 	 LR 0.0078 	 Train images 200 	 Round  25
+Device  3 	 Train loss 1.7285 	 LR 0.0077 	 Train images 200 	 Round  26
+Device  3 	 Train loss 1.6998 	 LR 0.0076 	 Train images 200 	 Round  27
+Device  3 	 Train loss 1.6843 	 LR 0.0075 	 Train images 200 	 Round  28
+Device  3 	 Train loss 1.6743 	 LR 0.0075 	 Train images 200 	 Round  29
+Device  3 	 Train loss 1.6671 	 LR 0.0074 	 Train images 200 	 Round  30
+Device  3 	 Train loss 1.6313 	 LR 0.0073 	 Train images 200 	 Round  31
+Device  3 	 Train loss 1.6201 	 LR 0.0072 	 Train images 200 	 Round  32
+Device  3 	 Train loss 1.5919 	 LR 0.0072 	 Train images 200 	 Round  33
+Device  3 	 Train loss 1.5924 	 LR 0.0071 	 Train images 200 	 Round  34
+Device  3 	 Train loss 1.5671 	 LR 0.0070 	 Train images 200 	 Round  35
+Device  3 	 Train loss 1.5475 	 LR 0.0070 	 Train images 200 	 Round  36
+Device  3 	 Train loss 1.5435 	 LR 0.0069 	 Train images 200 	 Round  37
+Device  3 	 Train loss 1.5349 	 LR 0.0068 	 Train images 200 	 Round  38
+Device  3 	 Train loss 1.5156 	 LR 0.0068 	 Train images 200 	 Round  39
+Device  3 	 Train loss 1.5252 	 LR 0.0067 	 Train images 200 	 Round  40
+Device  3 	 Train loss 1.4812 	 LR 0.0066 	 Train images 200 	 Round  41
+Device  3 	 Train loss 1.4801 	 LR 0.0066 	 Train images 200 	 Round  42
+Device  3 	 Train loss 1.4274 	 LR 0.0065 	 Train images 200 	 Round  43
+Device  3 	 Train loss 1.4340 	 LR 0.0064 	 Train images 200 	 Round  44
+Device  3 	 Train loss 1.4474 	 LR 0.0064 	 Train images 200 	 Round  45
+Device  3 	 Train loss 1.4207 	 LR 0.0063 	 Train images 200 	 Round  46
+Device  3 	 Train loss 1.4033 	 LR 0.0062 	 Train images 200 	 Round  47
+Device  3 	 Train loss 1.3777 	 LR 0.0062 	 Train images 200 	 Round  48
+Device  3 	 Train loss 1.3921 	 LR 0.0061 	 Train images 200 	 Round  49
+Device  3 	 Train loss 1.3616 	 LR 0.0061 	 Train images 200 	 Round  50
+Device  3 	 Train loss 1.3525 	 LR 0.0060 	 Train images 200 	 Round  51
+Device  3 	 Train loss 1.3496 	 LR 0.0059 	 Train images 200 	 Round  52
+Device  3 	 Train loss 1.3220 	 LR 0.0059 	 Train images 200 	 Round  53
+Device  3 	 Train loss 1.3178 	 LR 0.0058 	 Train images 200 	 Round  54
+Device  3 	 Train loss 1.2885 	 LR 0.0058 	 Train images 200 	 Round  55
+Device  3 	 Train loss 1.3079 	 LR 0.0057 	 Train images 200 	 Round  56
+Device  3 	 Train loss 1.2790 	 LR 0.0056 	 Train images 200 	 Round  57
+Device  3 	 Train loss 1.2808 	 LR 0.0056 	 Train images 200 	 Round  58
+Device  3 	 Train loss 1.2671 	 LR 0.0055 	 Train images 200 	 Round  59
+Device  3 	 Train loss 1.2712 	 LR 0.0055 	 Train images 200 	 Round  60
+Device  3 	 Train loss 1.2633 	 LR 0.0054 	 Train images 200 	 Round  61
+Device  3 	 Train loss 1.2528 	 LR 0.0054 	 Train images 200 	 Round  62
+Device  3 	 Train loss 1.2680 	 LR 0.0053 	 Train images 200 	 Round  63
+Device  3 	 Train loss 1.2446 	 LR 0.0053 	 Train images 200 	 Round  64
+Device  3 	 Train loss 1.2352 	 LR 0.0052 	 Train images 200 	 Round  65
+Device  3 	 Train loss 1.2408 	 LR 0.0052 	 Train images 200 	 Round  66
+Device  3 	 Train loss 1.2344 	 LR 0.0051 	 Train images 200 	 Round  67
+Device  3 	 Train loss 1.2035 	 LR 0.0050 	 Train images 200 	 Round  68
+Device  3 	 Train loss 1.2057 	 LR 0.0050 	 Train images 200 	 Round  69
+Device  3 	 Train loss 1.1953 	 LR 0.0049 	 Train images 200 	 Round  70
+Device  3 	 Train loss 1.1826 	 LR 0.0049 	 Train images 200 	 Round  71
+Device  3 	 Train loss 1.1857 	 LR 0.0048 	 Train images 200 	 Round  72
+Device  3 	 Train loss 1.1738 	 LR 0.0048 	 Train images 200 	 Round  73
+Device  3 	 Train loss 1.1850 	 LR 0.0048 	 Train images 200 	 Round  74
+Device  3 	 Train loss 1.1591 	 LR 0.0047 	 Train images 200 	 Round  75
+Device  3 	 Train loss 1.1387 	 LR 0.0047 	 Train images 200 	 Round  76
+Device  3 	 Train loss 1.1625 	 LR 0.0046 	 Train images 200 	 Round  77
+Device  3 	 Train loss 1.1278 	 LR 0.0046 	 Train images 200 	 Round  78
+Device  3 	 Train loss 1.1424 	 LR 0.0045 	 Train images 200 	 Round  79
+Device  3 	 Train loss 1.1249 	 LR 0.0045 	 Train images 200 	 Round  80
+Device  3 	 Train loss 1.1364 	 LR 0.0044 	 Train images 200 	 Round  81
+Device  3 	 Train loss 1.1242 	 LR 0.0044 	 Train images 200 	 Round  82
+Device  3 	 Train loss 1.1101 	 LR 0.0043 	 Train images 200 	 Round  83
+Device  3 	 Train loss 1.0975 	 LR 0.0043 	 Train images 200 	 Round  84
+Device  3 	 Train loss 1.1080 	 LR 0.0043 	 Train images 200 	 Round  85
+Device  3 	 Train loss 1.1115 	 LR 0.0042 	 Train images 200 	 Round  86
+Device  3 	 Train loss 1.1077 	 LR 0.0042 	 Train images 200 	 Round  87
+Device  3 	 Train loss 1.1085 	 LR 0.0041 	 Train images 200 	 Round  88
+Device  3 	 Train loss 1.1078 	 LR 0.0041 	 Train images 200 	 Round  89
+Device  3 	 Train loss 1.0995 	 LR 0.0040 	 Train images 200 	 Round  90
+Device  3 	 Train loss 1.0835 	 LR 0.0040 	 Train images 200 	 Round  91
+Device  3 	 Train loss 1.0781 	 LR 0.0040 	 Train images 200 	 Round  92
+Device  3 	 Train loss 1.0614 	 LR 0.0039 	 Train images 200 	 Round  93
+Device  3 	 Train loss 1.0681 	 LR 0.0039 	 Train images 200 	 Round  94
+Device  3 	 Train loss 1.0677 	 LR 0.0038 	 Train images 200 	 Round  95
+Device  3 	 Train loss 1.0485 	 LR 0.0038 	 Train images 200 	 Round  96
+Device  3 	 Train loss 1.0460 	 LR 0.0038 	 Train images 200 	 Round  97
+Device  3 	 Train loss 1.0339 	 LR 0.0037 	 Train images 200 	 Round  98
+Device  3 	 Train loss 1.0532 	 LR 0.0037 	 Train images 200 	 Round  99
+Device  3 	 Train loss 1.0526 	 LR 0.0037 	 Train images 200 	 Round 100
+Device  3 	 Train loss 1.0337 	 LR 0.0036 	 Train images 200 	 Round 101
+Device  3 	 Train loss 1.0133 	 LR 0.0036 	 Train images 200 	 Round 102
+Device  3 	 Train loss 1.0435 	 LR 0.0036 	 Train images 200 	 Round 103
+Device  3 	 Train loss 1.0360 	 LR 0.0035 	 Train images 200 	 Round 104
+Device  3 	 Train loss 1.0314 	 LR 0.0035 	 Train images 200 	 Round 105
+Device  3 	 Train loss 1.0265 	 LR 0.0034 	 Train images 200 	 Round 106
+Device  3 	 Train loss 1.0193 	 LR 0.0034 	 Train images 200 	 Round 107
+Device  3 	 Train loss 1.0143 	 LR 0.0034 	 Train images 200 	 Round 108
+Device  3 	 Train loss 1.0109 	 LR 0.0033 	 Train images 200 	 Round 109
+Device  3 	 Train loss 1.0111 	 LR 0.0033 	 Train images 200 	 Round 110
+Device  3 	 Train loss 1.0048 	 LR 0.0033 	 Train images 200 	 Round 111
+Device  3 	 Train loss 1.0190 	 LR 0.0032 	 Train images 200 	 Round 112
+Device  3 	 Train loss 0.9928 	 LR 0.0032 	 Train images 200 	 Round 113
+Device  3 	 Train loss 0.9838 	 LR 0.0032 	 Train images 200 	 Round 114
+Device  3 	 Train loss 1.0026 	 LR 0.0031 	 Train images 200 	 Round 115
+Device  3 	 Train loss 0.9938 	 LR 0.0031 	 Train images 200 	 Round 116
+Device  3 	 Train loss 0.9873 	 LR 0.0031 	 Train images 200 	 Round 117
+Device  3 	 Train loss 1.0020 	 LR 0.0031 	 Train images 200 	 Round 118
+Device  3 	 Train loss 0.9697 	 LR 0.0030 	 Train images 200 	 Round 119
+Device  3 	 Train loss 0.9661 	 LR 0.0030 	 Train images 200 	 Round 120
+Device  3 	 Train loss 0.9743 	 LR 0.0030 	 Train images 200 	 Round 121
+Device  3 	 Train loss 0.9830 	 LR 0.0029 	 Train images 200 	 Round 122
+Device  3 	 Train loss 0.9601 	 LR 0.0029 	 Train images 200 	 Round 123
+Device  3 	 Train loss 0.9735 	 LR 0.0029 	 Train images 200 	 Round 124
+Device  3 	 Train loss 0.9641 	 LR 0.0028 	 Train images 200 	 Round 125
+Device  3 	 Train loss 0.9607 	 LR 0.0028 	 Train images 200 	 Round 126
+Device  3 	 Train loss 0.9435 	 LR 0.0028 	 Train images 200 	 Round 127
+Device  3 	 Train loss 0.9499 	 LR 0.0028 	 Train images 200 	 Round 128
+Device  3 	 Train loss 0.9513 	 LR 0.0027 	 Train images 200 	 Round 129
+Device  3 	 Train loss 0.9585 	 LR 0.0027 	 Train images 200 	 Round 130
+Device  3 	 Train loss 0.9525 	 LR 0.0027 	 Train images 200 	 Round 131
+Device  3 	 Train loss 0.9297 	 LR 0.0027 	 Train images 200 	 Round 132
+Device  3 	 Train loss 0.9401 	 LR 0.0026 	 Train images 200 	 Round 133
+Device  3 	 Train loss 0.9170 	 LR 0.0026 	 Train images 200 	 Round 134
+Device  3 	 Train loss 0.9296 	 LR 0.0026 	 Train images 200 	 Round 135
+Device  3 	 Train loss 0.9443 	 LR 0.0025 	 Train images 200 	 Round 136
+Device  3 	 Train loss 0.9492 	 LR 0.0025 	 Train images 200 	 Round 137
+Device  3 	 Train loss 0.9342 	 LR 0.0025 	 Train images 200 	 Round 138
+Device  3 	 Train loss 0.9247 	 LR 0.0025 	 Train images 200 	 Round 139
+Device  3 	 Train loss 0.9067 	 LR 0.0024 	 Train images 200 	 Round 140
+Device  3 	 Train loss 0.9215 	 LR 0.0024 	 Train images 200 	 Round 141
+Device  3 	 Train loss 0.9246 	 LR 0.0024 	 Train images 200 	 Round 142
+Device  3 	 Train loss 0.9354 	 LR 0.0024 	 Train images 200 	 Round 143
+Device  3 	 Train loss 0.9264 	 LR 0.0024 	 Train images 200 	 Round 144
+Device  3 	 Train loss 0.9186 	 LR 0.0023 	 Train images 200 	 Round 145
+Device  3 	 Train loss 0.9124 	 LR 0.0023 	 Train images 200 	 Round 146
+Device  3 	 Train loss 0.9136 	 LR 0.0023 	 Train images 200 	 Round 147
+Device  3 	 Train loss 0.8937 	 LR 0.0023 	 Train images 200 	 Round 148
+Device  3 	 Train loss 0.9067 	 LR 0.0022 	 Train images 200 	 Round 149
+Device  3 	 Train loss 0.9028 	 LR 0.0022 	 Train images 200 	 Round 150
+Device  3 	 Train loss 0.9037 	 LR 0.0022 	 Train images 200 	 Round 151
+Device  3 	 Train loss 0.9180 	 LR 0.0022 	 Train images 200 	 Round 152
+Device  3 	 Train loss 0.9148 	 LR 0.0021 	 Train images 200 	 Round 153
+Device  3 	 Train loss 0.9091 	 LR 0.0021 	 Train images 200 	 Round 154
+Device  3 	 Train loss 0.9046 	 LR 0.0021 	 Train images 200 	 Round 155
+Device  3 	 Train loss 0.8981 	 LR 0.0021 	 Train images 200 	 Round 156
+Device  3 	 Train loss 0.9094 	 LR 0.0021 	 Train images 200 	 Round 157
+Device  3 	 Train loss 0.9010 	 LR 0.0020 	 Train images 200 	 Round 158
+Device  3 	 Train loss 0.9125 	 LR 0.0020 	 Train images 200 	 Round 159
+Device  3 	 Train loss 0.8951 	 LR 0.0020 	 Train images 200 	 Round 160
+Device  3 	 Train loss 0.8925 	 LR 0.0020 	 Train images 200 	 Round 161
+Device  3 	 Train loss 0.8887 	 LR 0.0020 	 Train images 200 	 Round 162
+Device  3 	 Train loss 0.8913 	 LR 0.0019 	 Train images 200 	 Round 163
+Device  3 	 Train loss 0.8876 	 LR 0.0019 	 Train images 200 	 Round 164
+Device  3 	 Train loss 0.8812 	 LR 0.0019 	 Train images 200 	 Round 165
+Device  3 	 Train loss 0.8898 	 LR 0.0019 	 Train images 200 	 Round 166
+Device  3 	 Train loss 0.8897 	 LR 0.0019 	 Train images 200 	 Round 167
+Device  3 	 Train loss 0.8986 	 LR 0.0018 	 Train images 200 	 Round 168
+Device  3 	 Train loss 0.8905 	 LR 0.0018 	 Train images 200 	 Round 169
+Device  3 	 Train loss 0.8857 	 LR 0.0018 	 Train images 200 	 Round 170
+Device  3 	 Train loss 0.8683 	 LR 0.0018 	 Train images 200 	 Round 171
+Device  3 	 Train loss 0.8918 	 LR 0.0018 	 Train images 200 	 Round 172
+Device  3 	 Train loss 0.8832 	 LR 0.0018 	 Train images 200 	 Round 173
+Device  3 	 Train loss 0.8645 	 LR 0.0017 	 Train images 200 	 Round 174
+Device  3 	 Train loss 0.8957 	 LR 0.0017 	 Train images 200 	 Round 175
+Device  3 	 Train loss 0.8792 	 LR 0.0017 	 Train images 200 	 Round 176
+Device  3 	 Train loss 0.8925 	 LR 0.0017 	 Train images 200 	 Round 177
+Device  3 	 Train loss 0.8720 	 LR 0.0017 	 Train images 200 	 Round 178
+Device  3 	 Train loss 0.8627 	 LR 0.0017 	 Train images 200 	 Round 179
+Device  3 	 Train loss 0.8842 	 LR 0.0016 	 Train images 200 	 Round 180
+Device  3 	 Train loss 0.8546 	 LR 0.0016 	 Train images 200 	 Round 181
+Device  3 	 Train loss 0.8716 	 LR 0.0016 	 Train images 200 	 Round 182
+Device  3 	 Train loss 0.8447 	 LR 0.0016 	 Train images 200 	 Round 183
+Device  3 	 Train loss 0.8724 	 LR 0.0016 	 Train images 200 	 Round 184
+Device  3 	 Train loss 0.8693 	 LR 0.0016 	 Train images 200 	 Round 185
+Device  3 	 Train loss 0.8826 	 LR 0.0015 	 Train images 200 	 Round 186
+Device  3 	 Train loss 0.8761 	 LR 0.0015 	 Train images 200 	 Round 187
+Device  3 	 Train loss 0.8642 	 LR 0.0015 	 Train images 200 	 Round 188
+Device  3 	 Train loss 0.8596 	 LR 0.0015 	 Train images 200 	 Round 189
+Device  3 	 Train loss 0.8695 	 LR 0.0015 	 Train images 200 	 Round 190
+Device  3 	 Train loss 0.8336 	 LR 0.0015 	 Train images 200 	 Round 191
+Device  3 	 Train loss 0.8547 	 LR 0.0015 	 Train images 200 	 Round 192
+Device  3 	 Train loss 0.8530 	 LR 0.0014 	 Train images 200 	 Round 193
+Device  3 	 Train loss 0.8520 	 LR 0.0014 	 Train images 200 	 Round 194
+Device  3 	 Train loss 0.8705 	 LR 0.0014 	 Train images 200 	 Round 195
+Device  3 	 Train loss 0.8500 	 LR 0.0014 	 Train images 200 	 Round 196
+Device  3 	 Train loss 0.8591 	 LR 0.0014 	 Train images 200 	 Round 197
+Device  3 	 Train loss 0.8522 	 LR 0.0014 	 Train images 200 	 Round 198
+Device  3 	 Train loss 0.8508 	 LR 0.0014 	 Train images 200 	 Round 199
+Device  3 	 Train loss 0.8489 	 LR 0.0013 	 Train images 200 	 Round 200
+Defense none on Dataset MNIST.
+Finished computations with time: 0:05:01.088886
+

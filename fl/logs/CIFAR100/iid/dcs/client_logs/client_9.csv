@@ -1,0 +1,159 @@
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR100', num_workers=2, batch_size=64, num_sen=64, defense='dcs', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=9, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Device  9 	 Train loss 4.7605 	 LR 0.0099 	 Train images 1250 	 Round   1
+Device  9 	 Train loss 4.3659 	 LR 0.0098 	 Train images 1250 	 Round   2
+Device  9 	 Train loss 4.0680 	 LR 0.0097 	 Train images 1250 	 Round   3
+Device  9 	 Train loss 3.8712 	 LR 0.0096 	 Train images 1250 	 Round   4
+Device  9 	 Train loss 3.7299 	 LR 0.0095 	 Train images 1250 	 Round   5
+Device  9 	 Train loss 3.5740 	 LR 0.0094 	 Train images 1250 	 Round   6
+Device  9 	 Train loss 3.4351 	 LR 0.0093 	 Train images 1250 	 Round   7
+Device  9 	 Train loss 3.3031 	 LR 0.0092 	 Train images 1250 	 Round   8
+Device  9 	 Train loss 3.1796 	 LR 0.0091 	 Train images 1250 	 Round   9
+Device  9 	 Train loss 3.1174 	 LR 0.0090 	 Train images 1250 	 Round  10
+Device  9 	 Train loss 2.9076 	 LR 0.0090 	 Train images 1250 	 Round  11
+Device  9 	 Train loss 2.8194 	 LR 0.0089 	 Train images 1250 	 Round  12
+Device  9 	 Train loss 2.7371 	 LR 0.0088 	 Train images 1250 	 Round  13
+Device  9 	 Train loss 2.6329 	 LR 0.0087 	 Train images 1250 	 Round  14
+Device  9 	 Train loss 2.4956 	 LR 0.0086 	 Train images 1250 	 Round  15
+Device  9 	 Train loss 2.4568 	 LR 0.0085 	 Train images 1250 	 Round  16
+Device  9 	 Train loss 2.2809 	 LR 0.0084 	 Train images 1250 	 Round  17
+Device  9 	 Train loss 2.2696 	 LR 0.0083 	 Train images 1250 	 Round  18
+Device  9 	 Train loss 2.1017 	 LR 0.0083 	 Train images 1250 	 Round  19
+Device  9 	 Train loss 2.0749 	 LR 0.0082 	 Train images 1250 	 Round  20
+Device  9 	 Train loss 1.9748 	 LR 0.0081 	 Train images 1250 	 Round  21
+Device  9 	 Train loss 1.8797 	 LR 0.0080 	 Train images 1250 	 Round  22
+Device  9 	 Train loss 1.7779 	 LR 0.0079 	 Train images 1250 	 Round  23
+Device  9 	 Train loss 1.7099 	 LR 0.0079 	 Train images 1250 	 Round  24
+Device  9 	 Train loss 1.6747 	 LR 0.0078 	 Train images 1250 	 Round  25
+Device  9 	 Train loss 1.6634 	 LR 0.0077 	 Train images 1250 	 Round  26
+Device  9 	 Train loss 1.5350 	 LR 0.0076 	 Train images 1250 	 Round  27
+Device  9 	 Train loss 1.4518 	 LR 0.0075 	 Train images 1250 	 Round  28
+Device  9 	 Train loss 1.4284 	 LR 0.0075 	 Train images 1250 	 Round  29
+Device  9 	 Train loss 1.1218 	 LR 0.0010 	 Train images 1250 	 Round  30
+Defense dcs on Dataset CIFAR100.
+Finished computations with time: 6:40:07.071382
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR100', num_workers=2, batch_size=64, num_sen=64, defense='dcs', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=9, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Device  9 	 Train loss 4.9295 	 LR 0.0099 	 Train images 1250 	 Round   1
+Device  9 	 Train loss 4.8163 	 LR 0.0098 	 Train images 1250 	 Round   2
+Device  9 	 Train loss 4.6210 	 LR 0.0097 	 Train images 1250 	 Round   3
+Device  9 	 Train loss 4.4207 	 LR 0.0096 	 Train images 1250 	 Round   4
+Device  9 	 Train loss 4.1857 	 LR 0.0095 	 Train images 1250 	 Round   5
+Device  9 	 Train loss 4.0781 	 LR 0.0094 	 Train images 1250 	 Round   6
+Device  9 	 Train loss 3.9195 	 LR 0.0093 	 Train images 1250 	 Round   7
+Device  9 	 Train loss 3.8022 	 LR 0.0092 	 Train images 1250 	 Round   8
+Device  9 	 Train loss 3.6165 	 LR 0.0091 	 Train images 1250 	 Round   9
+Device  9 	 Train loss 3.5398 	 LR 0.0090 	 Train images 1250 	 Round  10
+Device  9 	 Train loss 3.4760 	 LR 0.0090 	 Train images 1250 	 Round  11
+Device  9 	 Train loss 3.3118 	 LR 0.0089 	 Train images 1250 	 Round  12
+Device  9 	 Train loss 3.2248 	 LR 0.0088 	 Train images 1250 	 Round  13
+Device  9 	 Train loss 3.0618 	 LR 0.0087 	 Train images 1250 	 Round  14
+Device  9 	 Train loss 2.9841 	 LR 0.0086 	 Train images 1250 	 Round  15
+Device  9 	 Train loss 2.8560 	 LR 0.0085 	 Train images 1250 	 Round  16
+Device  9 	 Train loss 2.6640 	 LR 0.0084 	 Train images 1250 	 Round  17
+Device  9 	 Train loss 2.4851 	 LR 0.0083 	 Train images 1250 	 Round  18
+Device  9 	 Train loss 2.5046 	 LR 0.0083 	 Train images 1250 	 Round  19
+Device  9 	 Train loss 2.3768 	 LR 0.0082 	 Train images 1250 	 Round  20
+Device  9 	 Train loss 2.1958 	 LR 0.0081 	 Train images 1250 	 Round  21
+Device  9 	 Train loss 2.1156 	 LR 0.0080 	 Train images 1250 	 Round  22
+Device  9 	 Train loss 2.0057 	 LR 0.0079 	 Train images 1250 	 Round  23
+Device  9 	 Train loss 1.8131 	 LR 0.0079 	 Train images 1250 	 Round  24
+Device  9 	 Train loss 1.7241 	 LR 0.0078 	 Train images 1250 	 Round  25
+Device  9 	 Train loss 1.5992 	 LR 0.0077 	 Train images 1250 	 Round  26
+Device  9 	 Train loss 1.4471 	 LR 0.0076 	 Train images 1250 	 Round  27
+Device  9 	 Train loss 1.4396 	 LR 0.0075 	 Train images 1250 	 Round  28
+Device  9 	 Train loss 1.2661 	 LR 0.0075 	 Train images 1250 	 Round  29
+Device  9 	 Train loss 0.6854 	 LR 0.0010 	 Train images 1250 	 Round  30
+Device  9 	 Train loss 0.4725 	 LR 0.0010 	 Train images 1250 	 Round  31
+Device  9 	 Train loss 0.4489 	 LR 0.0010 	 Train images 1250 	 Round  32
+Device  9 	 Train loss 0.4104 	 LR 0.0010 	 Train images 1250 	 Round  33
+Device  9 	 Train loss 0.3827 	 LR 0.0010 	 Train images 1250 	 Round  34
+Device  9 	 Train loss 0.3643 	 LR 0.0010 	 Train images 1250 	 Round  35
+Device  9 	 Train loss 0.3579 	 LR 0.0009 	 Train images 1250 	 Round  36
+Device  9 	 Train loss 0.2897 	 LR 0.0009 	 Train images 1250 	 Round  37
+Device  9 	 Train loss 0.3038 	 LR 0.0009 	 Train images 1250 	 Round  38
+Device  9 	 Train loss 0.2768 	 LR 0.0009 	 Train images 1250 	 Round  39
+Device  9 	 Train loss 0.2527 	 LR 0.0009 	 Train images 1250 	 Round  40
+Device  9 	 Train loss 0.2476 	 LR 0.0009 	 Train images 1250 	 Round  41
+Device  9 	 Train loss 0.2646 	 LR 0.0009 	 Train images 1250 	 Round  42
+Device  9 	 Train loss 0.2307 	 LR 0.0009 	 Train images 1250 	 Round  43
+Device  9 	 Train loss 0.2093 	 LR 0.0009 	 Train images 1250 	 Round  44
+Device  9 	 Train loss 0.2294 	 LR 0.0009 	 Train images 1250 	 Round  45
+Device  9 	 Train loss 0.2051 	 LR 0.0009 	 Train images 1250 	 Round  46
+Device  9 	 Train loss 0.1855 	 LR 0.0008 	 Train images 1250 	 Round  47
+Device  9 	 Train loss 0.1949 	 LR 0.0008 	 Train images 1250 	 Round  48
+Device  9 	 Train loss 0.1739 	 LR 0.0008 	 Train images 1250 	 Round  49
+Device  9 	 Train loss 0.1607 	 LR 0.0008 	 Train images 1250 	 Round  50
+Defense dcs on Dataset CIFAR100.
+Finished computations with time: 8:20:07.231264
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR100', num_workers=2, batch_size=64, num_sen=64, defense='dcs', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=9, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Device  9 	 Train loss 4.6794 	 LR 0.0099 	 Train images 1250 	 Round   1
+Device  9 	 Train loss 4.4599 	 LR 0.0098 	 Train images 1250 	 Round   2
+Device  9 	 Train loss 4.2072 	 LR 0.0097 	 Train images 1250 	 Round   3
+Device  9 	 Train loss 3.9571 	 LR 0.0096 	 Train images 1250 	 Round   4
+Device  9 	 Train loss 3.7751 	 LR 0.0095 	 Train images 1250 	 Round   5
+Device  9 	 Train loss 3.6504 	 LR 0.0094 	 Train images 1250 	 Round   6
+Device  9 	 Train loss 3.5831 	 LR 0.0093 	 Train images 1250 	 Round   7
+Device  9 	 Train loss 3.4403 	 LR 0.0092 	 Train images 1250 	 Round   8
+Device  9 	 Train loss 3.2779 	 LR 0.0091 	 Train images 1250 	 Round   9
+Device  9 	 Train loss 3.1728 	 LR 0.0090 	 Train images 1250 	 Round  10
+Device  9 	 Train loss 3.1147 	 LR 0.0090 	 Train images 1250 	 Round  11
+Device  9 	 Train loss 3.0374 	 LR 0.0089 	 Train images 1250 	 Round  12
+Device  9 	 Train loss 2.9098 	 LR 0.0088 	 Train images 1250 	 Round  13
+Device  9 	 Train loss 2.8479 	 LR 0.0087 	 Train images 1250 	 Round  14
+Device  9 	 Train loss 2.7502 	 LR 0.0086 	 Train images 1250 	 Round  15
+Device  9 	 Train loss 2.6578 	 LR 0.0085 	 Train images 1250 	 Round  16
+Device  9 	 Train loss 2.5598 	 LR 0.0084 	 Train images 1250 	 Round  17
+Device  9 	 Train loss 2.4401 	 LR 0.0083 	 Train images 1250 	 Round  18
+Device  9 	 Train loss 2.3685 	 LR 0.0083 	 Train images 1250 	 Round  19
+Device  9 	 Train loss 2.2714 	 LR 0.0082 	 Train images 1250 	 Round  20
+Device  9 	 Train loss 2.1801 	 LR 0.0081 	 Train images 1250 	 Round  21
+Device  9 	 Train loss 2.1072 	 LR 0.0080 	 Train images 1250 	 Round  22
+Device  9 	 Train loss 1.9829 	 LR 0.0079 	 Train images 1250 	 Round  23
+Device  9 	 Train loss 2.0090 	 LR 0.0079 	 Train images 1250 	 Round  24
+Device  9 	 Train loss 1.8962 	 LR 0.0078 	 Train images 1250 	 Round  25
+Device  9 	 Train loss 1.7932 	 LR 0.0077 	 Train images 1250 	 Round  26
+Device  9 	 Train loss 1.7235 	 LR 0.0076 	 Train images 1250 	 Round  27
+Device  9 	 Train loss 1.6595 	 LR 0.0075 	 Train images 1250 	 Round  28
+Device  9 	 Train loss 1.5340 	 LR 0.0075 	 Train images 1250 	 Round  29
+Device  9 	 Train loss 1.2222 	 LR 0.0010 	 Train images 1250 	 Round  30
+Device  9 	 Train loss 1.0563 	 LR 0.0010 	 Train images 1250 	 Round  31
+Device  9 	 Train loss 1.0226 	 LR 0.0010 	 Train images 1250 	 Round  32
+Device  9 	 Train loss 0.9584 	 LR 0.0010 	 Train images 1250 	 Round  33
+Device  9 	 Train loss 0.9336 	 LR 0.0010 	 Train images 1250 	 Round  34
+Device  9 	 Train loss 0.8998 	 LR 0.0010 	 Train images 1250 	 Round  35
+Device  9 	 Train loss 0.8727 	 LR 0.0009 	 Train images 1250 	 Round  36
+Device  9 	 Train loss 0.8473 	 LR 0.0009 	 Train images 1250 	 Round  37
+Device  9 	 Train loss 0.8198 	 LR 0.0009 	 Train images 1250 	 Round  38
+Device  9 	 Train loss 0.7975 	 LR 0.0009 	 Train images 1250 	 Round  39
+Device  9 	 Train loss 0.7632 	 LR 0.0009 	 Train images 1250 	 Round  40
+Device  9 	 Train loss 0.7446 	 LR 0.0009 	 Train images 1250 	 Round  41
+Device  9 	 Train loss 0.7487 	 LR 0.0009 	 Train images 1250 	 Round  42
+Device  9 	 Train loss 0.7059 	 LR 0.0009 	 Train images 1250 	 Round  43
+Device  9 	 Train loss 0.6840 	 LR 0.0009 	 Train images 1250 	 Round  44
+Device  9 	 Train loss 0.6746 	 LR 0.0009 	 Train images 1250 	 Round  45
+Device  9 	 Train loss 0.6460 	 LR 0.0009 	 Train images 1250 	 Round  46
+Device  9 	 Train loss 0.6106 	 LR 0.0008 	 Train images 1250 	 Round  47
+Device  9 	 Train loss 0.6028 	 LR 0.0008 	 Train images 1250 	 Round  48
+Device  9 	 Train loss 0.5955 	 LR 0.0008 	 Train images 1250 	 Round  49
+Device  9 	 Train loss 0.5579 	 LR 0.0008 	 Train images 1250 	 Round  50
+Defense dcs on Dataset CIFAR100.
+Finished computations with time: 5:31:21.194257
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR100', num_workers=2, batch_size=64, num_sen=64, defense='dcs', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=9, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR100', num_workers=2, batch_size=64, num_sen=64, defense='dcs', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=9, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090

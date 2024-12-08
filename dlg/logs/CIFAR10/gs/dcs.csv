@@ -1,0 +1,159 @@
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='dcs', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense dcs against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+dotg: 0
+Finished defence with time: 0:00:14.570334
+Attack - Iter-0: Rec_loss-0.1468.
+Attack - Iter-1000: Rec_loss-0.1184.
+Attack - Iter-2000: Rec_loss-0.1153.
+Attack - Iter-3000: Rec_loss-0.1120.
+Attack - Iter-4000: Rec_loss-0.1141.
+Attack - Iter-5000: Rec_loss-0.1095.
+Attack - Iter-6000: Rec_loss-0.1054.
+Attack - Iter-7000: Rec_loss-0.1045.
+Attack - Iter-8000: Rec_loss-0.1061.
+Attack - Iter-9000: Rec_loss-0.1052.
+Attack - Iter-9999: Rec_loss-0.1042.
+PSNR 6.7408 SSIM 0.1119 LPIPS -0.0000
+Tuesday, 29. October 2024 08:45PM
+Finished computations with time: 0:02:24.779785
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='dcs', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense dcs against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+dotg: 0
+Finished defence with time: 0:00:14.292388
+Attack - Iter-0: Rec_loss-0.2923.
+Attack - Iter-1000: Rec_loss-0.0611.
+Attack - Iter-2000: Rec_loss-0.0410.
+Attack - Iter-3000: Rec_loss-0.0519.
+Attack - Iter-4000: Rec_loss-0.0418.
+Attack - Iter-5000: Rec_loss-0.0445.
+Attack - Iter-6000: Rec_loss-0.0464.
+Attack - Iter-7000: Rec_loss-0.0432.
+Attack - Iter-8000: Rec_loss-0.0456.
+Attack - Iter-9000: Rec_loss-0.0457.
+Attack - Iter-9999: Rec_loss-0.0457.
+PSNR 7.9124 SSIM 0.1290 LPIPS -0.0000
+Tuesday, 29. October 2024 08:49PM
+Finished computations with time: 0:02:21.859248
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='dcs', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense dcs against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='dcs', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense dcs against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([2])
+Initial with CIFAR10
+dotg: 0
+Finished defence with time: 0:00:21.431449
+Attack - Iter-0: Rec_loss-0.5589.
+Attack - Iter-1000: Rec_loss-0.2823.
+Attack - Iter-2000: Rec_loss-0.2759.
+Attack - Iter-3000: Rec_loss-0.2723.
+Attack - Iter-4000: Rec_loss-0.2824.
+Attack - Iter-5000: Rec_loss-0.2719.
+Attack - Iter-6000: Rec_loss-0.2802.
+Attack - Iter-7000: Rec_loss-0.2692.
+Attack - Iter-8000: Rec_loss-0.2677.
+Attack - Iter-9000: Rec_loss-0.2617.
+Attack - Iter-9999: Rec_loss-0.2725.
+PSNR 4.9275 SSIM 0.0439 LPIPS -0.0000
+Tuesday, 29. October 2024 10:27PM
+Finished computations with time: 0:03:31.055957
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='dcs', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense dcs against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([2])
+Initial with CIFAR10
+dotg: 0
+Finished defence with time: 0:00:21.620525
+Attack - Iter-0: Rec_loss-0.5589.
+Attack - Iter-1000: Rec_loss-0.2823.
+Attack - Iter-2000: Rec_loss-0.2759.
+Attack - Iter-3000: Rec_loss-0.2723.
+Attack - Iter-4000: Rec_loss-0.2824.
+Attack - Iter-5000: Rec_loss-0.2719.
+Attack - Iter-6000: Rec_loss-0.2802.
+Attack - Iter-7000: Rec_loss-0.2692.
+Attack - Iter-8000: Rec_loss-0.2677.
+Attack - Iter-9000: Rec_loss-0.2617.
+Attack - Iter-9999: Rec_loss-0.2725.
+PSNR 4.9275 SSIM 0.0439 LPIPS -0.0000
+Tuesday, 29. October 2024 10:32PM
+Finished computations with time: 0:03:33.479768
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='dcs', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense dcs against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+dotg: 0
+Finished defence with time: 0:00:14.464403
+Attack - Iter-0: Rec_loss-0.2923.
+Attack - Iter-1000: Rec_loss-0.0611.
+Attack - Iter-2000: Rec_loss-0.0410.
+Attack - Iter-3000: Rec_loss-0.0519.
+Attack - Iter-4000: Rec_loss-0.0418.
+Attack - Iter-5000: Rec_loss-0.0445.
+Attack - Iter-6000: Rec_loss-0.0464.
+Attack - Iter-7000: Rec_loss-0.0432.
+Attack - Iter-8000: Rec_loss-0.0456.
+Attack - Iter-9000: Rec_loss-0.0457.
+Attack - Iter-9999: Rec_loss-0.0457.
+PSNR 7.9124 SSIM 0.1290 LPIPS -0.0000
+Tuesday, 29. October 2024 10:35PM
+Finished computations with time: 0:02:22.706162
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='dcs', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense dcs against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+dotg: 0
+Finished defence with time: 0:00:14.589448
+Attack - Iter-0: Rec_loss-0.2923.
+Attack - Iter-1000: Rec_loss-0.0611.
+Attack - Iter-2000: Rec_loss-0.0410.
+Attack - Iter-3000: Rec_loss-0.0519.
+Attack - Iter-4000: Rec_loss-0.0418.
+Attack - Iter-5000: Rec_loss-0.0445.
+Attack - Iter-6000: Rec_loss-0.0464.
+Attack - Iter-7000: Rec_loss-0.0432.
+Attack - Iter-8000: Rec_loss-0.0456.
+Attack - Iter-9000: Rec_loss-0.0457.
+Attack - Iter-9999: Rec_loss-0.0457.
+PSNR 7.9124 SSIM 0.1290 LPIPS -0.0000
+Tuesday, 29. October 2024 10:42PM
+Finished computations with time: 0:02:22.637954

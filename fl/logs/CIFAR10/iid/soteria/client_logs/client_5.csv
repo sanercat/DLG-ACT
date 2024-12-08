@@ -1,0 +1,2846 @@
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='soteria', attack='gs', percent_num=50, layer_num=32, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Apply defenses
+Initial with CIFAR10
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='soteria', attack='gs', percent_num=50, layer_num=60, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.3407 	 LR 0.0099 	 Train images 1250 	 Round   1
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.3630 	 LR 0.0098 	 Train images 1250 	 Round   2
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.3697 	 LR 0.0097 	 Train images 1250 	 Round   3
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.1264 	 LR 0.0096 	 Train images 1250 	 Round   4
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8166 	 LR 0.0095 	 Train images 1250 	 Round   5
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.5908 	 LR 0.0094 	 Train images 1250 	 Round   6
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.5307 	 LR 0.0093 	 Train images 1250 	 Round   7
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4762 	 LR 0.0092 	 Train images 1250 	 Round   8
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4321 	 LR 0.0091 	 Train images 1250 	 Round   9
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4312 	 LR 0.0090 	 Train images 1250 	 Round  10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4081 	 LR 0.0090 	 Train images 1250 	 Round  11
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4065 	 LR 0.0089 	 Train images 1250 	 Round  12
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4706 	 LR 0.0088 	 Train images 1250 	 Round  13
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4811 	 LR 0.0087 	 Train images 1250 	 Round  14
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4676 	 LR 0.0086 	 Train images 1250 	 Round  15
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4605 	 LR 0.0085 	 Train images 1250 	 Round  16
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4581 	 LR 0.0084 	 Train images 1250 	 Round  17
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.4771 	 LR 0.0083 	 Train images 1250 	 Round  18
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.5668 	 LR 0.0083 	 Train images 1250 	 Round  19
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.5548 	 LR 0.0082 	 Train images 1250 	 Round  20
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.6291 	 LR 0.0081 	 Train images 1250 	 Round  21
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.6375 	 LR 0.0080 	 Train images 1250 	 Round  22
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.6105 	 LR 0.0079 	 Train images 1250 	 Round  23
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.6739 	 LR 0.0079 	 Train images 1250 	 Round  24
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.6745 	 LR 0.0078 	 Train images 1250 	 Round  25
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.6753 	 LR 0.0077 	 Train images 1250 	 Round  26
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.7332 	 LR 0.0076 	 Train images 1250 	 Round  27
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.7042 	 LR 0.0075 	 Train images 1250 	 Round  28
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.7446 	 LR 0.0075 	 Train images 1250 	 Round  29
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8259 	 LR 0.0010 	 Train images 1250 	 Round  30
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8179 	 LR 0.0010 	 Train images 1250 	 Round  31
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8156 	 LR 0.0010 	 Train images 1250 	 Round  32
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8003 	 LR 0.0010 	 Train images 1250 	 Round  33
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8053 	 LR 0.0010 	 Train images 1250 	 Round  34
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8285 	 LR 0.0010 	 Train images 1250 	 Round  35
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8511 	 LR 0.0009 	 Train images 1250 	 Round  36
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8284 	 LR 0.0009 	 Train images 1250 	 Round  37
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8373 	 LR 0.0009 	 Train images 1250 	 Round  38
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8486 	 LR 0.0009 	 Train images 1250 	 Round  39
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8536 	 LR 0.0009 	 Train images 1250 	 Round  40
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8385 	 LR 0.0009 	 Train images 1250 	 Round  41
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8696 	 LR 0.0009 	 Train images 1250 	 Round  42
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='soteria', attack='gs', percent_num=50, layer_num=60, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Apply defenses
+Initial with CIFAR10
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='soteria', attack='gs', percent_num=50, layer_num=5, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Apply defenses
+Initial with CIFAR10
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='soteria', attack='gs', percent_num=50, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 9.0554 	 LR 0.0099 	 Train images 1250 	 Round   1
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.8849 	 LR 0.0098 	 Train images 1250 	 Round   2
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.2879 	 LR 0.0097 	 Train images 1250 	 Round   3
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.2137 	 LR 0.0096 	 Train images 1250 	 Round   4
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.1605 	 LR 0.0095 	 Train images 1250 	 Round   5
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.1230 	 LR 0.0094 	 Train images 1250 	 Round   6
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.0873 	 LR 0.0093 	 Train images 1250 	 Round   7
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.0587 	 LR 0.0092 	 Train images 1250 	 Round   8
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.0423 	 LR 0.0091 	 Train images 1250 	 Round   9
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.0167 	 LR 0.0090 	 Train images 1250 	 Round  10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 2.0021 	 LR 0.0090 	 Train images 1250 	 Round  11
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9950 	 LR 0.0089 	 Train images 1250 	 Round  12
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9761 	 LR 0.0088 	 Train images 1250 	 Round  13
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9716 	 LR 0.0087 	 Train images 1250 	 Round  14
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9633 	 LR 0.0086 	 Train images 1250 	 Round  15
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9517 	 LR 0.0085 	 Train images 1250 	 Round  16
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9459 	 LR 0.0084 	 Train images 1250 	 Round  17
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9370 	 LR 0.0083 	 Train images 1250 	 Round  18
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9290 	 LR 0.0083 	 Train images 1250 	 Round  19
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9230 	 LR 0.0082 	 Train images 1250 	 Round  20
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9046 	 LR 0.0081 	 Train images 1250 	 Round  21
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9048 	 LR 0.0080 	 Train images 1250 	 Round  22
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.9017 	 LR 0.0079 	 Train images 1250 	 Round  23
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8905 	 LR 0.0079 	 Train images 1250 	 Round  24
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8876 	 LR 0.0078 	 Train images 1250 	 Round  25
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8785 	 LR 0.0077 	 Train images 1250 	 Round  26
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8697 	 LR 0.0076 	 Train images 1250 	 Round  27
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8658 	 LR 0.0075 	 Train images 1250 	 Round  28
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8546 	 LR 0.0075 	 Train images 1250 	 Round  29
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Apply defenses
+Initial with CIFAR10
+Device  5 	 Train loss 1.8511 	 LR 0.0010 	 Train images 1250 	 Round  30
+Defense soteria on Dataset CIFAR10.
+Finished computations with time: 6:16:38.293854
+

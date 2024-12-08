@@ -1,0 +1,201 @@
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=8, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Device  8 	 Train loss 2.3398 	 LR 0.0099 	 Train images 1250 	 Round   1
+Device  8 	 Train loss 2.0784 	 LR 0.0098 	 Train images 1250 	 Round   2
+Device  8 	 Train loss 1.8664 	 LR 0.0097 	 Train images 1250 	 Round   3
+Device  8 	 Train loss 1.7506 	 LR 0.0096 	 Train images 1250 	 Round   4
+Device  8 	 Train loss 1.6167 	 LR 0.0095 	 Train images 1250 	 Round   5
+Device  8 	 Train loss 1.5761 	 LR 0.0094 	 Train images 1250 	 Round   6
+Device  8 	 Train loss 1.3406 	 LR 0.0093 	 Train images 1250 	 Round   7
+Device  8 	 Train loss 1.3007 	 LR 0.0092 	 Train images 1250 	 Round   8
+Device  8 	 Train loss 1.1613 	 LR 0.0091 	 Train images 1250 	 Round   9
+Device  8 	 Train loss 1.0511 	 LR 0.0090 	 Train images 1250 	 Round  10
+Device  8 	 Train loss 0.9823 	 LR 0.0090 	 Train images 1250 	 Round  11
+Device  8 	 Train loss 0.8853 	 LR 0.0089 	 Train images 1250 	 Round  12
+Device  8 	 Train loss 0.9759 	 LR 0.0088 	 Train images 1250 	 Round  13
+Device  8 	 Train loss 0.8626 	 LR 0.0087 	 Train images 1250 	 Round  14
+Device  8 	 Train loss 0.7061 	 LR 0.0086 	 Train images 1250 	 Round  15
+Device  8 	 Train loss 0.6770 	 LR 0.0085 	 Train images 1250 	 Round  16
+Device  8 	 Train loss 0.5786 	 LR 0.0084 	 Train images 1250 	 Round  17
+Device  8 	 Train loss 0.5189 	 LR 0.0083 	 Train images 1250 	 Round  18
+Device  8 	 Train loss 0.4368 	 LR 0.0083 	 Train images 1250 	 Round  19
+Device  8 	 Train loss 0.4682 	 LR 0.0082 	 Train images 1250 	 Round  20
+Device  8 	 Train loss 0.5057 	 LR 0.0081 	 Train images 1250 	 Round  21
+Device  8 	 Train loss 0.4678 	 LR 0.0080 	 Train images 1250 	 Round  22
+Device  8 	 Train loss 0.3931 	 LR 0.0079 	 Train images 1250 	 Round  23
+Device  8 	 Train loss 0.2915 	 LR 0.0079 	 Train images 1250 	 Round  24
+Device  8 	 Train loss 0.3391 	 LR 0.0078 	 Train images 1250 	 Round  25
+Device  8 	 Train loss 0.2124 	 LR 0.0077 	 Train images 1250 	 Round  26
+Device  8 	 Train loss 0.2653 	 LR 0.0076 	 Train images 1250 	 Round  27
+Device  8 	 Train loss 0.2536 	 LR 0.0075 	 Train images 1250 	 Round  28
+Device  8 	 Train loss 0.1607 	 LR 0.0075 	 Train images 1250 	 Round  29
+Device  8 	 Train loss 0.0412 	 LR 0.0010 	 Train images 1250 	 Round  30
+Device  8 	 Train loss 0.0306 	 LR 0.0010 	 Train images 1250 	 Round  31
+Device  8 	 Train loss 0.0253 	 LR 0.0010 	 Train images 1250 	 Round  32
+Device  8 	 Train loss 0.0233 	 LR 0.0010 	 Train images 1250 	 Round  33
+Device  8 	 Train loss 0.0269 	 LR 0.0010 	 Train images 1250 	 Round  34
+Device  8 	 Train loss 0.0174 	 LR 0.0010 	 Train images 1250 	 Round  35
+Device  8 	 Train loss 0.0217 	 LR 0.0009 	 Train images 1250 	 Round  36
+Device  8 	 Train loss 0.0168 	 LR 0.0009 	 Train images 1250 	 Round  37
+Device  8 	 Train loss 0.0177 	 LR 0.0009 	 Train images 1250 	 Round  38
+Device  8 	 Train loss 0.0178 	 LR 0.0009 	 Train images 1250 	 Round  39
+Device  8 	 Train loss 0.0162 	 LR 0.0009 	 Train images 1250 	 Round  40
+Device  8 	 Train loss 0.0197 	 LR 0.0009 	 Train images 1250 	 Round  41
+Device  8 	 Train loss 0.0167 	 LR 0.0009 	 Train images 1250 	 Round  42
+Device  8 	 Train loss 0.0148 	 LR 0.0009 	 Train images 1250 	 Round  43
+Device  8 	 Train loss 0.0132 	 LR 0.0009 	 Train images 1250 	 Round  44
+Device  8 	 Train loss 0.0141 	 LR 0.0009 	 Train images 1250 	 Round  45
+Device  8 	 Train loss 0.0138 	 LR 0.0009 	 Train images 1250 	 Round  46
+Device  8 	 Train loss 0.0108 	 LR 0.0008 	 Train images 1250 	 Round  47
+Device  8 	 Train loss 0.0149 	 LR 0.0008 	 Train images 1250 	 Round  48
+Device  8 	 Train loss 0.0118 	 LR 0.0008 	 Train images 1250 	 Round  49
+Device  8 	 Train loss 0.0146 	 LR 0.0008 	 Train images 1250 	 Round  50
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:11:05.356013
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=8, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Device  8 	 Train loss 2.3398 	 LR 0.0099 	 Train images 1250 	 Round   1
+Device  8 	 Train loss 2.0820 	 LR 0.0098 	 Train images 1250 	 Round   2
+Device  8 	 Train loss 1.8958 	 LR 0.0097 	 Train images 1250 	 Round   3
+Device  8 	 Train loss 1.8002 	 LR 0.0096 	 Train images 1250 	 Round   4
+Device  8 	 Train loss 1.6489 	 LR 0.0095 	 Train images 1250 	 Round   5
+Device  8 	 Train loss 1.6666 	 LR 0.0094 	 Train images 1250 	 Round   6
+Device  8 	 Train loss 1.4295 	 LR 0.0093 	 Train images 1250 	 Round   7
+Device  8 	 Train loss 1.3313 	 LR 0.0092 	 Train images 1250 	 Round   8
+Device  8 	 Train loss 1.1899 	 LR 0.0091 	 Train images 1250 	 Round   9
+Device  8 	 Train loss 1.1162 	 LR 0.0090 	 Train images 1250 	 Round  10
+Device  8 	 Train loss 1.0433 	 LR 0.0090 	 Train images 1250 	 Round  11
+Device  8 	 Train loss 0.9694 	 LR 0.0089 	 Train images 1250 	 Round  12
+Device  8 	 Train loss 1.0253 	 LR 0.0088 	 Train images 1250 	 Round  13
+Device  8 	 Train loss 0.9127 	 LR 0.0087 	 Train images 1250 	 Round  14
+Device  8 	 Train loss 0.8109 	 LR 0.0086 	 Train images 1250 	 Round  15
+Device  8 	 Train loss 0.6761 	 LR 0.0085 	 Train images 1250 	 Round  16
+Device  8 	 Train loss 0.6121 	 LR 0.0084 	 Train images 1250 	 Round  17
+Device  8 	 Train loss 0.5972 	 LR 0.0083 	 Train images 1250 	 Round  18
+Device  8 	 Train loss 0.5128 	 LR 0.0083 	 Train images 1250 	 Round  19
+Device  8 	 Train loss 0.4743 	 LR 0.0082 	 Train images 1250 	 Round  20
+Device  8 	 Train loss 0.4642 	 LR 0.0081 	 Train images 1250 	 Round  21
+Device  8 	 Train loss 0.4077 	 LR 0.0080 	 Train images 1250 	 Round  22
+Device  8 	 Train loss 0.3675 	 LR 0.0079 	 Train images 1250 	 Round  23
+Device  8 	 Train loss 0.3428 	 LR 0.0079 	 Train images 1250 	 Round  24
+Device  8 	 Train loss 0.2910 	 LR 0.0078 	 Train images 1250 	 Round  25
+Device  8 	 Train loss 0.2660 	 LR 0.0077 	 Train images 1250 	 Round  26
+Device  8 	 Train loss 0.2307 	 LR 0.0076 	 Train images 1250 	 Round  27
+Device  8 	 Train loss 0.2753 	 LR 0.0075 	 Train images 1250 	 Round  28
+Device  8 	 Train loss 0.2414 	 LR 0.0075 	 Train images 1250 	 Round  29
+Device  8 	 Train loss 0.0433 	 LR 0.0010 	 Train images 1250 	 Round  30
+Device  8 	 Train loss 0.0288 	 LR 0.0010 	 Train images 1250 	 Round  31
+Device  8 	 Train loss 0.0241 	 LR 0.0010 	 Train images 1250 	 Round  32
+Device  8 	 Train loss 0.0268 	 LR 0.0010 	 Train images 1250 	 Round  33
+Device  8 	 Train loss 0.0233 	 LR 0.0010 	 Train images 1250 	 Round  34
+Device  8 	 Train loss 0.0201 	 LR 0.0010 	 Train images 1250 	 Round  35
+Device  8 	 Train loss 0.0219 	 LR 0.0009 	 Train images 1250 	 Round  36
+Device  8 	 Train loss 0.0157 	 LR 0.0009 	 Train images 1250 	 Round  37
+Device  8 	 Train loss 0.0187 	 LR 0.0009 	 Train images 1250 	 Round  38
+Device  8 	 Train loss 0.0150 	 LR 0.0009 	 Train images 1250 	 Round  39
+Device  8 	 Train loss 0.0160 	 LR 0.0009 	 Train images 1250 	 Round  40
+Device  8 	 Train loss 0.0142 	 LR 0.0009 	 Train images 1250 	 Round  41
+Device  8 	 Train loss 0.0175 	 LR 0.0009 	 Train images 1250 	 Round  42
+Device  8 	 Train loss 0.0135 	 LR 0.0009 	 Train images 1250 	 Round  43
+Device  8 	 Train loss 0.0130 	 LR 0.0009 	 Train images 1250 	 Round  44
+Device  8 	 Train loss 0.0162 	 LR 0.0009 	 Train images 1250 	 Round  45
+Device  8 	 Train loss 0.0143 	 LR 0.0009 	 Train images 1250 	 Round  46
+Device  8 	 Train loss 0.0110 	 LR 0.0008 	 Train images 1250 	 Round  47
+Device  8 	 Train loss 0.0137 	 LR 0.0008 	 Train images 1250 	 Round  48
+Device  8 	 Train loss 0.0110 	 LR 0.0008 	 Train images 1250 	 Round  49
+Device  8 	 Train loss 0.0107 	 LR 0.0008 	 Train images 1250 	 Round  50
+Device  8 	 Train loss 0.0134 	 LR 0.0008 	 Train images 1250 	 Round  51
+Device  8 	 Train loss 0.0112 	 LR 0.0008 	 Train images 1250 	 Round  52
+Device  8 	 Train loss 0.0119 	 LR 0.0008 	 Train images 1250 	 Round  53
+Device  8 	 Train loss 0.0118 	 LR 0.0008 	 Train images 1250 	 Round  54
+Device  8 	 Train loss 0.0085 	 LR 0.0008 	 Train images 1250 	 Round  55
+Device  8 	 Train loss 0.0075 	 LR 0.0008 	 Train images 1250 	 Round  56
+Device  8 	 Train loss 0.0135 	 LR 0.0008 	 Train images 1250 	 Round  57
+Device  8 	 Train loss 0.0096 	 LR 0.0008 	 Train images 1250 	 Round  58
+Device  8 	 Train loss 0.0108 	 LR 0.0007 	 Train images 1250 	 Round  59
+Device  8 	 Train loss 0.0088 	 LR 0.0007 	 Train images 1250 	 Round  60
+Device  8 	 Train loss 0.0084 	 LR 0.0007 	 Train images 1250 	 Round  61
+Device  8 	 Train loss 0.0076 	 LR 0.0007 	 Train images 1250 	 Round  62
+Device  8 	 Train loss 0.0080 	 LR 0.0007 	 Train images 1250 	 Round  63
+Device  8 	 Train loss 0.0096 	 LR 0.0007 	 Train images 1250 	 Round  64
+Device  8 	 Train loss 0.0077 	 LR 0.0007 	 Train images 1250 	 Round  65
+Device  8 	 Train loss 0.0078 	 LR 0.0007 	 Train images 1250 	 Round  66
+Device  8 	 Train loss 0.0079 	 LR 0.0007 	 Train images 1250 	 Round  67
+Device  8 	 Train loss 0.0087 	 LR 0.0007 	 Train images 1250 	 Round  68
+Device  8 	 Train loss 0.0103 	 LR 0.0007 	 Train images 1250 	 Round  69
+Device  8 	 Train loss 0.0067 	 LR 0.0007 	 Train images 1250 	 Round  70
+Device  8 	 Train loss 0.0084 	 LR 0.0007 	 Train images 1250 	 Round  71
+Device  8 	 Train loss 0.0079 	 LR 0.0007 	 Train images 1250 	 Round  72
+Device  8 	 Train loss 0.0081 	 LR 0.0006 	 Train images 1250 	 Round  73
+Device  8 	 Train loss 0.0071 	 LR 0.0006 	 Train images 1250 	 Round  74
+Device  8 	 Train loss 0.0064 	 LR 0.0006 	 Train images 1250 	 Round  75
+Device  8 	 Train loss 0.0063 	 LR 0.0006 	 Train images 1250 	 Round  76
+Device  8 	 Train loss 0.0083 	 LR 0.0006 	 Train images 1250 	 Round  77
+Device  8 	 Train loss 0.0075 	 LR 0.0006 	 Train images 1250 	 Round  78
+Device  8 	 Train loss 0.0062 	 LR 0.0006 	 Train images 1250 	 Round  79
+Device  8 	 Train loss 0.0072 	 LR 0.0006 	 Train images 1250 	 Round  80
+Device  8 	 Train loss 0.0107 	 LR 0.0006 	 Train images 1250 	 Round  81
+Device  8 	 Train loss 0.0061 	 LR 0.0006 	 Train images 1250 	 Round  82
+Device  8 	 Train loss 0.0073 	 LR 0.0006 	 Train images 1250 	 Round  83
+Device  8 	 Train loss 0.0059 	 LR 0.0006 	 Train images 1250 	 Round  84
+Device  8 	 Train loss 0.0064 	 LR 0.0006 	 Train images 1250 	 Round  85
+Device  8 	 Train loss 0.0064 	 LR 0.0006 	 Train images 1250 	 Round  86
+Device  8 	 Train loss 0.0060 	 LR 0.0006 	 Train images 1250 	 Round  87
+Device  8 	 Train loss 0.0059 	 LR 0.0006 	 Train images 1250 	 Round  88
+Device  8 	 Train loss 0.0070 	 LR 0.0006 	 Train images 1250 	 Round  89
+Device  8 	 Train loss 0.0062 	 LR 0.0005 	 Train images 1250 	 Round  90
+Device  8 	 Train loss 0.0076 	 LR 0.0005 	 Train images 1250 	 Round  91
+Device  8 	 Train loss 0.0069 	 LR 0.0005 	 Train images 1250 	 Round  92
+Device  8 	 Train loss 0.0056 	 LR 0.0005 	 Train images 1250 	 Round  93
+Device  8 	 Train loss 0.0064 	 LR 0.0005 	 Train images 1250 	 Round  94
+Device  8 	 Train loss 0.0055 	 LR 0.0005 	 Train images 1250 	 Round  95
+Device  8 	 Train loss 0.0052 	 LR 0.0005 	 Train images 1250 	 Round  96
+Device  8 	 Train loss 0.0070 	 LR 0.0005 	 Train images 1250 	 Round  97
+Device  8 	 Train loss 0.0065 	 LR 0.0005 	 Train images 1250 	 Round  98
+Device  8 	 Train loss 0.0062 	 LR 0.0005 	 Train images 1250 	 Round  99
+Device  8 	 Train loss 0.0054 	 LR 0.0005 	 Train images 1250 	 Round 100
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:22:05.065776
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=500.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=8, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Device  8 	 Train loss 4.1123 	 LR 0.0099 	 Train images 1250 	 Round   1
+Device  8 	 Train loss 2.4704 	 LR 0.0098 	 Train images 1250 	 Round   2
+Device  8 	 Train loss 2.2764 	 LR 0.0097 	 Train images 1250 	 Round   3
+Device  8 	 Train loss 2.2064 	 LR 0.0096 	 Train images 1250 	 Round   4
+Device  8 	 Train loss 2.1717 	 LR 0.0095 	 Train images 1250 	 Round   5
+Device  8 	 Train loss 2.1354 	 LR 0.0094 	 Train images 1250 	 Round   6
+Device  8 	 Train loss 2.1068 	 LR 0.0093 	 Train images 1250 	 Round   7
+Device  8 	 Train loss 2.0780 	 LR 0.0092 	 Train images 1250 	 Round   8
+Device  8 	 Train loss 2.0740 	 LR 0.0091 	 Train images 1250 	 Round   9
+Device  8 	 Train loss 2.0789 	 LR 0.0090 	 Train images 1250 	 Round  10
+Device  8 	 Train loss 2.0422 	 LR 0.0090 	 Train images 1250 	 Round  11
+Device  8 	 Train loss 2.0328 	 LR 0.0089 	 Train images 1250 	 Round  12
+Device  8 	 Train loss 2.0266 	 LR 0.0088 	 Train images 1250 	 Round  13
+Device  8 	 Train loss 2.0137 	 LR 0.0087 	 Train images 1250 	 Round  14
+Device  8 	 Train loss 1.9922 	 LR 0.0086 	 Train images 1250 	 Round  15
+Device  8 	 Train loss 1.9812 	 LR 0.0085 	 Train images 1250 	 Round  16
+Device  8 	 Train loss 2.0017 	 LR 0.0084 	 Train images 1250 	 Round  17
+Device  8 	 Train loss 1.9750 	 LR 0.0083 	 Train images 1250 	 Round  18
+Device  8 	 Train loss 1.9743 	 LR 0.0083 	 Train images 1250 	 Round  19
+Device  8 	 Train loss 1.9784 	 LR 0.0082 	 Train images 1250 	 Round  20
+Device  8 	 Train loss 1.9539 	 LR 0.0081 	 Train images 1250 	 Round  21
+Device  8 	 Train loss 1.9633 	 LR 0.0080 	 Train images 1250 	 Round  22
+Device  8 	 Train loss 1.9610 	 LR 0.0079 	 Train images 1250 	 Round  23
+Device  8 	 Train loss 1.9406 	 LR 0.0079 	 Train images 1250 	 Round  24
+Device  8 	 Train loss 1.9245 	 LR 0.0078 	 Train images 1250 	 Round  25
+Device  8 	 Train loss 1.9155 	 LR 0.0077 	 Train images 1250 	 Round  26
+Device  8 	 Train loss 1.9067 	 LR 0.0076 	 Train images 1250 	 Round  27
+Device  8 	 Train loss 1.8954 	 LR 0.0075 	 Train images 1250 	 Round  28
+Device  8 	 Train loss 1.8910 	 LR 0.0075 	 Train images 1250 	 Round  29
+Device  8 	 Train loss 1.8783 	 LR 0.0010 	 Train images 1250 	 Round  30
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:03:15.706831
+

@@ -1,0 +1,2114 @@
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='MNIST', num_workers=2, batch_size=64, num_sen=64, defense='dcs', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=200, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 4.3267 	 LR 0.0099 	 Train images 200 	 Round   1
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 2.3771 	 LR 0.0098 	 Train images 200 	 Round   2
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 2.0182 	 LR 0.0097 	 Train images 200 	 Round   3
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 2.4659 	 LR 0.0096 	 Train images 200 	 Round   4
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.6386 	 LR 0.0095 	 Train images 200 	 Round   5
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.4596 	 LR 0.0094 	 Train images 200 	 Round   6
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.4820 	 LR 0.0093 	 Train images 200 	 Round   7
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.2677 	 LR 0.0092 	 Train images 200 	 Round   8
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.2865 	 LR 0.0091 	 Train images 200 	 Round   9
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.3186 	 LR 0.0090 	 Train images 200 	 Round  10
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.1637 	 LR 0.0090 	 Train images 200 	 Round  11
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.1624 	 LR 0.0089 	 Train images 200 	 Round  12
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.1761 	 LR 0.0088 	 Train images 200 	 Round  13
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.1002 	 LR 0.0087 	 Train images 200 	 Round  14
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.0645 	 LR 0.0086 	 Train images 200 	 Round  15
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.0427 	 LR 0.0085 	 Train images 200 	 Round  16
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.0558 	 LR 0.0084 	 Train images 200 	 Round  17
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9832 	 LR 0.0083 	 Train images 200 	 Round  18
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9770 	 LR 0.0083 	 Train images 200 	 Round  19
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9766 	 LR 0.0082 	 Train images 200 	 Round  20
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9247 	 LR 0.0081 	 Train images 200 	 Round  21
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9109 	 LR 0.0080 	 Train images 200 	 Round  22
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9411 	 LR 0.0079 	 Train images 200 	 Round  23
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9059 	 LR 0.0079 	 Train images 200 	 Round  24
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9008 	 LR 0.0078 	 Train images 200 	 Round  25
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8737 	 LR 0.0077 	 Train images 200 	 Round  26
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8703 	 LR 0.0076 	 Train images 200 	 Round  27
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8608 	 LR 0.0075 	 Train images 200 	 Round  28
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8465 	 LR 0.0075 	 Train images 200 	 Round  29
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8349 	 LR 0.0074 	 Train images 200 	 Round  30
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8404 	 LR 0.0073 	 Train images 200 	 Round  31
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8358 	 LR 0.0072 	 Train images 200 	 Round  32
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8427 	 LR 0.0072 	 Train images 200 	 Round  33
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8157 	 LR 0.0071 	 Train images 200 	 Round  34
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8045 	 LR 0.0070 	 Train images 200 	 Round  35
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8314 	 LR 0.0070 	 Train images 200 	 Round  36
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8112 	 LR 0.0069 	 Train images 200 	 Round  37
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7837 	 LR 0.0068 	 Train images 200 	 Round  38
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7842 	 LR 0.0068 	 Train images 200 	 Round  39
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7731 	 LR 0.0067 	 Train images 200 	 Round  40
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7853 	 LR 0.0066 	 Train images 200 	 Round  41
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7867 	 LR 0.0066 	 Train images 200 	 Round  42
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7622 	 LR 0.0065 	 Train images 200 	 Round  43
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7731 	 LR 0.0064 	 Train images 200 	 Round  44
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7609 	 LR 0.0064 	 Train images 200 	 Round  45
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7707 	 LR 0.0063 	 Train images 200 	 Round  46
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7532 	 LR 0.0062 	 Train images 200 	 Round  47
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7844 	 LR 0.0062 	 Train images 200 	 Round  48
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7571 	 LR 0.0061 	 Train images 200 	 Round  49
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7433 	 LR 0.0061 	 Train images 200 	 Round  50
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8019 	 LR 0.0060 	 Train images 200 	 Round  51
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7847 	 LR 0.0059 	 Train images 200 	 Round  52
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7589 	 LR 0.0059 	 Train images 200 	 Round  53
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7720 	 LR 0.0058 	 Train images 200 	 Round  54
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7336 	 LR 0.0058 	 Train images 200 	 Round  55
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7623 	 LR 0.0057 	 Train images 200 	 Round  56
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7888 	 LR 0.0056 	 Train images 200 	 Round  57
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7611 	 LR 0.0056 	 Train images 200 	 Round  58
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7430 	 LR 0.0055 	 Train images 200 	 Round  59
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7579 	 LR 0.0055 	 Train images 200 	 Round  60
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7587 	 LR 0.0054 	 Train images 200 	 Round  61
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7419 	 LR 0.0054 	 Train images 200 	 Round  62
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7696 	 LR 0.0053 	 Train images 200 	 Round  63
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7641 	 LR 0.0053 	 Train images 200 	 Round  64
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7391 	 LR 0.0052 	 Train images 200 	 Round  65
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7281 	 LR 0.0052 	 Train images 200 	 Round  66
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7342 	 LR 0.0051 	 Train images 200 	 Round  67
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7475 	 LR 0.0050 	 Train images 200 	 Round  68
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7352 	 LR 0.0050 	 Train images 200 	 Round  69
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7815 	 LR 0.0049 	 Train images 200 	 Round  70
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7484 	 LR 0.0049 	 Train images 200 	 Round  71
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7695 	 LR 0.0048 	 Train images 200 	 Round  72
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7515 	 LR 0.0048 	 Train images 200 	 Round  73
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7496 	 LR 0.0048 	 Train images 200 	 Round  74
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7434 	 LR 0.0047 	 Train images 200 	 Round  75
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7505 	 LR 0.0047 	 Train images 200 	 Round  76
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7658 	 LR 0.0046 	 Train images 200 	 Round  77
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7645 	 LR 0.0046 	 Train images 200 	 Round  78
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7435 	 LR 0.0045 	 Train images 200 	 Round  79
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7454 	 LR 0.0045 	 Train images 200 	 Round  80
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7373 	 LR 0.0044 	 Train images 200 	 Round  81
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7446 	 LR 0.0044 	 Train images 200 	 Round  82
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7511 	 LR 0.0043 	 Train images 200 	 Round  83
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7367 	 LR 0.0043 	 Train images 200 	 Round  84
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7547 	 LR 0.0043 	 Train images 200 	 Round  85
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7690 	 LR 0.0042 	 Train images 200 	 Round  86
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7702 	 LR 0.0042 	 Train images 200 	 Round  87
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7657 	 LR 0.0041 	 Train images 200 	 Round  88
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7638 	 LR 0.0041 	 Train images 200 	 Round  89
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7625 	 LR 0.0040 	 Train images 200 	 Round  90
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7534 	 LR 0.0040 	 Train images 200 	 Round  91
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7601 	 LR 0.0040 	 Train images 200 	 Round  92
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7636 	 LR 0.0039 	 Train images 200 	 Round  93
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7360 	 LR 0.0039 	 Train images 200 	 Round  94
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7254 	 LR 0.0038 	 Train images 200 	 Round  95
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7181 	 LR 0.0038 	 Train images 200 	 Round  96
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7567 	 LR 0.0038 	 Train images 200 	 Round  97
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7638 	 LR 0.0037 	 Train images 200 	 Round  98
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7635 	 LR 0.0037 	 Train images 200 	 Round  99
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7333 	 LR 0.0037 	 Train images 200 	 Round 100
+Defense dcs on Dataset MNIST.
+Finished computations with time: 0:07:02.157880
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='MNIST', num_workers=2, batch_size=64, num_sen=64, defense='dcs', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=200, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 4.3267 	 LR 0.0099 	 Train images 200 	 Round   1
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 2.3773 	 LR 0.0098 	 Train images 200 	 Round   2
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 2.0182 	 LR 0.0097 	 Train images 200 	 Round   3
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 2.4659 	 LR 0.0096 	 Train images 200 	 Round   4
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.6386 	 LR 0.0095 	 Train images 200 	 Round   5
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.4595 	 LR 0.0094 	 Train images 200 	 Round   6
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.4819 	 LR 0.0093 	 Train images 200 	 Round   7
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.2677 	 LR 0.0092 	 Train images 200 	 Round   8
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.2865 	 LR 0.0091 	 Train images 200 	 Round   9
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.3187 	 LR 0.0090 	 Train images 200 	 Round  10
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.1637 	 LR 0.0090 	 Train images 200 	 Round  11
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.1624 	 LR 0.0089 	 Train images 200 	 Round  12
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.1761 	 LR 0.0088 	 Train images 200 	 Round  13
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.1001 	 LR 0.0087 	 Train images 200 	 Round  14
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.0645 	 LR 0.0086 	 Train images 200 	 Round  15
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.0428 	 LR 0.0085 	 Train images 200 	 Round  16
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 1.0558 	 LR 0.0084 	 Train images 200 	 Round  17
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9831 	 LR 0.0083 	 Train images 200 	 Round  18
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9770 	 LR 0.0083 	 Train images 200 	 Round  19
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9766 	 LR 0.0082 	 Train images 200 	 Round  20
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9245 	 LR 0.0081 	 Train images 200 	 Round  21
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9108 	 LR 0.0080 	 Train images 200 	 Round  22
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9411 	 LR 0.0079 	 Train images 200 	 Round  23
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9060 	 LR 0.0079 	 Train images 200 	 Round  24
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.9007 	 LR 0.0078 	 Train images 200 	 Round  25
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8737 	 LR 0.0077 	 Train images 200 	 Round  26
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8708 	 LR 0.0076 	 Train images 200 	 Round  27
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8610 	 LR 0.0075 	 Train images 200 	 Round  28
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8464 	 LR 0.0075 	 Train images 200 	 Round  29
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8347 	 LR 0.0074 	 Train images 200 	 Round  30
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8401 	 LR 0.0073 	 Train images 200 	 Round  31
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8356 	 LR 0.0072 	 Train images 200 	 Round  32
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8428 	 LR 0.0072 	 Train images 200 	 Round  33
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8157 	 LR 0.0071 	 Train images 200 	 Round  34
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8042 	 LR 0.0070 	 Train images 200 	 Round  35
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8312 	 LR 0.0070 	 Train images 200 	 Round  36
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8113 	 LR 0.0069 	 Train images 200 	 Round  37
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7836 	 LR 0.0068 	 Train images 200 	 Round  38
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7844 	 LR 0.0068 	 Train images 200 	 Round  39
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7727 	 LR 0.0067 	 Train images 200 	 Round  40
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7854 	 LR 0.0066 	 Train images 200 	 Round  41
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7864 	 LR 0.0066 	 Train images 200 	 Round  42
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7617 	 LR 0.0065 	 Train images 200 	 Round  43
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7728 	 LR 0.0064 	 Train images 200 	 Round  44
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7602 	 LR 0.0064 	 Train images 200 	 Round  45
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7709 	 LR 0.0063 	 Train images 200 	 Round  46
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7534 	 LR 0.0062 	 Train images 200 	 Round  47
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7842 	 LR 0.0062 	 Train images 200 	 Round  48
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7573 	 LR 0.0061 	 Train images 200 	 Round  49
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7430 	 LR 0.0061 	 Train images 200 	 Round  50
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8016 	 LR 0.0060 	 Train images 200 	 Round  51
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7848 	 LR 0.0059 	 Train images 200 	 Round  52
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7588 	 LR 0.0059 	 Train images 200 	 Round  53
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7716 	 LR 0.0058 	 Train images 200 	 Round  54
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7336 	 LR 0.0058 	 Train images 200 	 Round  55
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7626 	 LR 0.0057 	 Train images 200 	 Round  56
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7883 	 LR 0.0056 	 Train images 200 	 Round  57
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7611 	 LR 0.0056 	 Train images 200 	 Round  58
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7435 	 LR 0.0055 	 Train images 200 	 Round  59
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7578 	 LR 0.0055 	 Train images 200 	 Round  60
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7580 	 LR 0.0054 	 Train images 200 	 Round  61
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7414 	 LR 0.0054 	 Train images 200 	 Round  62
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7696 	 LR 0.0053 	 Train images 200 	 Round  63
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7641 	 LR 0.0053 	 Train images 200 	 Round  64
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7393 	 LR 0.0052 	 Train images 200 	 Round  65
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7280 	 LR 0.0052 	 Train images 200 	 Round  66
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7343 	 LR 0.0051 	 Train images 200 	 Round  67
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7478 	 LR 0.0050 	 Train images 200 	 Round  68
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7358 	 LR 0.0050 	 Train images 200 	 Round  69
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7819 	 LR 0.0049 	 Train images 200 	 Round  70
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7482 	 LR 0.0049 	 Train images 200 	 Round  71
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7697 	 LR 0.0048 	 Train images 200 	 Round  72
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7514 	 LR 0.0048 	 Train images 200 	 Round  73
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7499 	 LR 0.0048 	 Train images 200 	 Round  74
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7434 	 LR 0.0047 	 Train images 200 	 Round  75
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7508 	 LR 0.0047 	 Train images 200 	 Round  76
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7653 	 LR 0.0046 	 Train images 200 	 Round  77
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7640 	 LR 0.0046 	 Train images 200 	 Round  78
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7442 	 LR 0.0045 	 Train images 200 	 Round  79
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7452 	 LR 0.0045 	 Train images 200 	 Round  80
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7369 	 LR 0.0044 	 Train images 200 	 Round  81
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7449 	 LR 0.0044 	 Train images 200 	 Round  82
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7509 	 LR 0.0043 	 Train images 200 	 Round  83
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7375 	 LR 0.0043 	 Train images 200 	 Round  84
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7542 	 LR 0.0043 	 Train images 200 	 Round  85
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7687 	 LR 0.0042 	 Train images 200 	 Round  86
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7701 	 LR 0.0042 	 Train images 200 	 Round  87
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7661 	 LR 0.0041 	 Train images 200 	 Round  88
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7636 	 LR 0.0041 	 Train images 200 	 Round  89
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7628 	 LR 0.0040 	 Train images 200 	 Round  90
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7527 	 LR 0.0040 	 Train images 200 	 Round  91
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7604 	 LR 0.0040 	 Train images 200 	 Round  92
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7635 	 LR 0.0039 	 Train images 200 	 Round  93
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7364 	 LR 0.0039 	 Train images 200 	 Round  94
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7250 	 LR 0.0038 	 Train images 200 	 Round  95
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7180 	 LR 0.0038 	 Train images 200 	 Round  96
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7567 	 LR 0.0038 	 Train images 200 	 Round  97
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7635 	 LR 0.0037 	 Train images 200 	 Round  98
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7632 	 LR 0.0037 	 Train images 200 	 Round  99
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7336 	 LR 0.0037 	 Train images 200 	 Round 100
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.6938 	 LR 0.0036 	 Train images 200 	 Round 101
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7739 	 LR 0.0036 	 Train images 200 	 Round 102
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7889 	 LR 0.0036 	 Train images 200 	 Round 103
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7663 	 LR 0.0035 	 Train images 200 	 Round 104
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7776 	 LR 0.0035 	 Train images 200 	 Round 105
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7660 	 LR 0.0034 	 Train images 200 	 Round 106
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7310 	 LR 0.0034 	 Train images 200 	 Round 107
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7394 	 LR 0.0034 	 Train images 200 	 Round 108
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7371 	 LR 0.0033 	 Train images 200 	 Round 109
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7621 	 LR 0.0033 	 Train images 200 	 Round 110
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7649 	 LR 0.0033 	 Train images 200 	 Round 111
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7531 	 LR 0.0032 	 Train images 200 	 Round 112
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7563 	 LR 0.0032 	 Train images 200 	 Round 113
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7550 	 LR 0.0032 	 Train images 200 	 Round 114
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7323 	 LR 0.0031 	 Train images 200 	 Round 115
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7833 	 LR 0.0031 	 Train images 200 	 Round 116
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7472 	 LR 0.0031 	 Train images 200 	 Round 117
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7514 	 LR 0.0031 	 Train images 200 	 Round 118
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7625 	 LR 0.0030 	 Train images 200 	 Round 119
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7685 	 LR 0.0030 	 Train images 200 	 Round 120
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7757 	 LR 0.0030 	 Train images 200 	 Round 121
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7702 	 LR 0.0029 	 Train images 200 	 Round 122
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7976 	 LR 0.0029 	 Train images 200 	 Round 123
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7673 	 LR 0.0029 	 Train images 200 	 Round 124
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7612 	 LR 0.0028 	 Train images 200 	 Round 125
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7739 	 LR 0.0028 	 Train images 200 	 Round 126
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7638 	 LR 0.0028 	 Train images 200 	 Round 127
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7609 	 LR 0.0028 	 Train images 200 	 Round 128
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7963 	 LR 0.0027 	 Train images 200 	 Round 129
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8020 	 LR 0.0027 	 Train images 200 	 Round 130
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7961 	 LR 0.0027 	 Train images 200 	 Round 131
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7377 	 LR 0.0027 	 Train images 200 	 Round 132
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7525 	 LR 0.0026 	 Train images 200 	 Round 133
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7746 	 LR 0.0026 	 Train images 200 	 Round 134
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7500 	 LR 0.0026 	 Train images 200 	 Round 135
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7340 	 LR 0.0025 	 Train images 200 	 Round 136
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7621 	 LR 0.0025 	 Train images 200 	 Round 137
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7591 	 LR 0.0025 	 Train images 200 	 Round 138
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7661 	 LR 0.0025 	 Train images 200 	 Round 139
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7802 	 LR 0.0024 	 Train images 200 	 Round 140
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7589 	 LR 0.0024 	 Train images 200 	 Round 141
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7579 	 LR 0.0024 	 Train images 200 	 Round 142
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7501 	 LR 0.0024 	 Train images 200 	 Round 143
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7394 	 LR 0.0024 	 Train images 200 	 Round 144
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7476 	 LR 0.0023 	 Train images 200 	 Round 145
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7976 	 LR 0.0023 	 Train images 200 	 Round 146
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7601 	 LR 0.0023 	 Train images 200 	 Round 147
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7421 	 LR 0.0023 	 Train images 200 	 Round 148
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7375 	 LR 0.0022 	 Train images 200 	 Round 149
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7853 	 LR 0.0022 	 Train images 200 	 Round 150
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7444 	 LR 0.0022 	 Train images 200 	 Round 151
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7862 	 LR 0.0022 	 Train images 200 	 Round 152
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7194 	 LR 0.0021 	 Train images 200 	 Round 153
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8028 	 LR 0.0021 	 Train images 200 	 Round 154
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7605 	 LR 0.0021 	 Train images 200 	 Round 155
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8118 	 LR 0.0021 	 Train images 200 	 Round 156
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7612 	 LR 0.0021 	 Train images 200 	 Round 157
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7852 	 LR 0.0020 	 Train images 200 	 Round 158
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7555 	 LR 0.0020 	 Train images 200 	 Round 159
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7791 	 LR 0.0020 	 Train images 200 	 Round 160
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8083 	 LR 0.0020 	 Train images 200 	 Round 161
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7754 	 LR 0.0020 	 Train images 200 	 Round 162
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7631 	 LR 0.0019 	 Train images 200 	 Round 163
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7220 	 LR 0.0019 	 Train images 200 	 Round 164
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7724 	 LR 0.0019 	 Train images 200 	 Round 165
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7913 	 LR 0.0019 	 Train images 200 	 Round 166
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7478 	 LR 0.0019 	 Train images 200 	 Round 167
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7884 	 LR 0.0018 	 Train images 200 	 Round 168
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7671 	 LR 0.0018 	 Train images 200 	 Round 169
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7976 	 LR 0.0018 	 Train images 200 	 Round 170
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7524 	 LR 0.0018 	 Train images 200 	 Round 171
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7758 	 LR 0.0018 	 Train images 200 	 Round 172
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7823 	 LR 0.0018 	 Train images 200 	 Round 173
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7704 	 LR 0.0017 	 Train images 200 	 Round 174
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7249 	 LR 0.0017 	 Train images 200 	 Round 175
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7871 	 LR 0.0017 	 Train images 200 	 Round 176
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7437 	 LR 0.0017 	 Train images 200 	 Round 177
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7680 	 LR 0.0017 	 Train images 200 	 Round 178
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8187 	 LR 0.0017 	 Train images 200 	 Round 179
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7344 	 LR 0.0016 	 Train images 200 	 Round 180
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7708 	 LR 0.0016 	 Train images 200 	 Round 181
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7386 	 LR 0.0016 	 Train images 200 	 Round 182
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7616 	 LR 0.0016 	 Train images 200 	 Round 183
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7720 	 LR 0.0016 	 Train images 200 	 Round 184
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7793 	 LR 0.0016 	 Train images 200 	 Round 185
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7841 	 LR 0.0015 	 Train images 200 	 Round 186
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7990 	 LR 0.0015 	 Train images 200 	 Round 187
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7753 	 LR 0.0015 	 Train images 200 	 Round 188
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7749 	 LR 0.0015 	 Train images 200 	 Round 189
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7636 	 LR 0.0015 	 Train images 200 	 Round 190
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.8163 	 LR 0.0015 	 Train images 200 	 Round 191
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7946 	 LR 0.0015 	 Train images 200 	 Round 192
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7766 	 LR 0.0014 	 Train images 200 	 Round 193
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7841 	 LR 0.0014 	 Train images 200 	 Round 194
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7531 	 LR 0.0014 	 Train images 200 	 Round 195
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7725 	 LR 0.0014 	 Train images 200 	 Round 196
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7701 	 LR 0.0014 	 Train images 200 	 Round 197
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7815 	 LR 0.0014 	 Train images 200 	 Round 198
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7441 	 LR 0.0014 	 Train images 200 	 Round 199
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Apply defenses
+Initial with MNIST
+Device  5 	 Train loss 0.7576 	 LR 0.0013 	 Train images 200 	 Round 200
+Defense dcs on Dataset MNIST.
+Finished computations with time: 0:13:33.335163
+

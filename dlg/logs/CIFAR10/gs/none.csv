@@ -1,0 +1,1640 @@
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=False, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=500, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=False, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=500, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Proxy_labels: tensor([7])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.110577
+Attack - Iter-0: Rec_loss-0.0089.
+Attack - Iter-1000: Rec_loss-0.0006.
+Attack - Iter-2000: Rec_loss-0.0005.
+Attack - Iter-3000: Rec_loss-0.0005.
+Attack - Iter-4000: Rec_loss-0.0004.
+Attack - Iter-5000: Rec_loss-0.0004.
+Attack - Iter-6000: Rec_loss-0.0007.
+Attack - Iter-7000: Rec_loss-0.0006.
+Attack - Iter-8000: Rec_loss-0.0008.
+Attack - Iter-9000: Rec_loss-0.0006.
+Attack - Iter-9999: Rec_loss-0.0006.
+PSNR 22.2567 SSIM 0.7008 LPIPS -0.0000
+Proxy_labels: tensor([0])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.002763
+Attack - Iter-0: Rec_loss-0.0047.
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=500, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([7])
+Proxy_labels: tensor([7])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.128455
+Attack - Iter-0: Rec_loss-0.0003.
+Attack - Iter-1000: Rec_loss-0.0000.
+Attack - Iter-2000: Rec_loss-0.0000.
+Attack - Iter-3000: Rec_loss-0.0000.
+Attack - Iter-4000: Rec_loss-0.0000.
+Attack - Iter-5000: Rec_loss-0.0000.
+Attack - Iter-6000: Rec_loss-0.0000.
+Attack - Iter-7000: Rec_loss-0.0000.
+Attack - Iter-8000: Rec_loss-0.0000.
+Attack - Iter-9000: Rec_loss-0.0000.
+Attack - Iter-9999: Rec_loss-0.0000.
+PSNR 15.0787 SSIM 0.3712 LPIPS -0.0000
+Thursday, 24. October 2024 08:27PM
+Finished computations with time: 0:01:01.160198
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=1000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([7])
+Proxy_labels: tensor([7])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.106015
+Attack - Iter-0: Rec_loss-1.1537.
+Attack - Iter-999: Rec_loss-1.0611.
+PSNR 5.5075 SSIM 0.0816 LPIPS -0.0000
+Friday, 25. October 2024 10:30AM
+Finished computations with time: 0:00:06.348127
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([7])
+Proxy_labels: tensor([7])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.105109
+Attack - Iter-0: Rec_loss-1.1537.
+Attack - Iter-1000: Rec_loss-1.0453.
+Attack - Iter-2000: Rec_loss-1.0357.
+Attack - Iter-3000: Rec_loss-1.0323.
+Attack - Iter-4000: Rec_loss-1.0318.
+Attack - Iter-5000: Rec_loss-1.0312.
+Attack - Iter-6000: Rec_loss-1.0311.
+Attack - Iter-7000: Rec_loss-1.0310.
+Attack - Iter-8000: Rec_loss-1.0313.
+Attack - Iter-9000: Rec_loss-1.0314.
+Attack - Iter-9999: Rec_loss-1.0317.
+PSNR 5.3616 SSIM 0.1037 LPIPS -0.0000
+Friday, 25. October 2024 10:31AM
+Finished computations with time: 0:01:01.164259
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([7])
+Proxy_labels: tensor([7])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.106305
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([7])
+Proxy_labels: tensor([7])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.105662
+Attack - Iter-0: Rec_loss-0.0064.
+Attack - Iter-1000: Rec_loss-0.0012.
+Attack - Iter-2000: Rec_loss-0.0010.
+Attack - Iter-3000: Rec_loss-0.0009.
+Attack - Iter-4000: Rec_loss-0.0010.
+Attack - Iter-5000: Rec_loss-0.0012.
+Attack - Iter-6000: Rec_loss-0.0018.
+Attack - Iter-7000: Rec_loss-0.0009.
+Attack - Iter-8000: Rec_loss-0.0010.
+Attack - Iter-9000: Rec_loss-0.0020.
+Attack - Iter-9999: Rec_loss-0.0021.
+PSNR 20.2657 SSIM 0.6626 LPIPS -0.0000
+Friday, 25. October 2024 10:33AM
+Finished computations with time: 0:01:01.265347
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([7])
+Proxy_labels: tensor([7])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.116303
+Attack - Iter-0: Rec_loss-1.0003.
+Attack - Iter-1000: Rec_loss-1.0000.
+Attack - Iter-2000: Rec_loss-1.0000.
+Attack - Iter-3000: Rec_loss-1.0000.
+Attack - Iter-4000: Rec_loss-1.0000.
+Attack - Iter-5000: Rec_loss-1.0000.
+Attack - Iter-6000: Rec_loss-1.0000.
+Attack - Iter-7000: Rec_loss-1.0000.
+Attack - Iter-8000: Rec_loss-1.0000.
+Attack - Iter-9000: Rec_loss-1.0000.
+Attack - Iter-9999: Rec_loss-1.0000.
+PSNR 15.0275 SSIM 0.3707 LPIPS -0.0000
+Friday, 25. October 2024 10:35AM
+Finished computations with time: 0:01:02.108440
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.106135
+Attack - Iter-0: Rec_loss-0.0058.
+Attack - Iter-299: Rec_loss-0.0014.
+PSNR 19.5954 SSIM 0.7013 LPIPS -0.0000
+Friday, 25. October 2024 11:01AM
+Finished computations with time: 0:00:02.040294
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=300, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.117201
+Attack - Iter-0: Rec_loss-0.0003.
+Attack - Iter-299: Rec_loss-0.0000.
+PSNR 13.5155 SSIM 0.3792 LPIPS -0.0000
+Friday, 25. October 2024 11:01AM
+Finished computations with time: 0:00:02.061519
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.117197
+Attack - Iter-0: Rec_loss-0.0055.
+Attack - Iter-10: Rec_loss-0.0026.
+Attack - Iter-20: Rec_loss-0.0013.
+Attack - Iter-30: Rec_loss-0.0015.
+Attack - Iter-40: Rec_loss-0.0018.
+Attack - Iter-50: Rec_loss-0.0017.
+Attack - Iter-60: Rec_loss-0.0015.
+Attack - Iter-70: Rec_loss-0.0014.
+Attack - Iter-80: Rec_loss-0.0013.
+Attack - Iter-90: Rec_loss-0.0018.
+Attack - Iter-100: Rec_loss-0.0013.
+Attack - Iter-110: Rec_loss-0.0016.
+Attack - Iter-120: Rec_loss-0.0013.
+Attack - Iter-130: Rec_loss-0.0017.
+Attack - Iter-140: Rec_loss-0.0011.
+Attack - Iter-150: Rec_loss-0.0014.
+Attack - Iter-160: Rec_loss-0.0015.
+Attack - Iter-170: Rec_loss-0.0013.
+Attack - Iter-180: Rec_loss-0.0013.
+Attack - Iter-190: Rec_loss-0.0013.
+Attack - Iter-200: Rec_loss-0.0014.
+Attack - Iter-210: Rec_loss-0.0014.
+Attack - Iter-220: Rec_loss-0.0011.
+Attack - Iter-230: Rec_loss-0.0013.
+Attack - Iter-240: Rec_loss-0.0013.
+Attack - Iter-250: Rec_loss-0.0015.
+Attack - Iter-260: Rec_loss-0.0011.
+Attack - Iter-270: Rec_loss-0.0015.
+Attack - Iter-280: Rec_loss-0.0013.
+Attack - Iter-290: Rec_loss-0.0014.
+Attack - Iter-300: Rec_loss-0.0016.
+Attack - Iter-310: Rec_loss-0.0010.
+Attack - Iter-320: Rec_loss-0.0011.
+Attack - Iter-330: Rec_loss-0.0011.
+Attack - Iter-340: Rec_loss-0.0016.
+Attack - Iter-350: Rec_loss-0.0013.
+Attack - Iter-360: Rec_loss-0.0008.
+Attack - Iter-370: Rec_loss-0.0008.
+Attack - Iter-380: Rec_loss-0.0013.
+Attack - Iter-390: Rec_loss-0.0010.
+Attack - Iter-400: Rec_loss-0.0015.
+Attack - Iter-410: Rec_loss-0.0012.
+Attack - Iter-420: Rec_loss-0.0012.
+Attack - Iter-430: Rec_loss-0.0014.
+Attack - Iter-440: Rec_loss-0.0012.
+Attack - Iter-450: Rec_loss-0.0013.
+Attack - Iter-460: Rec_loss-0.0007.
+Attack - Iter-470: Rec_loss-0.0011.
+Attack - Iter-480: Rec_loss-0.0012.
+Attack - Iter-490: Rec_loss-0.0015.
+Attack - Iter-500: Rec_loss-0.0011.
+Attack - Iter-510: Rec_loss-0.0011.
+Attack - Iter-520: Rec_loss-0.0014.
+Attack - Iter-530: Rec_loss-0.0015.
+Attack - Iter-540: Rec_loss-0.0011.
+Attack - Iter-550: Rec_loss-0.0012.
+Attack - Iter-560: Rec_loss-0.0010.
+Attack - Iter-570: Rec_loss-0.0011.
+Attack - Iter-580: Rec_loss-0.0013.
+Attack - Iter-590: Rec_loss-0.0010.
+Attack - Iter-600: Rec_loss-0.0014.
+Attack - Iter-610: Rec_loss-0.0011.
+Attack - Iter-620: Rec_loss-0.0010.
+Attack - Iter-630: Rec_loss-0.0011.
+Attack - Iter-640: Rec_loss-0.0010.
+Attack - Iter-650: Rec_loss-0.0008.
+Attack - Iter-660: Rec_loss-0.0013.
+Attack - Iter-670: Rec_loss-0.0014.
+Attack - Iter-680: Rec_loss-0.0013.
+Attack - Iter-690: Rec_loss-0.0013.
+Attack - Iter-700: Rec_loss-0.0016.
+Attack - Iter-710: Rec_loss-0.0013.
+Attack - Iter-720: Rec_loss-0.0009.
+Attack - Iter-730: Rec_loss-0.0010.
+Attack - Iter-740: Rec_loss-0.0011.
+Attack - Iter-750: Rec_loss-0.0015.
+Attack - Iter-760: Rec_loss-0.0014.
+Attack - Iter-770: Rec_loss-0.0014.
+Attack - Iter-780: Rec_loss-0.0011.
+Attack - Iter-790: Rec_loss-0.0015.
+Attack - Iter-800: Rec_loss-0.0011.
+Attack - Iter-810: Rec_loss-0.0007.
+Attack - Iter-820: Rec_loss-0.0015.
+Attack - Iter-830: Rec_loss-0.0008.
+Attack - Iter-840: Rec_loss-0.0010.
+Attack - Iter-850: Rec_loss-0.0013.
+Attack - Iter-860: Rec_loss-0.0009.
+Attack - Iter-870: Rec_loss-0.0011.
+Attack - Iter-880: Rec_loss-0.0014.
+Attack - Iter-890: Rec_loss-0.0012.
+Attack - Iter-900: Rec_loss-0.0017.
+Attack - Iter-910: Rec_loss-0.0010.
+Attack - Iter-920: Rec_loss-0.0008.
+Attack - Iter-930: Rec_loss-0.0008.
+Attack - Iter-940: Rec_loss-0.0009.
+Attack - Iter-950: Rec_loss-0.0012.
+Attack - Iter-960: Rec_loss-0.0011.
+Attack - Iter-970: Rec_loss-0.0012.
+Attack - Iter-980: Rec_loss-0.0011.
+Attack - Iter-990: Rec_loss-0.0012.
+Attack - Iter-1000: Rec_loss-0.0013.
+Attack - Iter-1010: Rec_loss-0.0010.
+Attack - Iter-1020: Rec_loss-0.0009.
+Attack - Iter-1030: Rec_loss-0.0012.
+Attack - Iter-1040: Rec_loss-0.0009.
+Attack - Iter-1050: Rec_loss-0.0009.
+Attack - Iter-1060: Rec_loss-0.0011.
+Attack - Iter-1070: Rec_loss-0.0013.
+Attack - Iter-1080: Rec_loss-0.0008.
+Attack - Iter-1090: Rec_loss-0.0010.
+Attack - Iter-1100: Rec_loss-0.0014.
+Attack - Iter-1110: Rec_loss-0.0014.
+Attack - Iter-1120: Rec_loss-0.0012.
+Attack - Iter-1130: Rec_loss-0.0013.
+Attack - Iter-1140: Rec_loss-0.0013.
+Attack - Iter-1150: Rec_loss-0.0011.
+Attack - Iter-1160: Rec_loss-0.0011.
+Attack - Iter-1170: Rec_loss-0.0014.
+Attack - Iter-1180: Rec_loss-0.0012.
+Attack - Iter-1190: Rec_loss-0.0011.
+Attack - Iter-1200: Rec_loss-0.0011.
+Attack - Iter-1210: Rec_loss-0.0010.
+Attack - Iter-1220: Rec_loss-0.0008.
+Attack - Iter-1230: Rec_loss-0.0014.
+Attack - Iter-1240: Rec_loss-0.0012.
+Attack - Iter-1250: Rec_loss-0.0013.
+Attack - Iter-1260: Rec_loss-0.0012.
+Attack - Iter-1270: Rec_loss-0.0014.
+Attack - Iter-1280: Rec_loss-0.0015.
+Attack - Iter-1290: Rec_loss-0.0012.
+Attack - Iter-1300: Rec_loss-0.0009.
+Attack - Iter-1310: Rec_loss-0.0014.
+Attack - Iter-1320: Rec_loss-0.0013.
+Attack - Iter-1330: Rec_loss-0.0011.
+Attack - Iter-1340: Rec_loss-0.0009.
+Attack - Iter-1350: Rec_loss-0.0007.
+Attack - Iter-1360: Rec_loss-0.0012.
+Attack - Iter-1370: Rec_loss-0.0016.
+Attack - Iter-1380: Rec_loss-0.0011.
+Attack - Iter-1390: Rec_loss-0.0014.
+Attack - Iter-1400: Rec_loss-0.0013.
+Attack - Iter-1410: Rec_loss-0.0013.
+Attack - Iter-1420: Rec_loss-0.0012.
+Attack - Iter-1430: Rec_loss-0.0010.
+Attack - Iter-1440: Rec_loss-0.0010.
+Attack - Iter-1450: Rec_loss-0.0011.
+Attack - Iter-1460: Rec_loss-0.0011.
+Attack - Iter-1470: Rec_loss-0.0008.
+Attack - Iter-1480: Rec_loss-0.0009.
+Attack - Iter-1490: Rec_loss-0.0009.
+Attack - Iter-1500: Rec_loss-0.0010.
+Attack - Iter-1510: Rec_loss-0.0009.
+Attack - Iter-1520: Rec_loss-0.0008.
+Attack - Iter-1530: Rec_loss-0.0010.
+Attack - Iter-1540: Rec_loss-0.0009.
+Attack - Iter-1550: Rec_loss-0.0011.
+Attack - Iter-1560: Rec_loss-0.0010.
+Attack - Iter-1570: Rec_loss-0.0014.
+Attack - Iter-1580: Rec_loss-0.0012.
+Attack - Iter-1590: Rec_loss-0.0010.
+Attack - Iter-1600: Rec_loss-0.0010.
+Attack - Iter-1610: Rec_loss-0.0013.
+Attack - Iter-1620: Rec_loss-0.0013.
+Attack - Iter-1630: Rec_loss-0.0010.
+Attack - Iter-1640: Rec_loss-0.0007.
+Attack - Iter-1650: Rec_loss-0.0009.
+Attack - Iter-1660: Rec_loss-0.0015.
+Attack - Iter-1670: Rec_loss-0.0007.
+Attack - Iter-1680: Rec_loss-0.0010.
+Attack - Iter-1690: Rec_loss-0.0015.
+Attack - Iter-1700: Rec_loss-0.0009.
+Attack - Iter-1710: Rec_loss-0.0013.
+Attack - Iter-1720: Rec_loss-0.0007.
+Attack - Iter-1730: Rec_loss-0.0010.
+Attack - Iter-1740: Rec_loss-0.0009.
+Attack - Iter-1750: Rec_loss-0.0019.
+Attack - Iter-1760: Rec_loss-0.0015.
+Attack - Iter-1770: Rec_loss-0.0021.
+Attack - Iter-1780: Rec_loss-0.0014.
+Attack - Iter-1790: Rec_loss-0.0013.
+Attack - Iter-1800: Rec_loss-0.0009.
+Attack - Iter-1810: Rec_loss-0.0011.
+Attack - Iter-1820: Rec_loss-0.0013.
+Attack - Iter-1830: Rec_loss-0.0009.
+Attack - Iter-1840: Rec_loss-0.0013.
+Attack - Iter-1850: Rec_loss-0.0011.
+Attack - Iter-1860: Rec_loss-0.0010.
+Attack - Iter-1870: Rec_loss-0.0008.
+Attack - Iter-1880: Rec_loss-0.0010.
+Attack - Iter-1890: Rec_loss-0.0014.
+Attack - Iter-1900: Rec_loss-0.0009.
+Attack - Iter-1910: Rec_loss-0.0015.
+Attack - Iter-1920: Rec_loss-0.0008.
+Attack - Iter-1930: Rec_loss-0.0012.
+Attack - Iter-1940: Rec_loss-0.0017.
+Attack - Iter-1950: Rec_loss-0.0014.
+Attack - Iter-1960: Rec_loss-0.0011.
+Attack - Iter-1970: Rec_loss-0.0013.
+Attack - Iter-1980: Rec_loss-0.0014.
+Attack - Iter-1990: Rec_loss-0.0010.
+Attack - Iter-2000: Rec_loss-0.0011.
+Attack - Iter-2010: Rec_loss-0.0011.
+Attack - Iter-2020: Rec_loss-0.0013.
+Attack - Iter-2030: Rec_loss-0.0011.
+Attack - Iter-2040: Rec_loss-0.0009.
+Attack - Iter-2050: Rec_loss-0.0013.
+Attack - Iter-2060: Rec_loss-0.0014.
+Attack - Iter-2070: Rec_loss-0.0011.
+Attack - Iter-2080: Rec_loss-0.0016.
+Attack - Iter-2090: Rec_loss-0.0010.
+Attack - Iter-2100: Rec_loss-0.0015.
+Attack - Iter-2110: Rec_loss-0.0013.
+Attack - Iter-2120: Rec_loss-0.0014.
+Attack - Iter-2130: Rec_loss-0.0010.
+Attack - Iter-2140: Rec_loss-0.0014.
+Attack - Iter-2150: Rec_loss-0.0011.
+Attack - Iter-2160: Rec_loss-0.0010.
+Attack - Iter-2170: Rec_loss-0.0012.
+Attack - Iter-2180: Rec_loss-0.0014.
+Attack - Iter-2190: Rec_loss-0.0008.
+Attack - Iter-2200: Rec_loss-0.0012.
+Attack - Iter-2210: Rec_loss-0.0013.
+Attack - Iter-2220: Rec_loss-0.0012.
+Attack - Iter-2230: Rec_loss-0.0008.
+Attack - Iter-2240: Rec_loss-0.0009.
+Attack - Iter-2250: Rec_loss-0.0013.
+Attack - Iter-2260: Rec_loss-0.0012.
+Attack - Iter-2270: Rec_loss-0.0008.
+Attack - Iter-2280: Rec_loss-0.0010.
+Attack - Iter-2290: Rec_loss-0.0010.
+Attack - Iter-2300: Rec_loss-0.0008.
+Attack - Iter-2310: Rec_loss-0.0010.
+Attack - Iter-2320: Rec_loss-0.0011.
+Attack - Iter-2330: Rec_loss-0.0011.
+Attack - Iter-2340: Rec_loss-0.0008.
+Attack - Iter-2350: Rec_loss-0.0012.
+Attack - Iter-2360: Rec_loss-0.0010.
+Attack - Iter-2370: Rec_loss-0.0007.
+Attack - Iter-2380: Rec_loss-0.0009.
+Attack - Iter-2390: Rec_loss-0.0016.
+Attack - Iter-2400: Rec_loss-0.0007.
+Attack - Iter-2410: Rec_loss-0.0014.
+Attack - Iter-2420: Rec_loss-0.0012.
+Attack - Iter-2430: Rec_loss-0.0013.
+Attack - Iter-2440: Rec_loss-0.0013.
+Attack - Iter-2450: Rec_loss-0.0011.
+Attack - Iter-2460: Rec_loss-0.0008.
+Attack - Iter-2470: Rec_loss-0.0013.
+Attack - Iter-2480: Rec_loss-0.0010.
+Attack - Iter-2490: Rec_loss-0.0013.
+Attack - Iter-2500: Rec_loss-0.0009.
+Attack - Iter-2510: Rec_loss-0.0006.
+Attack - Iter-2520: Rec_loss-0.0012.
+Attack - Iter-2530: Rec_loss-0.0008.
+Attack - Iter-2540: Rec_loss-0.0009.
+Attack - Iter-2550: Rec_loss-0.0014.
+Attack - Iter-2560: Rec_loss-0.0012.
+Attack - Iter-2570: Rec_loss-0.0010.
+Attack - Iter-2580: Rec_loss-0.0008.
+Attack - Iter-2590: Rec_loss-0.0011.
+Attack - Iter-2600: Rec_loss-0.0014.
+Attack - Iter-2610: Rec_loss-0.0013.
+Attack - Iter-2620: Rec_loss-0.0013.
+Attack - Iter-2630: Rec_loss-0.0007.
+Attack - Iter-2640: Rec_loss-0.0014.
+Attack - Iter-2650: Rec_loss-0.0011.
+Attack - Iter-2660: Rec_loss-0.0011.
+Attack - Iter-2670: Rec_loss-0.0008.
+Attack - Iter-2680: Rec_loss-0.0014.
+Attack - Iter-2690: Rec_loss-0.0013.
+Attack - Iter-2700: Rec_loss-0.0014.
+Attack - Iter-2710: Rec_loss-0.0009.
+Attack - Iter-2720: Rec_loss-0.0008.
+Attack - Iter-2730: Rec_loss-0.0009.
+Attack - Iter-2740: Rec_loss-0.0011.
+Attack - Iter-2750: Rec_loss-0.0011.
+Attack - Iter-2760: Rec_loss-0.0013.
+Attack - Iter-2770: Rec_loss-0.0007.
+Attack - Iter-2780: Rec_loss-0.0007.
+Attack - Iter-2790: Rec_loss-0.0012.
+Attack - Iter-2800: Rec_loss-0.0010.
+Attack - Iter-2810: Rec_loss-0.0010.
+Attack - Iter-2820: Rec_loss-0.0012.
+Attack - Iter-2830: Rec_loss-0.0007.
+Attack - Iter-2840: Rec_loss-0.0013.
+Attack - Iter-2850: Rec_loss-0.0013.
+Attack - Iter-2860: Rec_loss-0.0013.
+Attack - Iter-2870: Rec_loss-0.0012.
+Attack - Iter-2880: Rec_loss-0.0012.
+Attack - Iter-2890: Rec_loss-0.0011.
+Attack - Iter-2900: Rec_loss-0.0012.
+Attack - Iter-2910: Rec_loss-0.0014.
+Attack - Iter-2920: Rec_loss-0.0010.
+Attack - Iter-2930: Rec_loss-0.0011.
+Attack - Iter-2940: Rec_loss-0.0013.
+Attack - Iter-2950: Rec_loss-0.0014.
+Attack - Iter-2960: Rec_loss-0.0013.
+Attack - Iter-2970: Rec_loss-0.0010.
+Attack - Iter-2980: Rec_loss-0.0010.
+Attack - Iter-2990: Rec_loss-0.0011.
+Attack - Iter-3000: Rec_loss-0.0010.
+Attack - Iter-3010: Rec_loss-0.0012.
+Attack - Iter-3020: Rec_loss-0.0014.
+Attack - Iter-3030: Rec_loss-0.0010.
+Attack - Iter-3040: Rec_loss-0.0009.
+Attack - Iter-3050: Rec_loss-0.0009.
+Attack - Iter-3060: Rec_loss-0.0009.
+Attack - Iter-3070: Rec_loss-0.0012.
+Attack - Iter-3080: Rec_loss-0.0008.
+Attack - Iter-3090: Rec_loss-0.0010.
+Attack - Iter-3100: Rec_loss-0.0011.
+Attack - Iter-3110: Rec_loss-0.0012.
+Attack - Iter-3120: Rec_loss-0.0012.
+Attack - Iter-3130: Rec_loss-0.0013.
+Attack - Iter-3140: Rec_loss-0.0009.
+Attack - Iter-3150: Rec_loss-0.0010.
+Attack - Iter-3160: Rec_loss-0.0012.
+Attack - Iter-3170: Rec_loss-0.0012.
+Attack - Iter-3180: Rec_loss-0.0011.
+Attack - Iter-3190: Rec_loss-0.0014.
+Attack - Iter-3200: Rec_loss-0.0016.
+Attack - Iter-3210: Rec_loss-0.0011.
+Attack - Iter-3220: Rec_loss-0.0010.
+Attack - Iter-3230: Rec_loss-0.0008.
+Attack - Iter-3240: Rec_loss-0.0008.
+Attack - Iter-3250: Rec_loss-0.0014.
+Attack - Iter-3260: Rec_loss-0.0014.
+Attack - Iter-3270: Rec_loss-0.0012.
+Attack - Iter-3280: Rec_loss-0.0012.
+Attack - Iter-3290: Rec_loss-0.0008.
+Attack - Iter-3300: Rec_loss-0.0013.
+Attack - Iter-3310: Rec_loss-0.0013.
+Attack - Iter-3320: Rec_loss-0.0009.
+Attack - Iter-3330: Rec_loss-0.0008.
+Attack - Iter-3340: Rec_loss-0.0014.
+Attack - Iter-3350: Rec_loss-0.0008.
+Attack - Iter-3360: Rec_loss-0.0007.
+Attack - Iter-3370: Rec_loss-0.0008.
+Attack - Iter-3380: Rec_loss-0.0010.
+Attack - Iter-3390: Rec_loss-0.0012.
+Attack - Iter-3400: Rec_loss-0.0013.
+Attack - Iter-3410: Rec_loss-0.0008.
+Attack - Iter-3420: Rec_loss-0.0010.
+Attack - Iter-3430: Rec_loss-0.0014.
+Attack - Iter-3440: Rec_loss-0.0015.
+Attack - Iter-3450: Rec_loss-0.0010.
+Attack - Iter-3460: Rec_loss-0.0009.
+Attack - Iter-3470: Rec_loss-0.0010.
+Attack - Iter-3480: Rec_loss-0.0009.
+Attack - Iter-3490: Rec_loss-0.0015.
+Attack - Iter-3500: Rec_loss-0.0009.
+Attack - Iter-3510: Rec_loss-0.0009.
+Attack - Iter-3520: Rec_loss-0.0009.
+Attack - Iter-3530: Rec_loss-0.0007.
+Attack - Iter-3540: Rec_loss-0.0012.
+Attack - Iter-3550: Rec_loss-0.0012.
+Attack - Iter-3560: Rec_loss-0.0012.
+Attack - Iter-3570: Rec_loss-0.0014.
+Attack - Iter-3580: Rec_loss-0.0010.
+Attack - Iter-3590: Rec_loss-0.0013.
+Attack - Iter-3600: Rec_loss-0.0012.
+Attack - Iter-3610: Rec_loss-0.0009.
+Attack - Iter-3620: Rec_loss-0.0014.
+Attack - Iter-3630: Rec_loss-0.0011.
+Attack - Iter-3640: Rec_loss-0.0008.
+Attack - Iter-3650: Rec_loss-0.0009.
+Attack - Iter-3660: Rec_loss-0.0013.
+Attack - Iter-3670: Rec_loss-0.0015.
+Attack - Iter-3680: Rec_loss-0.0022.
+Attack - Iter-3690: Rec_loss-0.0009.
+Attack - Iter-3700: Rec_loss-0.0011.
+Attack - Iter-3710: Rec_loss-0.0009.
+Attack - Iter-3720: Rec_loss-0.0013.
+Attack - Iter-3730: Rec_loss-0.0015.
+Attack - Iter-3740: Rec_loss-0.0009.
+Attack - Iter-3750: Rec_loss-0.0009.
+Attack - Iter-3760: Rec_loss-0.0013.
+Attack - Iter-3770: Rec_loss-0.0015.
+Attack - Iter-3780: Rec_loss-0.0014.
+Attack - Iter-3790: Rec_loss-0.0013.
+Attack - Iter-3800: Rec_loss-0.0012.
+Attack - Iter-3810: Rec_loss-0.0013.
+Attack - Iter-3820: Rec_loss-0.0014.
+Attack - Iter-3830: Rec_loss-0.0013.
+Attack - Iter-3840: Rec_loss-0.0014.
+Attack - Iter-3850: Rec_loss-0.0014.
+Attack - Iter-3860: Rec_loss-0.0015.
+Attack - Iter-3870: Rec_loss-0.0013.
+Attack - Iter-3880: Rec_loss-0.0015.
+Attack - Iter-3890: Rec_loss-0.0015.
+Attack - Iter-3900: Rec_loss-0.0015.
+Attack - Iter-3910: Rec_loss-0.0011.
+Attack - Iter-3920: Rec_loss-0.0016.
+Attack - Iter-3930: Rec_loss-0.0015.
+Attack - Iter-3940: Rec_loss-0.0015.
+Attack - Iter-3950: Rec_loss-0.0014.
+Attack - Iter-3960: Rec_loss-0.0015.
+Attack - Iter-3970: Rec_loss-0.0013.
+Attack - Iter-3980: Rec_loss-0.0014.
+Attack - Iter-3990: Rec_loss-0.0010.
+Attack - Iter-4000: Rec_loss-0.0010.
+Attack - Iter-4010: Rec_loss-0.0013.
+Attack - Iter-4020: Rec_loss-0.0014.
+Attack - Iter-4030: Rec_loss-0.0012.
+Attack - Iter-4040: Rec_loss-0.0011.
+Attack - Iter-4050: Rec_loss-0.0013.
+Attack - Iter-4060: Rec_loss-0.0008.
+Attack - Iter-4070: Rec_loss-0.0011.
+Attack - Iter-4080: Rec_loss-0.0012.
+Attack - Iter-4090: Rec_loss-0.0011.
+Attack - Iter-4100: Rec_loss-0.0011.
+Attack - Iter-4110: Rec_loss-0.0009.
+Attack - Iter-4120: Rec_loss-0.0010.
+Attack - Iter-4130: Rec_loss-0.0010.
+Attack - Iter-4140: Rec_loss-0.0010.
+Attack - Iter-4150: Rec_loss-0.0011.
+Attack - Iter-4160: Rec_loss-0.0011.
+Attack - Iter-4170: Rec_loss-0.0011.
+Attack - Iter-4180: Rec_loss-0.0013.
+Attack - Iter-4190: Rec_loss-0.0013.
+Attack - Iter-4200: Rec_loss-0.0011.
+Attack - Iter-4210: Rec_loss-0.0012.
+Attack - Iter-4220: Rec_loss-0.0014.
+Attack - Iter-4230: Rec_loss-0.0013.
+Attack - Iter-4240: Rec_loss-0.0011.
+Attack - Iter-4250: Rec_loss-0.0011.
+Attack - Iter-4260: Rec_loss-0.0011.
+Attack - Iter-4270: Rec_loss-0.0013.
+Attack - Iter-4280: Rec_loss-0.0012.
+Attack - Iter-4290: Rec_loss-0.0012.
+Attack - Iter-4300: Rec_loss-0.0012.
+Attack - Iter-4310: Rec_loss-0.0010.
+Attack - Iter-4320: Rec_loss-0.0012.
+Attack - Iter-4330: Rec_loss-0.0014.
+Attack - Iter-4340: Rec_loss-0.0009.
+Attack - Iter-4350: Rec_loss-0.0008.
+Attack - Iter-4360: Rec_loss-0.0007.
+Attack - Iter-4370: Rec_loss-0.0007.
+Attack - Iter-4380: Rec_loss-0.0007.
+Attack - Iter-4390: Rec_loss-0.0007.
+Attack - Iter-4400: Rec_loss-0.0007.
+Attack - Iter-4410: Rec_loss-0.0008.
+Attack - Iter-4420: Rec_loss-0.0008.
+Attack - Iter-4430: Rec_loss-0.0008.
+Attack - Iter-4440: Rec_loss-0.0006.
+Attack - Iter-4450: Rec_loss-0.0005.
+Attack - Iter-4460: Rec_loss-0.0007.
+Attack - Iter-4470: Rec_loss-0.0008.
+Attack - Iter-4480: Rec_loss-0.0008.
+Attack - Iter-4490: Rec_loss-0.0008.
+Attack - Iter-4500: Rec_loss-0.0007.
+Attack - Iter-4510: Rec_loss-0.0008.
+Attack - Iter-4520: Rec_loss-0.0008.
+Attack - Iter-4530: Rec_loss-0.0010.
+Attack - Iter-4540: Rec_loss-0.0007.
+Attack - Iter-4550: Rec_loss-0.0010.
+Attack - Iter-4560: Rec_loss-0.0009.
+Attack - Iter-4570: Rec_loss-0.0012.
+Attack - Iter-4580: Rec_loss-0.0008.
+Attack - Iter-4590: Rec_loss-0.0013.
+Attack - Iter-4600: Rec_loss-0.0012.
+Attack - Iter-4610: Rec_loss-0.0010.
+Attack - Iter-4620: Rec_loss-0.0013.
+Attack - Iter-4630: Rec_loss-0.0014.
+Attack - Iter-4640: Rec_loss-0.0015.
+Attack - Iter-4650: Rec_loss-0.0013.
+Attack - Iter-4660: Rec_loss-0.0014.
+Attack - Iter-4670: Rec_loss-0.0013.
+Attack - Iter-4680: Rec_loss-0.0011.
+Attack - Iter-4690: Rec_loss-0.0013.
+Attack - Iter-4700: Rec_loss-0.0015.
+Attack - Iter-4710: Rec_loss-0.0011.
+Attack - Iter-4720: Rec_loss-0.0013.
+Attack - Iter-4730: Rec_loss-0.0011.
+Attack - Iter-4740: Rec_loss-0.0011.
+Attack - Iter-4750: Rec_loss-0.0013.
+Attack - Iter-4760: Rec_loss-0.0013.
+Attack - Iter-4770: Rec_loss-0.0011.
+Attack - Iter-4780: Rec_loss-0.0010.
+Attack - Iter-4790: Rec_loss-0.0013.
+Attack - Iter-4800: Rec_loss-0.0011.
+Attack - Iter-4810: Rec_loss-0.0011.
+Attack - Iter-4820: Rec_loss-0.0012.
+Attack - Iter-4830: Rec_loss-0.0012.
+Attack - Iter-4840: Rec_loss-0.0011.
+Attack - Iter-4850: Rec_loss-0.0011.
+Attack - Iter-4860: Rec_loss-0.0011.
+Attack - Iter-4870: Rec_loss-0.0008.
+Attack - Iter-4880: Rec_loss-0.0008.
+Attack - Iter-4890: Rec_loss-0.0007.
+Attack - Iter-4900: Rec_loss-0.0009.
+Attack - Iter-4910: Rec_loss-0.0013.
+Attack - Iter-4920: Rec_loss-0.0010.
+Attack - Iter-4930: Rec_loss-0.0009.
+Attack - Iter-4940: Rec_loss-0.0009.
+Attack - Iter-4950: Rec_loss-0.0009.
+Attack - Iter-4960: Rec_loss-0.0011.
+Attack - Iter-4970: Rec_loss-0.0009.
+Attack - Iter-4980: Rec_loss-0.0009.
+Attack - Iter-4990: Rec_loss-0.0011.
+Attack - Iter-5000: Rec_loss-0.0010.
+Attack - Iter-5010: Rec_loss-0.0010.
+Attack - Iter-5020: Rec_loss-0.0007.
+Attack - Iter-5030: Rec_loss-0.0010.
+Attack - Iter-5040: Rec_loss-0.0009.
+Attack - Iter-5050: Rec_loss-0.0007.
+Attack - Iter-5060: Rec_loss-0.0008.
+Attack - Iter-5070: Rec_loss-0.0009.
+Attack - Iter-5080: Rec_loss-0.0010.
+Attack - Iter-5090: Rec_loss-0.0007.
+Attack - Iter-5100: Rec_loss-0.0007.
+Attack - Iter-5110: Rec_loss-0.0008.
+Attack - Iter-5120: Rec_loss-0.0010.
+Attack - Iter-5130: Rec_loss-0.0010.
+Attack - Iter-5140: Rec_loss-0.0011.
+Attack - Iter-5150: Rec_loss-0.0009.
+Attack - Iter-5160: Rec_loss-0.0007.
+Attack - Iter-5170: Rec_loss-0.0009.
+Attack - Iter-5180: Rec_loss-0.0012.
+Attack - Iter-5190: Rec_loss-0.0010.
+Attack - Iter-5200: Rec_loss-0.0010.
+Attack - Iter-5210: Rec_loss-0.0009.
+Attack - Iter-5220: Rec_loss-0.0008.
+Attack - Iter-5230: Rec_loss-0.0007.
+Attack - Iter-5240: Rec_loss-0.0007.
+Attack - Iter-5250: Rec_loss-0.0008.
+Attack - Iter-5260: Rec_loss-0.0008.
+Attack - Iter-5270: Rec_loss-0.0008.
+Attack - Iter-5280: Rec_loss-0.0009.
+Attack - Iter-5290: Rec_loss-0.0009.
+Attack - Iter-5300: Rec_loss-0.0008.
+Attack - Iter-5310: Rec_loss-0.0008.
+Attack - Iter-5320: Rec_loss-0.0008.
+Attack - Iter-5330: Rec_loss-0.0009.
+Attack - Iter-5340: Rec_loss-0.0009.
+Attack - Iter-5350: Rec_loss-0.0009.
+Attack - Iter-5360: Rec_loss-0.0013.
+Attack - Iter-5370: Rec_loss-0.0012.
+Attack - Iter-5380: Rec_loss-0.0009.
+Attack - Iter-5390: Rec_loss-0.0008.
+Attack - Iter-5400: Rec_loss-0.0009.
+Attack - Iter-5410: Rec_loss-0.0008.
+Attack - Iter-5420: Rec_loss-0.0011.
+Attack - Iter-5430: Rec_loss-0.0013.
+Attack - Iter-5440: Rec_loss-0.0012.
+Attack - Iter-5450: Rec_loss-0.0010.
+Attack - Iter-5460: Rec_loss-0.0011.
+Attack - Iter-5470: Rec_loss-0.0012.
+Attack - Iter-5480: Rec_loss-0.0006.
+Attack - Iter-5490: Rec_loss-0.0011.
+Attack - Iter-5500: Rec_loss-0.0008.
+Attack - Iter-5510: Rec_loss-0.0008.
+Attack - Iter-5520: Rec_loss-0.0007.
+Attack - Iter-5530: Rec_loss-0.0010.
+Attack - Iter-5540: Rec_loss-0.0011.
+Attack - Iter-5550: Rec_loss-0.0011.
+Attack - Iter-5560: Rec_loss-0.0011.
+Attack - Iter-5570: Rec_loss-0.0011.
+Attack - Iter-5580: Rec_loss-0.0011.
+Attack - Iter-5590: Rec_loss-0.0007.
+Attack - Iter-5600: Rec_loss-0.0008.
+Attack - Iter-5610: Rec_loss-0.0009.
+Attack - Iter-5620: Rec_loss-0.0007.
+Attack - Iter-5630: Rec_loss-0.0008.
+Attack - Iter-5640: Rec_loss-0.0013.
+Attack - Iter-5650: Rec_loss-0.0008.
+Attack - Iter-5660: Rec_loss-0.0010.
+Attack - Iter-5670: Rec_loss-0.0013.
+Attack - Iter-5680: Rec_loss-0.0015.
+Attack - Iter-5690: Rec_loss-0.0016.
+Attack - Iter-5700: Rec_loss-0.0014.
+Attack - Iter-5710: Rec_loss-0.0015.
+Attack - Iter-5720: Rec_loss-0.0014.
+Attack - Iter-5730: Rec_loss-0.0014.
+Attack - Iter-5740: Rec_loss-0.0013.
+Attack - Iter-5750: Rec_loss-0.0014.
+Attack - Iter-5760: Rec_loss-0.0015.
+Attack - Iter-5770: Rec_loss-0.0016.
+Attack - Iter-5780: Rec_loss-0.0013.
+Attack - Iter-5790: Rec_loss-0.0014.
+Attack - Iter-5800: Rec_loss-0.0013.
+Attack - Iter-5810: Rec_loss-0.0016.
+Attack - Iter-5820: Rec_loss-0.0014.
+Attack - Iter-5830: Rec_loss-0.0014.
+Attack - Iter-5840: Rec_loss-0.0012.
+Attack - Iter-5850: Rec_loss-0.0013.
+Attack - Iter-5860: Rec_loss-0.0011.
+Attack - Iter-5870: Rec_loss-0.0015.
+Attack - Iter-5880: Rec_loss-0.0013.
+Attack - Iter-5890: Rec_loss-0.0013.
+Attack - Iter-5900: Rec_loss-0.0013.
+Attack - Iter-5910: Rec_loss-0.0012.
+Attack - Iter-5920: Rec_loss-0.0013.
+Attack - Iter-5930: Rec_loss-0.0014.
+Attack - Iter-5940: Rec_loss-0.0013.
+Attack - Iter-5950: Rec_loss-0.0013.
+Attack - Iter-5960: Rec_loss-0.0013.
+Attack - Iter-5970: Rec_loss-0.0013.
+Attack - Iter-5980: Rec_loss-0.0013.
+Attack - Iter-5990: Rec_loss-0.0010.
+Attack - Iter-6000: Rec_loss-0.0010.
+Attack - Iter-6010: Rec_loss-0.0011.
+Attack - Iter-6020: Rec_loss-0.0009.
+Attack - Iter-6030: Rec_loss-0.0007.
+Attack - Iter-6040: Rec_loss-0.0009.
+Attack - Iter-6050: Rec_loss-0.0010.
+Attack - Iter-6060: Rec_loss-0.0009.
+Attack - Iter-6070: Rec_loss-0.0008.
+Attack - Iter-6080: Rec_loss-0.0008.
+Attack - Iter-6090: Rec_loss-0.0007.
+Attack - Iter-6100: Rec_loss-0.0007.
+Attack - Iter-6110: Rec_loss-0.0008.
+Attack - Iter-6120: Rec_loss-0.0009.
+Attack - Iter-6130: Rec_loss-0.0011.
+Attack - Iter-6140: Rec_loss-0.0009.
+Attack - Iter-6150: Rec_loss-0.0010.
+Attack - Iter-6160: Rec_loss-0.0010.
+Attack - Iter-6170: Rec_loss-0.0012.
+Attack - Iter-6180: Rec_loss-0.0011.
+Attack - Iter-6190: Rec_loss-0.0011.
+Attack - Iter-6200: Rec_loss-0.0015.
+Attack - Iter-6210: Rec_loss-0.0015.
+Attack - Iter-6220: Rec_loss-0.0011.
+Attack - Iter-6230: Rec_loss-0.0011.
+Attack - Iter-6240: Rec_loss-0.0009.
+Attack - Iter-6250: Rec_loss-0.0010.
+Attack - Iter-6260: Rec_loss-0.0011.
+Attack - Iter-6270: Rec_loss-0.0010.
+Attack - Iter-6280: Rec_loss-0.0010.
+Attack - Iter-6290: Rec_loss-0.0010.
+Attack - Iter-6300: Rec_loss-0.0010.
+Attack - Iter-6310: Rec_loss-0.0011.
+Attack - Iter-6320: Rec_loss-0.0011.
+Attack - Iter-6330: Rec_loss-0.0011.
+Attack - Iter-6340: Rec_loss-0.0010.
+Attack - Iter-6350: Rec_loss-0.0010.
+Attack - Iter-6360: Rec_loss-0.0010.
+Attack - Iter-6370: Rec_loss-0.0011.
+Attack - Iter-6380: Rec_loss-0.0010.
+Attack - Iter-6390: Rec_loss-0.0011.
+Attack - Iter-6400: Rec_loss-0.0012.
+Attack - Iter-6410: Rec_loss-0.0012.
+Attack - Iter-6420: Rec_loss-0.0011.
+Attack - Iter-6430: Rec_loss-0.0011.
+Attack - Iter-6440: Rec_loss-0.0011.
+Attack - Iter-6450: Rec_loss-0.0010.
+Attack - Iter-6460: Rec_loss-0.0011.
+Attack - Iter-6470: Rec_loss-0.0011.
+Attack - Iter-6480: Rec_loss-0.0010.
+Attack - Iter-6490: Rec_loss-0.0010.
+Attack - Iter-6500: Rec_loss-0.0010.
+Attack - Iter-6510: Rec_loss-0.0009.
+Attack - Iter-6520: Rec_loss-0.0009.
+Attack - Iter-6530: Rec_loss-0.0009.
+Attack - Iter-6540: Rec_loss-0.0009.
+Attack - Iter-6550: Rec_loss-0.0009.
+Attack - Iter-6560: Rec_loss-0.0010.
+Attack - Iter-6570: Rec_loss-0.0009.
+Attack - Iter-6580: Rec_loss-0.0010.
+Attack - Iter-6590: Rec_loss-0.0009.
+Attack - Iter-6600: Rec_loss-0.0009.
+Attack - Iter-6610: Rec_loss-0.0008.
+Attack - Iter-6620: Rec_loss-0.0008.
+Attack - Iter-6630: Rec_loss-0.0009.
+Attack - Iter-6640: Rec_loss-0.0008.
+Attack - Iter-6650: Rec_loss-0.0008.
+Attack - Iter-6660: Rec_loss-0.0008.
+Attack - Iter-6670: Rec_loss-0.0009.
+Attack - Iter-6680: Rec_loss-0.0009.
+Attack - Iter-6690: Rec_loss-0.0008.
+Attack - Iter-6700: Rec_loss-0.0009.
+Attack - Iter-6710: Rec_loss-0.0009.
+Attack - Iter-6720: Rec_loss-0.0008.
+Attack - Iter-6730: Rec_loss-0.0009.
+Attack - Iter-6740: Rec_loss-0.0008.
+Attack - Iter-6750: Rec_loss-0.0008.
+Attack - Iter-6760: Rec_loss-0.0008.
+Attack - Iter-6770: Rec_loss-0.0008.
+Attack - Iter-6780: Rec_loss-0.0008.
+Attack - Iter-6790: Rec_loss-0.0008.
+Attack - Iter-6800: Rec_loss-0.0008.
+Attack - Iter-6810: Rec_loss-0.0011.
+Attack - Iter-6820: Rec_loss-0.0011.
+Attack - Iter-6830: Rec_loss-0.0011.
+Attack - Iter-6840: Rec_loss-0.0011.
+Attack - Iter-6850: Rec_loss-0.0011.
+Attack - Iter-6860: Rec_loss-0.0011.
+Attack - Iter-6870: Rec_loss-0.0011.
+Attack - Iter-6880: Rec_loss-0.0011.
+Attack - Iter-6890: Rec_loss-0.0011.
+Attack - Iter-6900: Rec_loss-0.0011.
+Attack - Iter-6910: Rec_loss-0.0011.
+Attack - Iter-6920: Rec_loss-0.0010.
+Attack - Iter-6930: Rec_loss-0.0012.
+Attack - Iter-6940: Rec_loss-0.0012.
+Attack - Iter-6950: Rec_loss-0.0013.
+Attack - Iter-6960: Rec_loss-0.0009.
+Attack - Iter-6970: Rec_loss-0.0008.
+Attack - Iter-6980: Rec_loss-0.0008.
+Attack - Iter-6990: Rec_loss-0.0007.
+Attack - Iter-7000: Rec_loss-0.0008.
+Attack - Iter-7010: Rec_loss-0.0007.
+Attack - Iter-7020: Rec_loss-0.0008.
+Attack - Iter-7030: Rec_loss-0.0008.
+Attack - Iter-7040: Rec_loss-0.0008.
+Attack - Iter-7050: Rec_loss-0.0008.
+Attack - Iter-7060: Rec_loss-0.0008.
+Attack - Iter-7070: Rec_loss-0.0008.
+Attack - Iter-7080: Rec_loss-0.0009.
+Attack - Iter-7090: Rec_loss-0.0009.
+Attack - Iter-7100: Rec_loss-0.0009.
+Attack - Iter-7110: Rec_loss-0.0009.
+Attack - Iter-7120: Rec_loss-0.0009.
+Attack - Iter-7130: Rec_loss-0.0009.
+Attack - Iter-7140: Rec_loss-0.0009.
+Attack - Iter-7150: Rec_loss-0.0010.
+Attack - Iter-7160: Rec_loss-0.0010.
+Attack - Iter-7170: Rec_loss-0.0011.
+Attack - Iter-7180: Rec_loss-0.0010.
+Attack - Iter-7190: Rec_loss-0.0010.
+Attack - Iter-7200: Rec_loss-0.0010.
+Attack - Iter-7210: Rec_loss-0.0010.
+Attack - Iter-7220: Rec_loss-0.0010.
+Attack - Iter-7230: Rec_loss-0.0009.
+Attack - Iter-7240: Rec_loss-0.0010.
+Attack - Iter-7250: Rec_loss-0.0009.
+Attack - Iter-7260: Rec_loss-0.0009.
+Attack - Iter-7270: Rec_loss-0.0009.
+Attack - Iter-7280: Rec_loss-0.0010.
+Attack - Iter-7290: Rec_loss-0.0010.
+Attack - Iter-7300: Rec_loss-0.0010.
+Attack - Iter-7310: Rec_loss-0.0010.
+Attack - Iter-7320: Rec_loss-0.0010.
+Attack - Iter-7330: Rec_loss-0.0010.
+Attack - Iter-7340: Rec_loss-0.0010.
+Attack - Iter-7350: Rec_loss-0.0010.
+Attack - Iter-7360: Rec_loss-0.0010.
+Attack - Iter-7370: Rec_loss-0.0010.
+Attack - Iter-7380: Rec_loss-0.0009.
+Attack - Iter-7390: Rec_loss-0.0009.
+Attack - Iter-7400: Rec_loss-0.0010.
+Attack - Iter-7410: Rec_loss-0.0011.
+Attack - Iter-7420: Rec_loss-0.0010.
+Attack - Iter-7430: Rec_loss-0.0010.
+Attack - Iter-7440: Rec_loss-0.0010.
+Attack - Iter-7450: Rec_loss-0.0010.
+Attack - Iter-7460: Rec_loss-0.0010.
+Attack - Iter-7470: Rec_loss-0.0009.
+Attack - Iter-7480: Rec_loss-0.0009.
+Attack - Iter-7490: Rec_loss-0.0009.
+Attack - Iter-7500: Rec_loss-0.0009.
+Attack - Iter-7510: Rec_loss-0.0009.
+Attack - Iter-7520: Rec_loss-0.0010.
+Attack - Iter-7530: Rec_loss-0.0009.
+Attack - Iter-7540: Rec_loss-0.0009.
+Attack - Iter-7550: Rec_loss-0.0010.
+Attack - Iter-7560: Rec_loss-0.0010.
+Attack - Iter-7570: Rec_loss-0.0010.
+Attack - Iter-7580: Rec_loss-0.0010.
+Attack - Iter-7590: Rec_loss-0.0010.
+Attack - Iter-7600: Rec_loss-0.0011.
+Attack - Iter-7610: Rec_loss-0.0011.
+Attack - Iter-7620: Rec_loss-0.0010.
+Attack - Iter-7630: Rec_loss-0.0010.
+Attack - Iter-7640: Rec_loss-0.0011.
+Attack - Iter-7650: Rec_loss-0.0009.
+Attack - Iter-7660: Rec_loss-0.0010.
+Attack - Iter-7670: Rec_loss-0.0010.
+Attack - Iter-7680: Rec_loss-0.0010.
+Attack - Iter-7690: Rec_loss-0.0011.
+Attack - Iter-7700: Rec_loss-0.0010.
+Attack - Iter-7710: Rec_loss-0.0011.
+Attack - Iter-7720: Rec_loss-0.0010.
+Attack - Iter-7730: Rec_loss-0.0009.
+Attack - Iter-7740: Rec_loss-0.0009.
+Attack - Iter-7750: Rec_loss-0.0010.
+Attack - Iter-7760: Rec_loss-0.0009.
+Attack - Iter-7770: Rec_loss-0.0010.
+Attack - Iter-7780: Rec_loss-0.0011.
+Attack - Iter-7790: Rec_loss-0.0010.
+Attack - Iter-7800: Rec_loss-0.0010.
+Attack - Iter-7810: Rec_loss-0.0011.
+Attack - Iter-7820: Rec_loss-0.0012.
+Attack - Iter-7830: Rec_loss-0.0011.
+Attack - Iter-7840: Rec_loss-0.0010.
+Attack - Iter-7850: Rec_loss-0.0010.
+Attack - Iter-7860: Rec_loss-0.0011.
+Attack - Iter-7870: Rec_loss-0.0011.
+Attack - Iter-7880: Rec_loss-0.0010.
+Attack - Iter-7890: Rec_loss-0.0010.
+Attack - Iter-7900: Rec_loss-0.0010.
+Attack - Iter-7910: Rec_loss-0.0010.
+Attack - Iter-7920: Rec_loss-0.0010.
+Attack - Iter-7930: Rec_loss-0.0010.
+Attack - Iter-7940: Rec_loss-0.0011.
+Attack - Iter-7950: Rec_loss-0.0010.
+Attack - Iter-7960: Rec_loss-0.0011.
+Attack - Iter-7970: Rec_loss-0.0011.
+Attack - Iter-7980: Rec_loss-0.0010.
+Attack - Iter-7990: Rec_loss-0.0011.
+Attack - Iter-8000: Rec_loss-0.0010.
+Attack - Iter-8010: Rec_loss-0.0010.
+Attack - Iter-8020: Rec_loss-0.0011.
+Attack - Iter-8030: Rec_loss-0.0011.
+Attack - Iter-8040: Rec_loss-0.0011.
+Attack - Iter-8050: Rec_loss-0.0010.
+Attack - Iter-8060: Rec_loss-0.0010.
+Attack - Iter-8070: Rec_loss-0.0010.
+Attack - Iter-8080: Rec_loss-0.0010.
+Attack - Iter-8090: Rec_loss-0.0011.
+Attack - Iter-8100: Rec_loss-0.0011.
+Attack - Iter-8110: Rec_loss-0.0010.
+Attack - Iter-8120: Rec_loss-0.0010.
+Attack - Iter-8130: Rec_loss-0.0010.
+Attack - Iter-8140: Rec_loss-0.0010.
+Attack - Iter-8150: Rec_loss-0.0010.
+Attack - Iter-8160: Rec_loss-0.0010.
+Attack - Iter-8170: Rec_loss-0.0010.
+Attack - Iter-8180: Rec_loss-0.0010.
+Attack - Iter-8190: Rec_loss-0.0010.
+Attack - Iter-8200: Rec_loss-0.0011.
+Attack - Iter-8210: Rec_loss-0.0010.
+Attack - Iter-8220: Rec_loss-0.0009.
+Attack - Iter-8230: Rec_loss-0.0010.
+Attack - Iter-8240: Rec_loss-0.0009.
+Attack - Iter-8250: Rec_loss-0.0009.
+Attack - Iter-8260: Rec_loss-0.0009.
+Attack - Iter-8270: Rec_loss-0.0009.
+Attack - Iter-8280: Rec_loss-0.0009.
+Attack - Iter-8290: Rec_loss-0.0010.
+Attack - Iter-8300: Rec_loss-0.0009.
+Attack - Iter-8310: Rec_loss-0.0010.
+Attack - Iter-8320: Rec_loss-0.0009.
+Attack - Iter-8330: Rec_loss-0.0009.
+Attack - Iter-8340: Rec_loss-0.0009.
+Attack - Iter-8350: Rec_loss-0.0009.
+Attack - Iter-8360: Rec_loss-0.0010.
+Attack - Iter-8370: Rec_loss-0.0009.
+Attack - Iter-8380: Rec_loss-0.0009.
+Attack - Iter-8390: Rec_loss-0.0009.
+Attack - Iter-8400: Rec_loss-0.0010.
+Attack - Iter-8410: Rec_loss-0.0010.
+Attack - Iter-8420: Rec_loss-0.0010.
+Attack - Iter-8430: Rec_loss-0.0010.
+Attack - Iter-8440: Rec_loss-0.0011.
+Attack - Iter-8450: Rec_loss-0.0011.
+Attack - Iter-8460: Rec_loss-0.0011.
+Attack - Iter-8470: Rec_loss-0.0010.
+Attack - Iter-8480: Rec_loss-0.0010.
+Attack - Iter-8490: Rec_loss-0.0011.
+Attack - Iter-8500: Rec_loss-0.0011.
+Attack - Iter-8510: Rec_loss-0.0011.
+Attack - Iter-8520: Rec_loss-0.0010.
+Attack - Iter-8530: Rec_loss-0.0010.
+Attack - Iter-8540: Rec_loss-0.0010.
+Attack - Iter-8550: Rec_loss-0.0010.
+Attack - Iter-8560: Rec_loss-0.0010.
+Attack - Iter-8570: Rec_loss-0.0011.
+Attack - Iter-8580: Rec_loss-0.0011.
+Attack - Iter-8590: Rec_loss-0.0011.
+Attack - Iter-8600: Rec_loss-0.0011.
+Attack - Iter-8610: Rec_loss-0.0010.
+Attack - Iter-8620: Rec_loss-0.0010.
+Attack - Iter-8630: Rec_loss-0.0010.
+Attack - Iter-8640: Rec_loss-0.0010.
+Attack - Iter-8650: Rec_loss-0.0010.
+Attack - Iter-8660: Rec_loss-0.0010.
+Attack - Iter-8670: Rec_loss-0.0009.
+Attack - Iter-8680: Rec_loss-0.0011.
+Attack - Iter-8690: Rec_loss-0.0011.
+Attack - Iter-8700: Rec_loss-0.0012.
+Attack - Iter-8710: Rec_loss-0.0012.
+Attack - Iter-8720: Rec_loss-0.0012.
+Attack - Iter-8730: Rec_loss-0.0012.
+Attack - Iter-8740: Rec_loss-0.0012.
+Attack - Iter-8750: Rec_loss-0.0013.
+Attack - Iter-8760: Rec_loss-0.0012.
+Attack - Iter-8770: Rec_loss-0.0012.
+Attack - Iter-8780: Rec_loss-0.0012.
+Attack - Iter-8790: Rec_loss-0.0012.
+Attack - Iter-8800: Rec_loss-0.0012.
+Attack - Iter-8810: Rec_loss-0.0012.
+Attack - Iter-8820: Rec_loss-0.0012.
+Attack - Iter-8830: Rec_loss-0.0012.
+Attack - Iter-8840: Rec_loss-0.0012.
+Attack - Iter-8850: Rec_loss-0.0012.
+Attack - Iter-8860: Rec_loss-0.0012.
+Attack - Iter-8870: Rec_loss-0.0012.
+Attack - Iter-8880: Rec_loss-0.0012.
+Attack - Iter-8890: Rec_loss-0.0012.
+Attack - Iter-8900: Rec_loss-0.0012.
+Attack - Iter-8910: Rec_loss-0.0012.
+Attack - Iter-8920: Rec_loss-0.0012.
+Attack - Iter-8930: Rec_loss-0.0012.
+Attack - Iter-8940: Rec_loss-0.0012.
+Attack - Iter-8950: Rec_loss-0.0012.
+Attack - Iter-8960: Rec_loss-0.0013.
+Attack - Iter-8970: Rec_loss-0.0012.
+Attack - Iter-8980: Rec_loss-0.0012.
+Attack - Iter-8990: Rec_loss-0.0012.
+Attack - Iter-9000: Rec_loss-0.0013.
+Attack - Iter-9010: Rec_loss-0.0013.
+Attack - Iter-9020: Rec_loss-0.0013.
+Attack - Iter-9030: Rec_loss-0.0012.
+Attack - Iter-9040: Rec_loss-0.0011.
+Attack - Iter-9050: Rec_loss-0.0012.
+Attack - Iter-9060: Rec_loss-0.0012.
+Attack - Iter-9070: Rec_loss-0.0012.
+Attack - Iter-9080: Rec_loss-0.0013.
+Attack - Iter-9090: Rec_loss-0.0013.
+Attack - Iter-9100: Rec_loss-0.0013.
+Attack - Iter-9110: Rec_loss-0.0012.
+Attack - Iter-9120: Rec_loss-0.0013.
+Attack - Iter-9130: Rec_loss-0.0012.
+Attack - Iter-9140: Rec_loss-0.0012.
+Attack - Iter-9150: Rec_loss-0.0013.
+Attack - Iter-9160: Rec_loss-0.0012.
+Attack - Iter-9170: Rec_loss-0.0013.
+Attack - Iter-9180: Rec_loss-0.0012.
+Attack - Iter-9190: Rec_loss-0.0012.
+Attack - Iter-9200: Rec_loss-0.0013.
+Attack - Iter-9210: Rec_loss-0.0012.
+Attack - Iter-9220: Rec_loss-0.0013.
+Attack - Iter-9230: Rec_loss-0.0013.
+Attack - Iter-9240: Rec_loss-0.0012.
+Attack - Iter-9250: Rec_loss-0.0012.
+Attack - Iter-9260: Rec_loss-0.0013.
+Attack - Iter-9270: Rec_loss-0.0012.
+Attack - Iter-9280: Rec_loss-0.0013.
+Attack - Iter-9290: Rec_loss-0.0013.
+Attack - Iter-9300: Rec_loss-0.0012.
+Attack - Iter-9310: Rec_loss-0.0013.
+Attack - Iter-9320: Rec_loss-0.0012.
+Attack - Iter-9330: Rec_loss-0.0012.
+Attack - Iter-9340: Rec_loss-0.0013.
+Attack - Iter-9350: Rec_loss-0.0012.
+Attack - Iter-9360: Rec_loss-0.0012.
+Attack - Iter-9370: Rec_loss-0.0013.
+Attack - Iter-9380: Rec_loss-0.0013.
+Attack - Iter-9390: Rec_loss-0.0012.
+Attack - Iter-9400: Rec_loss-0.0011.
+Attack - Iter-9410: Rec_loss-0.0011.
+Attack - Iter-9420: Rec_loss-0.0011.
+Attack - Iter-9430: Rec_loss-0.0011.
+Attack - Iter-9440: Rec_loss-0.0011.
+Attack - Iter-9450: Rec_loss-0.0011.
+Attack - Iter-9460: Rec_loss-0.0011.
+Attack - Iter-9470: Rec_loss-0.0011.
+Attack - Iter-9480: Rec_loss-0.0012.
+Attack - Iter-9490: Rec_loss-0.0011.
+Attack - Iter-9500: Rec_loss-0.0012.
+Attack - Iter-9510: Rec_loss-0.0012.
+Attack - Iter-9520: Rec_loss-0.0011.
+Attack - Iter-9530: Rec_loss-0.0012.
+Attack - Iter-9540: Rec_loss-0.0011.
+Attack - Iter-9550: Rec_loss-0.0011.
+Attack - Iter-9560: Rec_loss-0.0011.
+Attack - Iter-9570: Rec_loss-0.0012.
+Attack - Iter-9580: Rec_loss-0.0012.
+Attack - Iter-9590: Rec_loss-0.0012.
+Attack - Iter-9600: Rec_loss-0.0011.
+Attack - Iter-9610: Rec_loss-0.0012.
+Attack - Iter-9620: Rec_loss-0.0011.
+Attack - Iter-9630: Rec_loss-0.0012.
+Attack - Iter-9640: Rec_loss-0.0012.
+Attack - Iter-9650: Rec_loss-0.0011.
+Attack - Iter-9660: Rec_loss-0.0011.
+Attack - Iter-9670: Rec_loss-0.0013.
+Attack - Iter-9680: Rec_loss-0.0011.
+Attack - Iter-9690: Rec_loss-0.0012.
+Attack - Iter-9700: Rec_loss-0.0013.
+Attack - Iter-9710: Rec_loss-0.0013.
+Attack - Iter-9720: Rec_loss-0.0013.
+Attack - Iter-9730: Rec_loss-0.0013.
+Attack - Iter-9740: Rec_loss-0.0012.
+Attack - Iter-9750: Rec_loss-0.0012.
+Attack - Iter-9760: Rec_loss-0.0012.
+Attack - Iter-9770: Rec_loss-0.0013.
+Attack - Iter-9780: Rec_loss-0.0013.
+Attack - Iter-9790: Rec_loss-0.0013.
+Attack - Iter-9800: Rec_loss-0.0012.
+Attack - Iter-9810: Rec_loss-0.0013.
+Attack - Iter-9820: Rec_loss-0.0012.
+Attack - Iter-9830: Rec_loss-0.0013.
+Attack - Iter-9840: Rec_loss-0.0013.
+Attack - Iter-9850: Rec_loss-0.0012.
+Attack - Iter-9860: Rec_loss-0.0013.
+Attack - Iter-9870: Rec_loss-0.0013.
+Attack - Iter-9880: Rec_loss-0.0012.
+Attack - Iter-9890: Rec_loss-0.0013.
+Attack - Iter-9900: Rec_loss-0.0013.
+Attack - Iter-9910: Rec_loss-0.0013.
+Attack - Iter-9920: Rec_loss-0.0013.
+Attack - Iter-9930: Rec_loss-0.0013.
+Attack - Iter-9940: Rec_loss-0.0013.
+Attack - Iter-9950: Rec_loss-0.0014.
+Attack - Iter-9960: Rec_loss-0.0013.
+Attack - Iter-9970: Rec_loss-0.0013.
+Attack - Iter-9980: Rec_loss-0.0013.
+Attack - Iter-9990: Rec_loss-0.0014.
+Attack - Iter-9999: Rec_loss-0.0013.
+PSNR 20.2537 SSIM 0.7541 LPIPS -0.0000
+Friday, 25. October 2024 04:56PM
+Finished computations with time: 0:01:04.485822
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.114664
+Attack - Iter-0: Rec_loss-0.0003.
+Attack - Iter-1000: Rec_loss-0.0000.
+Attack - Iter-2000: Rec_loss-0.0000.
+Attack - Iter-3000: Rec_loss-0.0000.
+Attack - Iter-4000: Rec_loss-0.0000.
+Attack - Iter-5000: Rec_loss-0.0000.
+Attack - Iter-6000: Rec_loss-0.0000.
+Attack - Iter-7000: Rec_loss-0.0000.
+Attack - Iter-8000: Rec_loss-0.0000.
+Attack - Iter-9000: Rec_loss-0.0000.
+Attack - Iter-9999: Rec_loss-0.0000.
+PSNR 14.2439 SSIM 0.4242 LPIPS -0.0000
+Friday, 25. October 2024 04:58PM
+Finished computations with time: 0:01:00.984949
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.109315
+Attack - Iter-0: Rec_loss-0.3440.
+Attack - Iter-1000: Rec_loss-0.0419.
+Attack - Iter-2000: Rec_loss-0.0454.
+Attack - Iter-3000: Rec_loss-0.0656.
+Attack - Iter-4000: Rec_loss-0.0371.
+Attack - Iter-5000: Rec_loss-0.0370.
+Attack - Iter-6000: Rec_loss-0.0461.
+Attack - Iter-7000: Rec_loss-0.0378.
+Attack - Iter-8000: Rec_loss-0.0329.
+Attack - Iter-9000: Rec_loss-0.0467.
+Attack - Iter-9999: Rec_loss-0.0405.
+PSNR 23.1635 SSIM 0.7657 LPIPS -0.0000
+Tuesday, 29. October 2024 08:03PM
+Finished computations with time: 0:02:06.691014
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=50.0, layer_num=60, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.122396
+Attack - Iter-0: Rec_loss-0.1169.
+Attack - Iter-1000: Rec_loss-0.1497.
+Attack - Iter-2000: Rec_loss-0.1597.
+Attack - Iter-3000: Rec_loss-0.1621.
+Attack - Iter-4000: Rec_loss-0.1523.
+Attack - Iter-5000: Rec_loss-0.1437.
+Attack - Iter-6000: Rec_loss-0.1464.
+Attack - Iter-7000: Rec_loss-0.1429.
+Attack - Iter-8000: Rec_loss-0.1407.
+Attack - Iter-9000: Rec_loss-0.1422.
+Attack - Iter-9999: Rec_loss-0.1410.
+PSNR 7.2437 SSIM 0.1303 LPIPS -0.0000
+Tuesday, 29. October 2024 09:40PM
+Finished computations with time: 0:02:11.649490
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=50.0, layer_num=60, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([2])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.124759
+Attack - Iter-0: Rec_loss-0.2414.
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([2])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.124358
+Attack - Iter-0: Rec_loss-0.2414.
+Attack - Iter-1000: Rec_loss-0.3148.
+Attack - Iter-2000: Rec_loss-0.3040.
+Attack - Iter-3000: Rec_loss-0.3058.
+Attack - Iter-4000: Rec_loss-0.2757.
+Attack - Iter-5000: Rec_loss-0.2754.
+Attack - Iter-6000: Rec_loss-0.2698.
+Attack - Iter-7000: Rec_loss-0.2757.
+Attack - Iter-8000: Rec_loss-0.2761.
+Attack - Iter-9000: Rec_loss-0.2832.
+Attack - Iter-9999: Rec_loss-0.2837.
+PSNR 5.8667 SSIM 0.1076 LPIPS -0.0000
+Tuesday, 29. October 2024 10:00PM
+Finished computations with time: 0:03:18.507529
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([2])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.112253
+Attack - Iter-0: Rec_loss-0.2190.
+Attack - Iter-1000: Rec_loss-0.0536.
+Attack - Iter-2000: Rec_loss-0.0632.
+Attack - Iter-3000: Rec_loss-0.0671.
+Attack - Iter-4000: Rec_loss-0.0274.
+Attack - Iter-5000: Rec_loss-0.0289.
+Attack - Iter-6000: Rec_loss-0.0308.
+Attack - Iter-7000: Rec_loss-0.0284.
+Attack - Iter-8000: Rec_loss-0.0307.
+Attack - Iter-9000: Rec_loss-0.0314.
+Attack - Iter-9999: Rec_loss-0.0296.
+PSNR 13.4720 SSIM 0.5188 LPIPS -0.0000
+Tuesday, 29. October 2024 10:04PM
+Finished computations with time: 0:03:07.438231
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.112661
+Attack - Iter-0: Rec_loss-0.3440.
+Attack - Iter-1000: Rec_loss-0.0419.
+Attack - Iter-2000: Rec_loss-0.0454.
+Attack - Iter-3000: Rec_loss-0.0656.
+Attack - Iter-4000: Rec_loss-0.0371.
+Attack - Iter-5000: Rec_loss-0.0370.
+Attack - Iter-6000: Rec_loss-0.0461.
+Attack - Iter-7000: Rec_loss-0.0378.
+Attack - Iter-8000: Rec_loss-0.0329.
+Attack - Iter-9000: Rec_loss-0.0467.
+Attack - Iter-9999: Rec_loss-0.0405.
+PSNR 23.1635 SSIM 0.7657 LPIPS -0.0000
+Tuesday, 29. October 2024 10:39PM
+Finished computations with time: 0:02:07.435745
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.120317
+Attack - Iter-0: Rec_loss-0.1169.
+Attack - Iter-1000: Rec_loss-0.1497.
+Attack - Iter-2000: Rec_loss-0.1597.
+Attack - Iter-3000: Rec_loss-0.1621.
+Attack - Iter-4000: Rec_loss-0.1523.
+Attack - Iter-5000: Rec_loss-0.1437.
+Attack - Iter-6000: Rec_loss-0.1464.
+Attack - Iter-7000: Rec_loss-0.1429.
+Attack - Iter-8000: Rec_loss-0.1407.
+Attack - Iter-9000: Rec_loss-0.1422.
+Attack - Iter-9999: Rec_loss-0.1410.
+PSNR 7.2437 SSIM 0.1303 LPIPS -0.0000
+Tuesday, 29. October 2024 10:53PM
+Finished computations with time: 0:02:15.005635
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.125388
+Attack - Iter-0: Rec_loss-0.0005.
+Attack - Iter-1000: Rec_loss-0.0001.
+Attack - Iter-2000: Rec_loss-0.0001.
+Attack - Iter-3000: Rec_loss-0.0001.
+Attack - Iter-3999: Rec_loss-0.0001.
+PSNR 13.2848 SSIM 0.3723 LPIPS -0.0000
+Thursday, 21. November 2024 11:02AM
+Finished computations with time: 0:00:31.242004
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.122290
+Attack - Iter-0: Rec_loss-0.2372.
+Attack - Iter-1000: Rec_loss-0.0300.
+Attack - Iter-2000: Rec_loss-0.0237.
+Attack - Iter-3000: Rec_loss-0.0230.
+Attack - Iter-3999: Rec_loss-0.0229.
+PSNR 20.4158 SSIM 0.6147 LPIPS -0.0000
+Thursday, 21. November 2024 01:08PM
+Finished computations with time: 0:00:52.959442
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.122784
+Attack - Iter-0: Rec_loss-0.0514.
+Attack - Iter-1000: Rec_loss-0.0473.
+Attack - Iter-2000: Rec_loss-0.0435.
+Attack - Iter-3000: Rec_loss-0.0439.
+Attack - Iter-3999: Rec_loss-0.0434.
+PSNR 7.0229 SSIM 0.1180 LPIPS -0.0000
+Thursday, 21. November 2024 01:11PM
+Finished computations with time: 0:00:54.921816
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.115541
+Attack - Iter-0: Rec_loss-0.1990.
+Attack - Iter-1000: Rec_loss-0.0015.
+Attack - Iter-2000: Rec_loss-0.0009.
+Attack - Iter-3000: Rec_loss-0.0008.
+Attack - Iter-3999: Rec_loss-0.0008.
+PSNR 18.1502 SSIM 0.4538 LPIPS -0.0000
+Thursday, 21. November 2024 01:23PM
+Finished computations with time: 0:00:57.330581
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.113393
+Attack - Iter-0: Rec_loss-0.1964.
+Attack - Iter-1000: Rec_loss-0.0013.
+Attack - Iter-2000: Rec_loss-0.0007.
+Attack - Iter-3000: Rec_loss-0.0007.
+Attack - Iter-3999: Rec_loss-0.0007.
+PSNR 17.5566 SSIM 0.4176 LPIPS -0.0000
+Thursday, 21. November 2024 01:27PM
+Finished computations with time: 0:00:57.189206
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.111583
+Attack - Iter-0: Rec_loss-0.1476.
+Attack - Iter-1000: Rec_loss-0.8599.
+Attack - Iter-2000: Rec_loss-0.8760.
+Attack - Iter-3000: Rec_loss-0.8773.
+Attack - Iter-3999: Rec_loss-0.8775.
+PSNR 6.4409 SSIM 0.1276 LPIPS -0.0000
+Thursday, 21. November 2024 01:39PM
+Finished computations with time: 0:00:57.525796
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.111931
+Attack - Iter-0: Rec_loss-0.2895.
+Attack - Iter-1000: Rec_loss-0.0023.
+Attack - Iter-2000: Rec_loss-0.0014.
+Attack - Iter-3000: Rec_loss-0.0013.
+Attack - Iter-3999: Rec_loss-0.0013.
+PSNR 18.1377 SSIM 0.4483 LPIPS -0.0000
+Thursday, 21. November 2024 01:47PM
+Finished computations with time: 0:00:57.792113
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.115445
+Attack - Iter-0: Rec_loss-0.2962.
+Attack - Iter-1000: Rec_loss-0.0028.
+Attack - Iter-2000: Rec_loss-0.0018.
+Attack - Iter-3000: Rec_loss-0.0016.
+Attack - Iter-3999: Rec_loss-0.0016.
+PSNR 18.8556 SSIM 0.4870 LPIPS -0.0000
+Thursday, 21. November 2024 01:53PM
+Finished computations with time: 0:00:57.721709
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([5])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.113966
+Attack - Iter-0: Rec_loss-0.2125.
+Attack - Iter-1000: Rec_loss-0.3053.
+Attack - Iter-2000: Rec_loss-0.3120.
+Attack - Iter-3000: Rec_loss-0.3118.
+Attack - Iter-3999: Rec_loss-0.3120.
+PSNR 6.0576 SSIM 0.0981 LPIPS -0.0000
+Thursday, 21. November 2024 02:03PM
+Finished computations with time: 0:00:57.358267
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.137669
+Attack - Iter-0: Rec_loss-0.0154.
+Attack - Iter-1000: Rec_loss-0.0047.
+Attack - Iter-2000: Rec_loss-0.0037.
+Attack - Iter-3000: Rec_loss-0.0042.
+Attack - Iter-3999: Rec_loss-0.0040.
+PSNR 18.1171 SSIM 0.6261 LPIPS -0.0000
+Monday, 25. November 2024 09:07PM
+Finished computations with time: 0:00:29.866023
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.126421
+Attack - Iter-0: Rec_loss-0.0154.
+Attack - Iter-1000: Rec_loss-0.0047.
+Attack - Iter-2000: Rec_loss-0.0037.
+Attack - Iter-3000: Rec_loss-0.0042.
+Attack - Iter-3999: Rec_loss-0.0040.
+PSNR 18.1171 SSIM 0.6261 LPIPS -0.0000
+Monday, 25. November 2024 09:09PM
+Finished computations with time: 0:00:30.064522
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.127622
+Attack - Iter-0: Rec_loss-0.0084.
+Attack - Iter-1000: Rec_loss-0.0029.
+Attack - Iter-2000: Rec_loss-0.0023.
+Attack - Iter-3000: Rec_loss-0.0017.
+Attack - Iter-3999: Rec_loss-0.0018.
+PSNR 20.8098 SSIM 0.7662 LPIPS -0.0000
+Monday, 25. November 2024 09:10PM
+Finished computations with time: 0:00:30.229147
+Namespace(seed=42, output_dir='./logs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=4000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on CIFAR10
+Defense none against Attack gs on Dataset CIFAR10.
+Sensitive_labels: tensor([5])
+Proxy_labels: tensor([9])
+Initial with CIFAR10
+Finished defence with time: 0:00:00.124056
+Attack - Iter-0: Rec_loss-0.0004.
+Attack - Iter-1000: Rec_loss-0.0001.
+Attack - Iter-2000: Rec_loss-0.0001.
+Attack - Iter-3000: Rec_loss-0.0001.
+Attack - Iter-3999: Rec_loss-0.0001.
+PSNR 13.3086 SSIM 0.3747 LPIPS -0.0000
+Monday, 25. November 2024 09:42PM
+Finished computations with time: 0:00:27.474981

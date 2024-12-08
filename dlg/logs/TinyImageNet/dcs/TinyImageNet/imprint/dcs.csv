@@ -1,0 +1,18 @@
+Namespace(seed=42, output_dir='./logs/TinyImageNet/dcs', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='imprint', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='dcs', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.001, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=400.0, lambda_y=0.7, project=True, startpoint='none', mixup=False, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense dcs against Attack imprint on Dataset TinyImageNet.
+Sensitive_labels: tensor([142])
+Proxy_labels: tensor([193])
+Initial with TinyImageNet
+dotg: 0
+Finished defence with time: 0:00:00.493802
+Initially produced 3 hits.
+Reduced to 2 hits.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 8.6587 SSIM 0.2722 LPIPS 0.6400
+Monday, 28. October 2024 11:32AM
+Finished computations with time: 0:00:01.084888

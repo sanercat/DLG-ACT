@@ -1,0 +1,114 @@
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=True, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=32, num_sen=64, defense='none', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=8, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Device  8 	 Train loss 5.2136 	 LR 0.0099 	 Train images 2000 	 Round   1
+Device  8 	 Train loss 3.7420 	 LR 0.0098 	 Train images 2000 	 Round   2
+Device  8 	 Train loss 2.6921 	 LR 0.0097 	 Train images 2000 	 Round   3
+Device  8 	 Train loss 2.1276 	 LR 0.0096 	 Train images 2000 	 Round   4
+Device  8 	 Train loss 1.7701 	 LR 0.0095 	 Train images 2000 	 Round   5
+Device  8 	 Train loss 1.5070 	 LR 0.0094 	 Train images 2000 	 Round   6
+Device  8 	 Train loss 1.2878 	 LR 0.0093 	 Train images 2000 	 Round   7
+Device  8 	 Train loss 1.1073 	 LR 0.0092 	 Train images 2000 	 Round   8
+Device  8 	 Train loss 0.9235 	 LR 0.0091 	 Train images 2000 	 Round   9
+Device  8 	 Train loss 0.7887 	 LR 0.0090 	 Train images 2000 	 Round  10
+Device  8 	 Train loss 0.6585 	 LR 0.0090 	 Train images 2000 	 Round  11
+Device  8 	 Train loss 0.5481 	 LR 0.0089 	 Train images 2000 	 Round  12
+Device  8 	 Train loss 0.4411 	 LR 0.0088 	 Train images 2000 	 Round  13
+Device  8 	 Train loss 0.3090 	 LR 0.0087 	 Train images 2000 	 Round  14
+Device  8 	 Train loss 0.2250 	 LR 0.0086 	 Train images 2000 	 Round  15
+Device  8 	 Train loss 0.1765 	 LR 0.0085 	 Train images 2000 	 Round  16
+Device  8 	 Train loss 0.1185 	 LR 0.0084 	 Train images 2000 	 Round  17
+Device  8 	 Train loss 0.0907 	 LR 0.0083 	 Train images 2000 	 Round  18
+Device  8 	 Train loss 0.0736 	 LR 0.0083 	 Train images 2000 	 Round  19
+Device  8 	 Train loss 0.0628 	 LR 0.0082 	 Train images 2000 	 Round  20
+Device  8 	 Train loss 0.0539 	 LR 0.0081 	 Train images 2000 	 Round  21
+Device  8 	 Train loss 0.0473 	 LR 0.0080 	 Train images 2000 	 Round  22
+Device  8 	 Train loss 0.0383 	 LR 0.0079 	 Train images 2000 	 Round  23
+Device  8 	 Train loss 0.0377 	 LR 0.0079 	 Train images 2000 	 Round  24
+Device  8 	 Train loss 0.0303 	 LR 0.0078 	 Train images 2000 	 Round  25
+Device  8 	 Train loss 0.0282 	 LR 0.0077 	 Train images 2000 	 Round  26
+Device  8 	 Train loss 0.0277 	 LR 0.0076 	 Train images 2000 	 Round  27
+Device  8 	 Train loss 0.0263 	 LR 0.0075 	 Train images 2000 	 Round  28
+Device  8 	 Train loss 0.0263 	 LR 0.0075 	 Train images 2000 	 Round  29
+Device  8 	 Train loss 0.0228 	 LR 0.0074 	 Train images 2000 	 Round  30
+Device  8 	 Train loss 0.0202 	 LR 0.0073 	 Train images 2000 	 Round  31
+Device  8 	 Train loss 0.0195 	 LR 0.0072 	 Train images 2000 	 Round  32
+Device  8 	 Train loss 0.0183 	 LR 0.0072 	 Train images 2000 	 Round  33
+Device  8 	 Train loss 0.0179 	 LR 0.0071 	 Train images 2000 	 Round  34
+Device  8 	 Train loss 0.0173 	 LR 0.0070 	 Train images 2000 	 Round  35
+Device  8 	 Train loss 0.0155 	 LR 0.0070 	 Train images 2000 	 Round  36
+Device  8 	 Train loss 0.0164 	 LR 0.0069 	 Train images 2000 	 Round  37
+Device  8 	 Train loss 0.0149 	 LR 0.0068 	 Train images 2000 	 Round  38
+Device  8 	 Train loss 0.0144 	 LR 0.0068 	 Train images 2000 	 Round  39
+Device  8 	 Train loss 0.0133 	 LR 0.0067 	 Train images 2000 	 Round  40
+Device  8 	 Train loss 0.0131 	 LR 0.0066 	 Train images 2000 	 Round  41
+Device  8 	 Train loss 0.0130 	 LR 0.0066 	 Train images 2000 	 Round  42
+Device  8 	 Train loss 0.0126 	 LR 0.0065 	 Train images 2000 	 Round  43
+Device  8 	 Train loss 0.0124 	 LR 0.0064 	 Train images 2000 	 Round  44
+Device  8 	 Train loss 0.0117 	 LR 0.0064 	 Train images 2000 	 Round  45
+Device  8 	 Train loss 0.0111 	 LR 0.0063 	 Train images 2000 	 Round  46
+Device  8 	 Train loss 0.0109 	 LR 0.0062 	 Train images 2000 	 Round  47
+Device  8 	 Train loss 0.0112 	 LR 0.0062 	 Train images 2000 	 Round  48
+Device  8 	 Train loss 0.0101 	 LR 0.0061 	 Train images 2000 	 Round  49
+Device  8 	 Train loss 0.0103 	 LR 0.0061 	 Train images 2000 	 Round  50
+Defense none on Dataset TinyImageNet.
+Finished computations with time: 0:27:53.352704
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=True, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=32, num_sen=64, defense='none', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=8, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Device  8 	 Train loss 5.5932 	 LR 0.0099 	 Train images 2000 	 Round   1
+Device  8 	 Train loss 5.5272 	 LR 0.0098 	 Train images 2000 	 Round   2
+Device  8 	 Train loss 5.4240 	 LR 0.0097 	 Train images 2000 	 Round   3
+Device  8 	 Train loss 5.3062 	 LR 0.0096 	 Train images 2000 	 Round   4
+Device  8 	 Train loss 5.2174 	 LR 0.0095 	 Train images 2000 	 Round   5
+Device  8 	 Train loss 5.1543 	 LR 0.0094 	 Train images 2000 	 Round   6
+Device  8 	 Train loss 5.0667 	 LR 0.0093 	 Train images 2000 	 Round   7
+Device  8 	 Train loss 4.9936 	 LR 0.0092 	 Train images 2000 	 Round   8
+Device  8 	 Train loss 4.9077 	 LR 0.0091 	 Train images 2000 	 Round   9
+Device  8 	 Train loss 4.8151 	 LR 0.0090 	 Train images 2000 	 Round  10
+Device  8 	 Train loss 4.7631 	 LR 0.0090 	 Train images 2000 	 Round  11
+Device  8 	 Train loss 4.7066 	 LR 0.0089 	 Train images 2000 	 Round  12
+Device  8 	 Train loss 4.6199 	 LR 0.0088 	 Train images 2000 	 Round  13
+Device  8 	 Train loss 4.5361 	 LR 0.0087 	 Train images 2000 	 Round  14
+Device  8 	 Train loss 4.4960 	 LR 0.0086 	 Train images 2000 	 Round  15
+Device  8 	 Train loss 4.4399 	 LR 0.0085 	 Train images 2000 	 Round  16
+Device  8 	 Train loss 4.3671 	 LR 0.0084 	 Train images 2000 	 Round  17
+Device  8 	 Train loss 4.3022 	 LR 0.0083 	 Train images 2000 	 Round  18
+Device  8 	 Train loss 4.2324 	 LR 0.0083 	 Train images 2000 	 Round  19
+Device  8 	 Train loss 4.1753 	 LR 0.0082 	 Train images 2000 	 Round  20
+Device  8 	 Train loss 4.0823 	 LR 0.0081 	 Train images 2000 	 Round  21
+Device  8 	 Train loss 4.0698 	 LR 0.0080 	 Train images 2000 	 Round  22
+Device  8 	 Train loss 3.9422 	 LR 0.0079 	 Train images 2000 	 Round  23
+Device  8 	 Train loss 3.9805 	 LR 0.0079 	 Train images 2000 	 Round  24
+Device  8 	 Train loss 3.8470 	 LR 0.0078 	 Train images 2000 	 Round  25
+Device  8 	 Train loss 3.7741 	 LR 0.0077 	 Train images 2000 	 Round  26
+Device  8 	 Train loss 3.7692 	 LR 0.0076 	 Train images 2000 	 Round  27
+Device  8 	 Train loss 3.6387 	 LR 0.0075 	 Train images 2000 	 Round  28
+Device  8 	 Train loss 3.6990 	 LR 0.0075 	 Train images 2000 	 Round  29
+Device  8 	 Train loss 3.6016 	 LR 0.0074 	 Train images 2000 	 Round  30
+Device  8 	 Train loss 3.5645 	 LR 0.0073 	 Train images 2000 	 Round  31
+Device  8 	 Train loss 3.4493 	 LR 0.0072 	 Train images 2000 	 Round  32
+Device  8 	 Train loss 3.4356 	 LR 0.0072 	 Train images 2000 	 Round  33
+Device  8 	 Train loss 3.3418 	 LR 0.0071 	 Train images 2000 	 Round  34
+Device  8 	 Train loss 3.2909 	 LR 0.0070 	 Train images 2000 	 Round  35
+Device  8 	 Train loss 3.2622 	 LR 0.0070 	 Train images 2000 	 Round  36
+Device  8 	 Train loss 3.2532 	 LR 0.0069 	 Train images 2000 	 Round  37
+Device  8 	 Train loss 3.1681 	 LR 0.0068 	 Train images 2000 	 Round  38
+Device  8 	 Train loss 3.1210 	 LR 0.0068 	 Train images 2000 	 Round  39
+Device  8 	 Train loss 3.0507 	 LR 0.0067 	 Train images 2000 	 Round  40
+Device  8 	 Train loss 3.0013 	 LR 0.0066 	 Train images 2000 	 Round  41
+Device  8 	 Train loss 3.0137 	 LR 0.0066 	 Train images 2000 	 Round  42
+Device  8 	 Train loss 2.9295 	 LR 0.0065 	 Train images 2000 	 Round  43
+Device  8 	 Train loss 2.8834 	 LR 0.0064 	 Train images 2000 	 Round  44
+Device  8 	 Train loss 2.9094 	 LR 0.0064 	 Train images 2000 	 Round  45
+Device  8 	 Train loss 2.7727 	 LR 0.0063 	 Train images 2000 	 Round  46
+Device  8 	 Train loss 2.7304 	 LR 0.0062 	 Train images 2000 	 Round  47
+Device  8 	 Train loss 2.6868 	 LR 0.0062 	 Train images 2000 	 Round  48
+Device  8 	 Train loss 2.5878 	 LR 0.0061 	 Train images 2000 	 Round  49
+Device  8 	 Train loss 2.5190 	 LR 0.0061 	 Train images 2000 	 Round  50
+Defense none on Dataset TinyImageNet.
+Finished computations with time: 0:28:55.605241
+

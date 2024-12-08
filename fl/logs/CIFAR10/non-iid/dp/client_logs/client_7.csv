@@ -1,0 +1,580 @@
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='non-iid', TotalDevNum=10, DevNum=7, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.cifar.CIFAR10'>
+Device  7 	 Train loss 0.8851 	 LR 0.0099 	 Train images 4000 	 Round   1
+Device  7 	 Train loss 0.8392 	 LR 0.0098 	 Train images 4000 	 Round   2
+Device  7 	 Train loss 1.1734 	 LR 0.0097 	 Train images 4000 	 Round   3
+Device  7 	 Train loss 1.0281 	 LR 0.0096 	 Train images 4000 	 Round   4
+Device  7 	 Train loss 0.7580 	 LR 0.0095 	 Train images 4000 	 Round   5
+Device  7 	 Train loss 0.7929 	 LR 0.0094 	 Train images 4000 	 Round   6
+Device  7 	 Train loss 0.7186 	 LR 0.0093 	 Train images 4000 	 Round   7
+Device  7 	 Train loss 0.8770 	 LR 0.0092 	 Train images 4000 	 Round   8
+Device  7 	 Train loss 0.7257 	 LR 0.0091 	 Train images 4000 	 Round   9
+Device  7 	 Train loss 0.8012 	 LR 0.0090 	 Train images 4000 	 Round  10
+Device  7 	 Train loss 0.7711 	 LR 0.0090 	 Train images 4000 	 Round  11
+Device  7 	 Train loss 0.7376 	 LR 0.0089 	 Train images 4000 	 Round  12
+Device  7 	 Train loss 0.7024 	 LR 0.0088 	 Train images 4000 	 Round  13
+Device  7 	 Train loss 0.7008 	 LR 0.0087 	 Train images 4000 	 Round  14
+Device  7 	 Train loss 0.6652 	 LR 0.0086 	 Train images 4000 	 Round  15
+Device  7 	 Train loss 0.7635 	 LR 0.0085 	 Train images 4000 	 Round  16
+Device  7 	 Train loss 0.6586 	 LR 0.0084 	 Train images 4000 	 Round  17
+Device  7 	 Train loss 0.7679 	 LR 0.0083 	 Train images 4000 	 Round  18
+Device  7 	 Train loss 0.6325 	 LR 0.0083 	 Train images 4000 	 Round  19
+Device  7 	 Train loss 0.6724 	 LR 0.0082 	 Train images 4000 	 Round  20
+Device  7 	 Train loss 0.6399 	 LR 0.0081 	 Train images 4000 	 Round  21
+Device  7 	 Train loss 0.6718 	 LR 0.0080 	 Train images 4000 	 Round  22
+Device  7 	 Train loss 0.6229 	 LR 0.0079 	 Train images 4000 	 Round  23
+Device  7 	 Train loss 0.6776 	 LR 0.0079 	 Train images 4000 	 Round  24
+Device  7 	 Train loss 0.6254 	 LR 0.0078 	 Train images 4000 	 Round  25
+Device  7 	 Train loss 0.6685 	 LR 0.0077 	 Train images 4000 	 Round  26
+Device  7 	 Train loss 0.6018 	 LR 0.0076 	 Train images 4000 	 Round  27
+Device  7 	 Train loss 0.6803 	 LR 0.0075 	 Train images 4000 	 Round  28
+Device  7 	 Train loss 0.6076 	 LR 0.0075 	 Train images 4000 	 Round  29
+Device  7 	 Train loss 0.8123 	 LR 0.0010 	 Train images 4000 	 Round  30
+Device  7 	 Train loss 0.7100 	 LR 0.0010 	 Train images 4000 	 Round  31
+Device  7 	 Train loss 0.7012 	 LR 0.0010 	 Train images 4000 	 Round  32
+Device  7 	 Train loss 0.6932 	 LR 0.0010 	 Train images 4000 	 Round  33
+Device  7 	 Train loss 0.6938 	 LR 0.0010 	 Train images 4000 	 Round  34
+Device  7 	 Train loss 0.6928 	 LR 0.0010 	 Train images 4000 	 Round  35
+Device  7 	 Train loss 0.6847 	 LR 0.0009 	 Train images 4000 	 Round  36
+Device  7 	 Train loss 0.6844 	 LR 0.0009 	 Train images 4000 	 Round  37
+Device  7 	 Train loss 0.6800 	 LR 0.0009 	 Train images 4000 	 Round  38
+Device  7 	 Train loss 0.6717 	 LR 0.0009 	 Train images 4000 	 Round  39
+Device  7 	 Train loss 0.6745 	 LR 0.0009 	 Train images 4000 	 Round  40
+Device  7 	 Train loss 0.6733 	 LR 0.0009 	 Train images 4000 	 Round  41
+Device  7 	 Train loss 0.6696 	 LR 0.0009 	 Train images 4000 	 Round  42
+Device  7 	 Train loss 0.6624 	 LR 0.0009 	 Train images 4000 	 Round  43
+Device  7 	 Train loss 0.6716 	 LR 0.0009 	 Train images 4000 	 Round  44
+Device  7 	 Train loss 0.6644 	 LR 0.0009 	 Train images 4000 	 Round  45
+Device  7 	 Train loss 0.6668 	 LR 0.0009 	 Train images 4000 	 Round  46
+Device  7 	 Train loss 0.6588 	 LR 0.0008 	 Train images 4000 	 Round  47
+Device  7 	 Train loss 0.6623 	 LR 0.0008 	 Train images 4000 	 Round  48
+Device  7 	 Train loss 0.6565 	 LR 0.0008 	 Train images 4000 	 Round  49
+Device  7 	 Train loss 0.6587 	 LR 0.0008 	 Train images 4000 	 Round  50
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:17:19.054785
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='non-iid', TotalDevNum=10, DevNum=7, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.cifar.CIFAR10'>
+Device  7 	 Train loss 1.0522 	 LR 0.0099 	 Train images 4000 	 Round   1
+Device  7 	 Train loss 0.7905 	 LR 0.0098 	 Train images 4000 	 Round   2
+Device  7 	 Train loss 0.8211 	 LR 0.0097 	 Train images 4000 	 Round   3
+Device  7 	 Train loss 0.8286 	 LR 0.0096 	 Train images 4000 	 Round   4
+Device  7 	 Train loss 0.7203 	 LR 0.0095 	 Train images 4000 	 Round   5
+Device  7 	 Train loss 0.8360 	 LR 0.0094 	 Train images 4000 	 Round   6
+Device  7 	 Train loss 0.6732 	 LR 0.0093 	 Train images 4000 	 Round   7
+Device  7 	 Train loss 0.7774 	 LR 0.0092 	 Train images 4000 	 Round   8
+Device  7 	 Train loss 0.6534 	 LR 0.0091 	 Train images 4000 	 Round   9
+Device  7 	 Train loss 0.7541 	 LR 0.0090 	 Train images 4000 	 Round  10
+Device  7 	 Train loss 0.6405 	 LR 0.0090 	 Train images 4000 	 Round  11
+Device  7 	 Train loss 0.7438 	 LR 0.0089 	 Train images 4000 	 Round  12
+Device  7 	 Train loss 0.6445 	 LR 0.0088 	 Train images 4000 	 Round  13
+Device  7 	 Train loss 0.7007 	 LR 0.0087 	 Train images 4000 	 Round  14
+Device  7 	 Train loss 0.6427 	 LR 0.0086 	 Train images 4000 	 Round  15
+Device  7 	 Train loss 0.6994 	 LR 0.0085 	 Train images 4000 	 Round  16
+Device  7 	 Train loss 0.6251 	 LR 0.0084 	 Train images 4000 	 Round  17
+Device  7 	 Train loss 0.6892 	 LR 0.0083 	 Train images 4000 	 Round  18
+Device  7 	 Train loss 0.6204 	 LR 0.0083 	 Train images 4000 	 Round  19
+Device  7 	 Train loss 0.6615 	 LR 0.0082 	 Train images 4000 	 Round  20
+Device  7 	 Train loss 0.6185 	 LR 0.0081 	 Train images 4000 	 Round  21
+Device  7 	 Train loss 0.6692 	 LR 0.0080 	 Train images 4000 	 Round  22
+Device  7 	 Train loss 0.6145 	 LR 0.0079 	 Train images 4000 	 Round  23
+Device  7 	 Train loss 0.6713 	 LR 0.0079 	 Train images 4000 	 Round  24
+Device  7 	 Train loss 0.6029 	 LR 0.0078 	 Train images 4000 	 Round  25
+Device  7 	 Train loss 0.6563 	 LR 0.0077 	 Train images 4000 	 Round  26
+Device  7 	 Train loss 0.6004 	 LR 0.0076 	 Train images 4000 	 Round  27
+Device  7 	 Train loss 0.6499 	 LR 0.0075 	 Train images 4000 	 Round  28
+Device  7 	 Train loss 0.6085 	 LR 0.0075 	 Train images 4000 	 Round  29
+Device  7 	 Train loss 0.7639 	 LR 0.0010 	 Train images 4000 	 Round  30
+Device  7 	 Train loss 0.7141 	 LR 0.0010 	 Train images 4000 	 Round  31
+Device  7 	 Train loss 0.7151 	 LR 0.0010 	 Train images 4000 	 Round  32
+Device  7 	 Train loss 0.7080 	 LR 0.0010 	 Train images 4000 	 Round  33
+Device  7 	 Train loss 0.7037 	 LR 0.0010 	 Train images 4000 	 Round  34
+Device  7 	 Train loss 0.7028 	 LR 0.0010 	 Train images 4000 	 Round  35
+Device  7 	 Train loss 0.7061 	 LR 0.0009 	 Train images 4000 	 Round  36
+Device  7 	 Train loss 0.7080 	 LR 0.0009 	 Train images 4000 	 Round  37
+Device  7 	 Train loss 0.6942 	 LR 0.0009 	 Train images 4000 	 Round  38
+Device  7 	 Train loss 0.6958 	 LR 0.0009 	 Train images 4000 	 Round  39
+Device  7 	 Train loss 0.6981 	 LR 0.0009 	 Train images 4000 	 Round  40
+Device  7 	 Train loss 0.6961 	 LR 0.0009 	 Train images 4000 	 Round  41
+Device  7 	 Train loss 0.6976 	 LR 0.0009 	 Train images 4000 	 Round  42
+Device  7 	 Train loss 0.6934 	 LR 0.0009 	 Train images 4000 	 Round  43
+Device  7 	 Train loss 0.7023 	 LR 0.0009 	 Train images 4000 	 Round  44
+Device  7 	 Train loss 0.6914 	 LR 0.0009 	 Train images 4000 	 Round  45
+Device  7 	 Train loss 0.6919 	 LR 0.0009 	 Train images 4000 	 Round  46
+Device  7 	 Train loss 0.6910 	 LR 0.0008 	 Train images 4000 	 Round  47
+Device  7 	 Train loss 0.6932 	 LR 0.0008 	 Train images 4000 	 Round  48
+Device  7 	 Train loss 0.6904 	 LR 0.0008 	 Train images 4000 	 Round  49
+Device  7 	 Train loss 0.6911 	 LR 0.0008 	 Train images 4000 	 Round  50
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:17:16.439206
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='non-iid', TotalDevNum=10, DevNum=7, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.cifar.CIFAR10'>
+Device  7 	 Train loss 1.0522 	 LR 0.0099 	 Train images 4000 	 Round   1
+Device  7 	 Train loss 0.7905 	 LR 0.0098 	 Train images 4000 	 Round   2
+Device  7 	 Train loss 0.8211 	 LR 0.0097 	 Train images 4000 	 Round   3
+Device  7 	 Train loss 0.8286 	 LR 0.0096 	 Train images 4000 	 Round   4
+Device  7 	 Train loss 0.7203 	 LR 0.0095 	 Train images 4000 	 Round   5
+Device  7 	 Train loss 0.8361 	 LR 0.0094 	 Train images 4000 	 Round   6
+Device  7 	 Train loss 0.6732 	 LR 0.0093 	 Train images 4000 	 Round   7
+Device  7 	 Train loss 0.7774 	 LR 0.0092 	 Train images 4000 	 Round   8
+Device  7 	 Train loss 0.6534 	 LR 0.0091 	 Train images 4000 	 Round   9
+Device  7 	 Train loss 0.7541 	 LR 0.0090 	 Train images 4000 	 Round  10
+Device  7 	 Train loss 0.6405 	 LR 0.0090 	 Train images 4000 	 Round  11
+Device  7 	 Train loss 0.7438 	 LR 0.0089 	 Train images 4000 	 Round  12
+Device  7 	 Train loss 0.6445 	 LR 0.0088 	 Train images 4000 	 Round  13
+Device  7 	 Train loss 0.7007 	 LR 0.0087 	 Train images 4000 	 Round  14
+Device  7 	 Train loss 0.6427 	 LR 0.0086 	 Train images 4000 	 Round  15
+Device  7 	 Train loss 0.6993 	 LR 0.0085 	 Train images 4000 	 Round  16
+Device  7 	 Train loss 0.6251 	 LR 0.0084 	 Train images 4000 	 Round  17
+Device  7 	 Train loss 0.6892 	 LR 0.0083 	 Train images 4000 	 Round  18
+Device  7 	 Train loss 0.6204 	 LR 0.0083 	 Train images 4000 	 Round  19
+Device  7 	 Train loss 0.6614 	 LR 0.0082 	 Train images 4000 	 Round  20
+Device  7 	 Train loss 0.6185 	 LR 0.0081 	 Train images 4000 	 Round  21
+Device  7 	 Train loss 0.6692 	 LR 0.0080 	 Train images 4000 	 Round  22
+Device  7 	 Train loss 0.6145 	 LR 0.0079 	 Train images 4000 	 Round  23
+Device  7 	 Train loss 0.6713 	 LR 0.0079 	 Train images 4000 	 Round  24
+Device  7 	 Train loss 0.6029 	 LR 0.0078 	 Train images 4000 	 Round  25
+Device  7 	 Train loss 0.6563 	 LR 0.0077 	 Train images 4000 	 Round  26
+Device  7 	 Train loss 0.6004 	 LR 0.0076 	 Train images 4000 	 Round  27
+Device  7 	 Train loss 0.6499 	 LR 0.0075 	 Train images 4000 	 Round  28
+Device  7 	 Train loss 0.6085 	 LR 0.0075 	 Train images 4000 	 Round  29
+Device  7 	 Train loss 0.7639 	 LR 0.0010 	 Train images 4000 	 Round  30
+Device  7 	 Train loss 0.7141 	 LR 0.0010 	 Train images 4000 	 Round  31
+Device  7 	 Train loss 0.7151 	 LR 0.0010 	 Train images 4000 	 Round  32
+Device  7 	 Train loss 0.7080 	 LR 0.0010 	 Train images 4000 	 Round  33
+Device  7 	 Train loss 0.7037 	 LR 0.0010 	 Train images 4000 	 Round  34
+Device  7 	 Train loss 0.7028 	 LR 0.0010 	 Train images 4000 	 Round  35
+Device  7 	 Train loss 0.7061 	 LR 0.0009 	 Train images 4000 	 Round  36
+Device  7 	 Train loss 0.7080 	 LR 0.0009 	 Train images 4000 	 Round  37
+Device  7 	 Train loss 0.6942 	 LR 0.0009 	 Train images 4000 	 Round  38
+Device  7 	 Train loss 0.6958 	 LR 0.0009 	 Train images 4000 	 Round  39
+Device  7 	 Train loss 0.6981 	 LR 0.0009 	 Train images 4000 	 Round  40
+Device  7 	 Train loss 0.6961 	 LR 0.0009 	 Train images 4000 	 Round  41
+Device  7 	 Train loss 0.6976 	 LR 0.0009 	 Train images 4000 	 Round  42
+Device  7 	 Train loss 0.6934 	 LR 0.0009 	 Train images 4000 	 Round  43
+Device  7 	 Train loss 0.7023 	 LR 0.0009 	 Train images 4000 	 Round  44
+Device  7 	 Train loss 0.6914 	 LR 0.0009 	 Train images 4000 	 Round  45
+Device  7 	 Train loss 0.6919 	 LR 0.0009 	 Train images 4000 	 Round  46
+Device  7 	 Train loss 0.6910 	 LR 0.0008 	 Train images 4000 	 Round  47
+Device  7 	 Train loss 0.6932 	 LR 0.0008 	 Train images 4000 	 Round  48
+Device  7 	 Train loss 0.6904 	 LR 0.0008 	 Train images 4000 	 Round  49
+Device  7 	 Train loss 0.6911 	 LR 0.0008 	 Train images 4000 	 Round  50
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:17:15.989407
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.01, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='non-iid', TotalDevNum=10, DevNum=7, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.cifar.CIFAR10'>
+Device  7 	 Train loss 1.0522 	 LR 0.0099 	 Train images 4000 	 Round   1
+Device  7 	 Train loss 0.7905 	 LR 0.0098 	 Train images 4000 	 Round   2
+Device  7 	 Train loss 0.8211 	 LR 0.0097 	 Train images 4000 	 Round   3
+Device  7 	 Train loss 0.8286 	 LR 0.0096 	 Train images 4000 	 Round   4
+Device  7 	 Train loss 0.7203 	 LR 0.0095 	 Train images 4000 	 Round   5
+Device  7 	 Train loss 0.8360 	 LR 0.0094 	 Train images 4000 	 Round   6
+Device  7 	 Train loss 0.6732 	 LR 0.0093 	 Train images 4000 	 Round   7
+Device  7 	 Train loss 0.7774 	 LR 0.0092 	 Train images 4000 	 Round   8
+Device  7 	 Train loss 0.6534 	 LR 0.0091 	 Train images 4000 	 Round   9
+Device  7 	 Train loss 0.7541 	 LR 0.0090 	 Train images 4000 	 Round  10
+Device  7 	 Train loss 0.6405 	 LR 0.0090 	 Train images 4000 	 Round  11
+Device  7 	 Train loss 0.7438 	 LR 0.0089 	 Train images 4000 	 Round  12
+Device  7 	 Train loss 0.6445 	 LR 0.0088 	 Train images 4000 	 Round  13
+Device  7 	 Train loss 0.7007 	 LR 0.0087 	 Train images 4000 	 Round  14
+Device  7 	 Train loss 0.6427 	 LR 0.0086 	 Train images 4000 	 Round  15
+Device  7 	 Train loss 0.6994 	 LR 0.0085 	 Train images 4000 	 Round  16
+Device  7 	 Train loss 0.6251 	 LR 0.0084 	 Train images 4000 	 Round  17
+Device  7 	 Train loss 0.6892 	 LR 0.0083 	 Train images 4000 	 Round  18
+Device  7 	 Train loss 0.6204 	 LR 0.0083 	 Train images 4000 	 Round  19
+Device  7 	 Train loss 0.6615 	 LR 0.0082 	 Train images 4000 	 Round  20
+Device  7 	 Train loss 0.6185 	 LR 0.0081 	 Train images 4000 	 Round  21
+Device  7 	 Train loss 0.6692 	 LR 0.0080 	 Train images 4000 	 Round  22
+Device  7 	 Train loss 0.6145 	 LR 0.0079 	 Train images 4000 	 Round  23
+Device  7 	 Train loss 0.6713 	 LR 0.0079 	 Train images 4000 	 Round  24
+Device  7 	 Train loss 0.6029 	 LR 0.0078 	 Train images 4000 	 Round  25
+Device  7 	 Train loss 0.6563 	 LR 0.0077 	 Train images 4000 	 Round  26
+Device  7 	 Train loss 0.6004 	 LR 0.0076 	 Train images 4000 	 Round  27
+Device  7 	 Train loss 0.6499 	 LR 0.0075 	 Train images 4000 	 Round  28
+Device  7 	 Train loss 0.6085 	 LR 0.0075 	 Train images 4000 	 Round  29
+Device  7 	 Train loss 0.7639 	 LR 0.0010 	 Train images 4000 	 Round  30
+Device  7 	 Train loss 0.7141 	 LR 0.0010 	 Train images 4000 	 Round  31
+Device  7 	 Train loss 0.7151 	 LR 0.0010 	 Train images 4000 	 Round  32
+Device  7 	 Train loss 0.7080 	 LR 0.0010 	 Train images 4000 	 Round  33
+Device  7 	 Train loss 0.7037 	 LR 0.0010 	 Train images 4000 	 Round  34
+Device  7 	 Train loss 0.7028 	 LR 0.0010 	 Train images 4000 	 Round  35
+Device  7 	 Train loss 0.7061 	 LR 0.0009 	 Train images 4000 	 Round  36
+Device  7 	 Train loss 0.7080 	 LR 0.0009 	 Train images 4000 	 Round  37
+Device  7 	 Train loss 0.6942 	 LR 0.0009 	 Train images 4000 	 Round  38
+Device  7 	 Train loss 0.6958 	 LR 0.0009 	 Train images 4000 	 Round  39
+Device  7 	 Train loss 0.6981 	 LR 0.0009 	 Train images 4000 	 Round  40
+Device  7 	 Train loss 0.6961 	 LR 0.0009 	 Train images 4000 	 Round  41
+Device  7 	 Train loss 0.6976 	 LR 0.0009 	 Train images 4000 	 Round  42
+Device  7 	 Train loss 0.6934 	 LR 0.0009 	 Train images 4000 	 Round  43
+Device  7 	 Train loss 0.7023 	 LR 0.0009 	 Train images 4000 	 Round  44
+Device  7 	 Train loss 0.6914 	 LR 0.0009 	 Train images 4000 	 Round  45
+Device  7 	 Train loss 0.6919 	 LR 0.0009 	 Train images 4000 	 Round  46
+Device  7 	 Train loss 0.6910 	 LR 0.0008 	 Train images 4000 	 Round  47
+Device  7 	 Train loss 0.6932 	 LR 0.0008 	 Train images 4000 	 Round  48
+Device  7 	 Train loss 0.6904 	 LR 0.0008 	 Train images 4000 	 Round  49
+Device  7 	 Train loss 0.6911 	 LR 0.0008 	 Train images 4000 	 Round  50
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:17:15.871646
+
+Namespace(seed=40, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='non-iid', TotalDevNum=10, DevNum=7, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.cifar.CIFAR10'>
+Device  7 	 Train loss 1.0708 	 LR 0.0099 	 Train images 4000 	 Round   1
+Device  7 	 Train loss 0.7342 	 LR 0.0098 	 Train images 4000 	 Round   2
+Device  7 	 Train loss 0.7385 	 LR 0.0097 	 Train images 4000 	 Round   3
+Device  7 	 Train loss 0.7311 	 LR 0.0096 	 Train images 4000 	 Round   4
+Device  7 	 Train loss 0.7752 	 LR 0.0095 	 Train images 4000 	 Round   5
+Device  7 	 Train loss 0.6505 	 LR 0.0094 	 Train images 4000 	 Round   6
+Device  7 	 Train loss 0.8311 	 LR 0.0093 	 Train images 4000 	 Round   7
+Device  7 	 Train loss 0.6344 	 LR 0.0092 	 Train images 4000 	 Round   8
+Device  7 	 Train loss 0.7183 	 LR 0.0091 	 Train images 4000 	 Round   9
+Device  7 	 Train loss 0.6151 	 LR 0.0090 	 Train images 4000 	 Round  10
+Device  7 	 Train loss 0.6797 	 LR 0.0090 	 Train images 4000 	 Round  11
+Device  7 	 Train loss 0.6032 	 LR 0.0089 	 Train images 4000 	 Round  12
+Device  7 	 Train loss 0.6882 	 LR 0.0088 	 Train images 4000 	 Round  13
+Device  7 	 Train loss 0.5992 	 LR 0.0087 	 Train images 4000 	 Round  14
+Device  7 	 Train loss 0.6715 	 LR 0.0086 	 Train images 4000 	 Round  15
+Device  7 	 Train loss 0.5912 	 LR 0.0085 	 Train images 4000 	 Round  16
+Device  7 	 Train loss 0.6305 	 LR 0.0084 	 Train images 4000 	 Round  17
+Device  7 	 Train loss 0.5781 	 LR 0.0083 	 Train images 4000 	 Round  18
+Device  7 	 Train loss 0.6213 	 LR 0.0083 	 Train images 4000 	 Round  19
+Device  7 	 Train loss 0.5764 	 LR 0.0082 	 Train images 4000 	 Round  20
+Device  7 	 Train loss 0.6101 	 LR 0.0081 	 Train images 4000 	 Round  21
+Device  7 	 Train loss 0.5753 	 LR 0.0080 	 Train images 4000 	 Round  22
+Device  7 	 Train loss 0.6028 	 LR 0.0079 	 Train images 4000 	 Round  23
+Device  7 	 Train loss 0.5697 	 LR 0.0079 	 Train images 4000 	 Round  24
+Device  7 	 Train loss 0.5958 	 LR 0.0078 	 Train images 4000 	 Round  25
+Device  7 	 Train loss 0.5669 	 LR 0.0077 	 Train images 4000 	 Round  26
+Device  7 	 Train loss 0.5935 	 LR 0.0076 	 Train images 4000 	 Round  27
+Device  7 	 Train loss 0.5514 	 LR 0.0075 	 Train images 4000 	 Round  28
+Device  7 	 Train loss 0.5873 	 LR 0.0075 	 Train images 4000 	 Round  29
+Device  7 	 Train loss 0.6726 	 LR 0.0010 	 Train images 4000 	 Round  30
+Device  7 	 Train loss 0.6859 	 LR 0.0010 	 Train images 4000 	 Round  31
+Device  7 	 Train loss 0.6853 	 LR 0.0010 	 Train images 4000 	 Round  32
+Device  7 	 Train loss 0.6765 	 LR 0.0010 	 Train images 4000 	 Round  33
+Device  7 	 Train loss 0.6688 	 LR 0.0010 	 Train images 4000 	 Round  34
+Device  7 	 Train loss 0.6645 	 LR 0.0010 	 Train images 4000 	 Round  35
+Device  7 	 Train loss 0.6632 	 LR 0.0009 	 Train images 4000 	 Round  36
+Device  7 	 Train loss 0.6586 	 LR 0.0009 	 Train images 4000 	 Round  37
+Device  7 	 Train loss 0.6548 	 LR 0.0009 	 Train images 4000 	 Round  38
+Device  7 	 Train loss 0.6533 	 LR 0.0009 	 Train images 4000 	 Round  39
+Device  7 	 Train loss 0.6517 	 LR 0.0009 	 Train images 4000 	 Round  40
+Device  7 	 Train loss 0.6521 	 LR 0.0009 	 Train images 4000 	 Round  41
+Device  7 	 Train loss 0.6491 	 LR 0.0009 	 Train images 4000 	 Round  42
+Device  7 	 Train loss 0.6473 	 LR 0.0009 	 Train images 4000 	 Round  43
+Device  7 	 Train loss 0.6487 	 LR 0.0009 	 Train images 4000 	 Round  44
+Device  7 	 Train loss 0.6367 	 LR 0.0009 	 Train images 4000 	 Round  45
+Device  7 	 Train loss 0.6436 	 LR 0.0009 	 Train images 4000 	 Round  46
+Device  7 	 Train loss 0.6453 	 LR 0.0008 	 Train images 4000 	 Round  47
+Device  7 	 Train loss 0.6454 	 LR 0.0008 	 Train images 4000 	 Round  48
+Device  7 	 Train loss 0.6417 	 LR 0.0008 	 Train images 4000 	 Round  49
+Device  7 	 Train loss 0.6403 	 LR 0.0008 	 Train images 4000 	 Round  50
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:17:18.592343
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='non-iid', TotalDevNum=10, DevNum=7, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.cifar.CIFAR10'>
+Device  7 	 Train loss 1.1601 	 LR 0.0099 	 Train images 4000 	 Round   1
+Device  7 	 Train loss 1.0447 	 LR 0.0098 	 Train images 4000 	 Round   2
+Device  7 	 Train loss 0.7359 	 LR 0.0097 	 Train images 4000 	 Round   3
+Device  7 	 Train loss 0.9719 	 LR 0.0096 	 Train images 4000 	 Round   4
+Device  7 	 Train loss 0.6648 	 LR 0.0095 	 Train images 4000 	 Round   5
+Device  7 	 Train loss 0.6295 	 LR 0.0094 	 Train images 4000 	 Round   6
+Device  7 	 Train loss 0.5268 	 LR 0.0093 	 Train images 4000 	 Round   7
+Device  7 	 Train loss 0.7149 	 LR 0.0092 	 Train images 4000 	 Round   8
+Device  7 	 Train loss 0.5011 	 LR 0.0091 	 Train images 4000 	 Round   9
+Device  7 	 Train loss 0.6252 	 LR 0.0090 	 Train images 4000 	 Round  10
+Device  7 	 Train loss 0.4729 	 LR 0.0090 	 Train images 4000 	 Round  11
+Device  7 	 Train loss 0.5711 	 LR 0.0089 	 Train images 4000 	 Round  12
+Device  7 	 Train loss 0.4248 	 LR 0.0088 	 Train images 4000 	 Round  13
+Device  7 	 Train loss 0.4955 	 LR 0.0087 	 Train images 4000 	 Round  14
+Device  7 	 Train loss 0.3763 	 LR 0.0086 	 Train images 4000 	 Round  15
+Device  7 	 Train loss 0.4889 	 LR 0.0085 	 Train images 4000 	 Round  16
+Device  7 	 Train loss 0.3394 	 LR 0.0084 	 Train images 4000 	 Round  17
+Device  7 	 Train loss 0.3679 	 LR 0.0083 	 Train images 4000 	 Round  18
+Device  7 	 Train loss 0.3297 	 LR 0.0083 	 Train images 4000 	 Round  19
+Device  7 	 Train loss 0.3476 	 LR 0.0082 	 Train images 4000 	 Round  20
+Device  7 	 Train loss 0.2987 	 LR 0.0081 	 Train images 4000 	 Round  21
+Device  7 	 Train loss 0.3794 	 LR 0.0080 	 Train images 4000 	 Round  22
+Device  7 	 Train loss 0.2649 	 LR 0.0079 	 Train images 4000 	 Round  23
+Device  7 	 Train loss 0.3470 	 LR 0.0079 	 Train images 4000 	 Round  24
+Device  7 	 Train loss 0.2412 	 LR 0.0078 	 Train images 4000 	 Round  25
+Device  7 	 Train loss 0.3084 	 LR 0.0077 	 Train images 4000 	 Round  26
+Device  7 	 Train loss 0.2196 	 LR 0.0076 	 Train images 4000 	 Round  27
+Device  7 	 Train loss 0.2527 	 LR 0.0075 	 Train images 4000 	 Round  28
+Device  7 	 Train loss 0.2353 	 LR 0.0075 	 Train images 4000 	 Round  29
+Device  7 	 Train loss 0.2749 	 LR 0.0010 	 Train images 4000 	 Round  30
+Device  7 	 Train loss 0.2014 	 LR 0.0010 	 Train images 4000 	 Round  31
+Device  7 	 Train loss 0.1909 	 LR 0.0010 	 Train images 4000 	 Round  32
+Device  7 	 Train loss 0.1708 	 LR 0.0010 	 Train images 4000 	 Round  33
+Device  7 	 Train loss 0.1640 	 LR 0.0010 	 Train images 4000 	 Round  34
+Device  7 	 Train loss 0.1561 	 LR 0.0010 	 Train images 4000 	 Round  35
+Device  7 	 Train loss 0.1539 	 LR 0.0009 	 Train images 4000 	 Round  36
+Device  7 	 Train loss 0.1350 	 LR 0.0009 	 Train images 4000 	 Round  37
+Device  7 	 Train loss 0.1424 	 LR 0.0009 	 Train images 4000 	 Round  38
+Device  7 	 Train loss 0.1300 	 LR 0.0009 	 Train images 4000 	 Round  39
+Device  7 	 Train loss 0.1268 	 LR 0.0009 	 Train images 4000 	 Round  40
+Device  7 	 Train loss 0.1220 	 LR 0.0009 	 Train images 4000 	 Round  41
+Device  7 	 Train loss 0.1163 	 LR 0.0009 	 Train images 4000 	 Round  42
+Device  7 	 Train loss 0.1142 	 LR 0.0009 	 Train images 4000 	 Round  43
+Device  7 	 Train loss 0.1089 	 LR 0.0009 	 Train images 4000 	 Round  44
+Device  7 	 Train loss 0.1099 	 LR 0.0009 	 Train images 4000 	 Round  45
+Device  7 	 Train loss 0.1028 	 LR 0.0009 	 Train images 4000 	 Round  46
+Device  7 	 Train loss 0.0959 	 LR 0.0008 	 Train images 4000 	 Round  47
+Device  7 	 Train loss 0.0936 	 LR 0.0008 	 Train images 4000 	 Round  48
+Device  7 	 Train loss 0.0927 	 LR 0.0008 	 Train images 4000 	 Round  49
+Device  7 	 Train loss 0.0910 	 LR 0.0008 	 Train images 4000 	 Round  50
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:22:15.174062
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='non-iid', TotalDevNum=10, DevNum=7, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.cifar.CIFAR10'>
+Device  7 	 Train loss 1.1601 	 LR 0.0099 	 Train images 4000 	 Round   1
+Device  7 	 Train loss 1.0473 	 LR 0.0098 	 Train images 4000 	 Round   2
+Device  7 	 Train loss 0.7268 	 LR 0.0097 	 Train images 4000 	 Round   3
+Device  7 	 Train loss 1.1370 	 LR 0.0096 	 Train images 4000 	 Round   4
+Device  7 	 Train loss 0.6742 	 LR 0.0095 	 Train images 4000 	 Round   5
+Device  7 	 Train loss 0.6073 	 LR 0.0094 	 Train images 4000 	 Round   6
+Device  7 	 Train loss 0.5291 	 LR 0.0093 	 Train images 4000 	 Round   7
+Device  7 	 Train loss 0.6917 	 LR 0.0092 	 Train images 4000 	 Round   8
+Device  7 	 Train loss 0.5226 	 LR 0.0091 	 Train images 4000 	 Round   9
+Device  7 	 Train loss 0.6589 	 LR 0.0090 	 Train images 4000 	 Round  10
+Device  7 	 Train loss 0.4881 	 LR 0.0090 	 Train images 4000 	 Round  11
+Device  7 	 Train loss 0.6379 	 LR 0.0089 	 Train images 4000 	 Round  12
+Device  7 	 Train loss 0.4182 	 LR 0.0088 	 Train images 4000 	 Round  13
+Device  7 	 Train loss 0.4921 	 LR 0.0087 	 Train images 4000 	 Round  14
+Device  7 	 Train loss 0.3740 	 LR 0.0086 	 Train images 4000 	 Round  15
+Device  7 	 Train loss 0.4717 	 LR 0.0085 	 Train images 4000 	 Round  16
+Device  7 	 Train loss 0.3394 	 LR 0.0084 	 Train images 4000 	 Round  17
+Device  7 	 Train loss 0.3836 	 LR 0.0083 	 Train images 4000 	 Round  18
+Device  7 	 Train loss 0.3327 	 LR 0.0083 	 Train images 4000 	 Round  19
+Device  7 	 Train loss 0.3419 	 LR 0.0082 	 Train images 4000 	 Round  20
+Device  7 	 Train loss 0.3117 	 LR 0.0081 	 Train images 4000 	 Round  21
+Device  7 	 Train loss 0.3802 	 LR 0.0080 	 Train images 4000 	 Round  22
+Device  7 	 Train loss 0.2888 	 LR 0.0079 	 Train images 4000 	 Round  23
+Device  7 	 Train loss 0.3596 	 LR 0.0079 	 Train images 4000 	 Round  24
+Device  7 	 Train loss 0.2792 	 LR 0.0078 	 Train images 4000 	 Round  25
+Device  7 	 Train loss 0.3008 	 LR 0.0077 	 Train images 4000 	 Round  26
+Device  7 	 Train loss 0.2298 	 LR 0.0076 	 Train images 4000 	 Round  27
+Device  7 	 Train loss 0.2674 	 LR 0.0075 	 Train images 4000 	 Round  28
+Device  7 	 Train loss 0.2381 	 LR 0.0075 	 Train images 4000 	 Round  29
+Device  7 	 Train loss 0.3014 	 LR 0.0010 	 Train images 4000 	 Round  30
+Device  7 	 Train loss 0.2212 	 LR 0.0010 	 Train images 4000 	 Round  31
+Device  7 	 Train loss 0.2054 	 LR 0.0010 	 Train images 4000 	 Round  32
+Device  7 	 Train loss 0.1848 	 LR 0.0010 	 Train images 4000 	 Round  33
+Device  7 	 Train loss 0.1826 	 LR 0.0010 	 Train images 4000 	 Round  34
+Device  7 	 Train loss 0.1665 	 LR 0.0010 	 Train images 4000 	 Round  35
+Device  7 	 Train loss 0.1673 	 LR 0.0009 	 Train images 4000 	 Round  36
+Device  7 	 Train loss 0.1494 	 LR 0.0009 	 Train images 4000 	 Round  37
+Device  7 	 Train loss 0.1583 	 LR 0.0009 	 Train images 4000 	 Round  38
+Device  7 	 Train loss 0.1404 	 LR 0.0009 	 Train images 4000 	 Round  39
+Device  7 	 Train loss 0.1405 	 LR 0.0009 	 Train images 4000 	 Round  40
+Device  7 	 Train loss 0.1345 	 LR 0.0009 	 Train images 4000 	 Round  41
+Device  7 	 Train loss 0.1313 	 LR 0.0009 	 Train images 4000 	 Round  42
+Device  7 	 Train loss 0.1271 	 LR 0.0009 	 Train images 4000 	 Round  43
+Device  7 	 Train loss 0.1215 	 LR 0.0009 	 Train images 4000 	 Round  44
+Device  7 	 Train loss 0.1249 	 LR 0.0009 	 Train images 4000 	 Round  45
+Device  7 	 Train loss 0.1141 	 LR 0.0009 	 Train images 4000 	 Round  46
+Device  7 	 Train loss 0.1110 	 LR 0.0008 	 Train images 4000 	 Round  47
+Device  7 	 Train loss 0.1064 	 LR 0.0008 	 Train images 4000 	 Round  48
+Device  7 	 Train loss 0.1072 	 LR 0.0008 	 Train images 4000 	 Round  49
+Device  7 	 Train loss 0.1021 	 LR 0.0008 	 Train images 4000 	 Round  50
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:22:13.945354
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='non-iid', TotalDevNum=10, DevNum=7, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.cifar.CIFAR10'>
+Device  7 	 Train loss 1.1601 	 LR 0.0099 	 Train images 4000 	 Round   1
+Device  7 	 Train loss 1.0027 	 LR 0.0098 	 Train images 4000 	 Round   2
+Device  7 	 Train loss 0.7057 	 LR 0.0097 	 Train images 4000 	 Round   3
+Device  7 	 Train loss 1.0965 	 LR 0.0096 	 Train images 4000 	 Round   4
+Device  7 	 Train loss 0.6531 	 LR 0.0095 	 Train images 4000 	 Round   5
+Device  7 	 Train loss 0.6629 	 LR 0.0094 	 Train images 4000 	 Round   6
+Device  7 	 Train loss 0.5174 	 LR 0.0093 	 Train images 4000 	 Round   7
+Device  7 	 Train loss 0.7776 	 LR 0.0092 	 Train images 4000 	 Round   8
+Device  7 	 Train loss 0.5217 	 LR 0.0091 	 Train images 4000 	 Round   9
+Device  7 	 Train loss 0.5992 	 LR 0.0090 	 Train images 4000 	 Round  10
+Device  7 	 Train loss 0.4209 	 LR 0.0090 	 Train images 4000 	 Round  11
+Device  7 	 Train loss 0.5378 	 LR 0.0089 	 Train images 4000 	 Round  12
+Device  7 	 Train loss 0.3774 	 LR 0.0088 	 Train images 4000 	 Round  13
+Device  7 	 Train loss 0.4644 	 LR 0.0087 	 Train images 4000 	 Round  14
+Device  7 	 Train loss 0.3480 	 LR 0.0086 	 Train images 4000 	 Round  15
+Device  7 	 Train loss 0.4555 	 LR 0.0085 	 Train images 4000 	 Round  16
+Device  7 	 Train loss 0.3466 	 LR 0.0084 	 Train images 4000 	 Round  17
+Device  7 	 Train loss 0.3840 	 LR 0.0083 	 Train images 4000 	 Round  18
+Device  7 	 Train loss 0.3178 	 LR 0.0083 	 Train images 4000 	 Round  19
+Device  7 	 Train loss 0.3285 	 LR 0.0082 	 Train images 4000 	 Round  20
+Device  7 	 Train loss 0.3032 	 LR 0.0081 	 Train images 4000 	 Round  21
+Device  7 	 Train loss 0.3604 	 LR 0.0080 	 Train images 4000 	 Round  22
+Device  7 	 Train loss 0.2569 	 LR 0.0079 	 Train images 4000 	 Round  23
+Device  7 	 Train loss 0.2674 	 LR 0.0079 	 Train images 4000 	 Round  24
+Device  7 	 Train loss 0.2834 	 LR 0.0078 	 Train images 4000 	 Round  25
+Device  7 	 Train loss 0.2484 	 LR 0.0077 	 Train images 4000 	 Round  26
+Device  7 	 Train loss 0.2347 	 LR 0.0076 	 Train images 4000 	 Round  27
+Device  7 	 Train loss 0.2030 	 LR 0.0075 	 Train images 4000 	 Round  28
+Device  7 	 Train loss 0.1861 	 LR 0.0075 	 Train images 4000 	 Round  29
+Device  7 	 Train loss 0.2576 	 LR 0.0010 	 Train images 4000 	 Round  30
+Device  7 	 Train loss 0.2013 	 LR 0.0010 	 Train images 4000 	 Round  31
+Device  7 	 Train loss 0.1761 	 LR 0.0010 	 Train images 4000 	 Round  32
+Device  7 	 Train loss 0.1656 	 LR 0.0010 	 Train images 4000 	 Round  33
+Device  7 	 Train loss 0.1589 	 LR 0.0010 	 Train images 4000 	 Round  34
+Device  7 	 Train loss 0.1512 	 LR 0.0010 	 Train images 4000 	 Round  35
+Device  7 	 Train loss 0.1451 	 LR 0.0009 	 Train images 4000 	 Round  36
+Device  7 	 Train loss 0.1444 	 LR 0.0009 	 Train images 4000 	 Round  37
+Device  7 	 Train loss 0.1313 	 LR 0.0009 	 Train images 4000 	 Round  38
+Device  7 	 Train loss 0.1287 	 LR 0.0009 	 Train images 4000 	 Round  39
+Device  7 	 Train loss 0.1275 	 LR 0.0009 	 Train images 4000 	 Round  40
+Device  7 	 Train loss 0.1176 	 LR 0.0009 	 Train images 4000 	 Round  41
+Device  7 	 Train loss 0.1120 	 LR 0.0009 	 Train images 4000 	 Round  42
+Device  7 	 Train loss 0.1217 	 LR 0.0009 	 Train images 4000 	 Round  43
+Device  7 	 Train loss 0.1095 	 LR 0.0009 	 Train images 4000 	 Round  44
+Device  7 	 Train loss 0.1053 	 LR 0.0009 	 Train images 4000 	 Round  45
+Device  7 	 Train loss 0.1007 	 LR 0.0009 	 Train images 4000 	 Round  46
+Device  7 	 Train loss 0.1040 	 LR 0.0008 	 Train images 4000 	 Round  47
+Device  7 	 Train loss 0.1005 	 LR 0.0008 	 Train images 4000 	 Round  48
+Device  7 	 Train loss 0.0938 	 LR 0.0008 	 Train images 4000 	 Round  49
+Device  7 	 Train loss 0.0928 	 LR 0.0008 	 Train images 4000 	 Round  50
+Device  7 	 Train loss 0.0884 	 LR 0.0008 	 Train images 4000 	 Round  51
+Device  7 	 Train loss 0.0905 	 LR 0.0008 	 Train images 4000 	 Round  52
+Device  7 	 Train loss 0.0854 	 LR 0.0008 	 Train images 4000 	 Round  53
+Device  7 	 Train loss 0.0787 	 LR 0.0008 	 Train images 4000 	 Round  54
+Device  7 	 Train loss 0.0858 	 LR 0.0008 	 Train images 4000 	 Round  55
+Device  7 	 Train loss 0.0769 	 LR 0.0008 	 Train images 4000 	 Round  56
+Device  7 	 Train loss 0.0810 	 LR 0.0008 	 Train images 4000 	 Round  57
+Device  7 	 Train loss 0.0785 	 LR 0.0008 	 Train images 4000 	 Round  58
+Device  7 	 Train loss 0.0731 	 LR 0.0007 	 Train images 4000 	 Round  59
+Device  7 	 Train loss 0.0713 	 LR 0.0007 	 Train images 4000 	 Round  60
+Device  7 	 Train loss 0.0702 	 LR 0.0007 	 Train images 4000 	 Round  61
+Device  7 	 Train loss 0.0678 	 LR 0.0007 	 Train images 4000 	 Round  62
+Device  7 	 Train loss 0.0668 	 LR 0.0007 	 Train images 4000 	 Round  63
+Device  7 	 Train loss 0.0712 	 LR 0.0007 	 Train images 4000 	 Round  64
+Device  7 	 Train loss 0.0640 	 LR 0.0007 	 Train images 4000 	 Round  65
+Device  7 	 Train loss 0.0628 	 LR 0.0007 	 Train images 4000 	 Round  66
+Device  7 	 Train loss 0.0595 	 LR 0.0007 	 Train images 4000 	 Round  67
+Device  7 	 Train loss 0.0636 	 LR 0.0007 	 Train images 4000 	 Round  68
+Device  7 	 Train loss 0.0587 	 LR 0.0007 	 Train images 4000 	 Round  69
+Device  7 	 Train loss 0.0598 	 LR 0.0007 	 Train images 4000 	 Round  70
+Device  7 	 Train loss 0.0547 	 LR 0.0007 	 Train images 4000 	 Round  71
+Device  7 	 Train loss 0.0543 	 LR 0.0007 	 Train images 4000 	 Round  72
+Device  7 	 Train loss 0.0532 	 LR 0.0006 	 Train images 4000 	 Round  73
+Device  7 	 Train loss 0.0602 	 LR 0.0006 	 Train images 4000 	 Round  74
+Device  7 	 Train loss 0.0519 	 LR 0.0006 	 Train images 4000 	 Round  75
+Device  7 	 Train loss 0.0525 	 LR 0.0006 	 Train images 4000 	 Round  76
+Device  7 	 Train loss 0.0548 	 LR 0.0006 	 Train images 4000 	 Round  77
+Device  7 	 Train loss 0.0489 	 LR 0.0006 	 Train images 4000 	 Round  78
+Device  7 	 Train loss 0.0555 	 LR 0.0006 	 Train images 4000 	 Round  79
+Device  7 	 Train loss 0.0486 	 LR 0.0006 	 Train images 4000 	 Round  80
+Device  7 	 Train loss 0.0504 	 LR 0.0006 	 Train images 4000 	 Round  81
+Device  7 	 Train loss 0.0491 	 LR 0.0006 	 Train images 4000 	 Round  82
+Device  7 	 Train loss 0.0469 	 LR 0.0006 	 Train images 4000 	 Round  83
+Device  7 	 Train loss 0.0471 	 LR 0.0006 	 Train images 4000 	 Round  84
+Device  7 	 Train loss 0.0465 	 LR 0.0006 	 Train images 4000 	 Round  85
+Device  7 	 Train loss 0.0468 	 LR 0.0006 	 Train images 4000 	 Round  86
+Device  7 	 Train loss 0.0473 	 LR 0.0006 	 Train images 4000 	 Round  87
+Device  7 	 Train loss 0.0438 	 LR 0.0006 	 Train images 4000 	 Round  88
+Device  7 	 Train loss 0.0430 	 LR 0.0006 	 Train images 4000 	 Round  89
+Device  7 	 Train loss 0.0430 	 LR 0.0005 	 Train images 4000 	 Round  90
+Device  7 	 Train loss 0.0409 	 LR 0.0005 	 Train images 4000 	 Round  91
+Device  7 	 Train loss 0.0429 	 LR 0.0005 	 Train images 4000 	 Round  92
+Device  7 	 Train loss 0.0419 	 LR 0.0005 	 Train images 4000 	 Round  93
+Device  7 	 Train loss 0.0431 	 LR 0.0005 	 Train images 4000 	 Round  94
+Device  7 	 Train loss 0.0407 	 LR 0.0005 	 Train images 4000 	 Round  95
+Device  7 	 Train loss 0.0387 	 LR 0.0005 	 Train images 4000 	 Round  96
+Device  7 	 Train loss 0.0394 	 LR 0.0005 	 Train images 4000 	 Round  97
+Device  7 	 Train loss 0.0400 	 LR 0.0005 	 Train images 4000 	 Round  98
+Device  7 	 Train loss 0.0380 	 LR 0.0005 	 Train images 4000 	 Round  99
+Device  7 	 Train loss 0.0387 	 LR 0.0005 	 Train images 4000 	 Round 100
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:36:27.125515
+
+Namespace(seed=42, output_dir='./logs', demo=False, pretrained=False, train_lr=0.01, root='/home/lgd/Desktop/SNNFL/datasets', dataset='CIFAR10', num_workers=2, batch_size=64, num_sen=64, defense='dp', attack='gs', percent_num=70, layer_num=6, noise_name='Gaussian', loc=0.0, scale=0.001, per_adv=1, dcs_iter=1000, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='non-iid', TotalDevNum=10, DevNum=7, n_data=2000, Pro_dev=5, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+<class 'torchvision.datasets.cifar.CIFAR10'>
+Device  7 	 Train loss 1.1601 	 LR 0.0099 	 Train images 4000 	 Round   1
+Device  7 	 Train loss 1.0493 	 LR 0.0098 	 Train images 4000 	 Round   2
+Device  7 	 Train loss 0.7420 	 LR 0.0097 	 Train images 4000 	 Round   3
+Device  7 	 Train loss 0.9740 	 LR 0.0096 	 Train images 4000 	 Round   4
+Device  7 	 Train loss 0.7056 	 LR 0.0095 	 Train images 4000 	 Round   5
+Device  7 	 Train loss 0.6540 	 LR 0.0094 	 Train images 4000 	 Round   6
+Device  7 	 Train loss 0.5468 	 LR 0.0093 	 Train images 4000 	 Round   7
+Device  7 	 Train loss 0.6094 	 LR 0.0090 	 Train images 4000 	 Round  10
+Device  7 	 Train loss 0.7758 	 LR 0.0089 	 Train images 4000 	 Round  12
+Device  7 	 Train loss 0.7251 	 LR 0.0087 	 Train images 4000 	 Round  14
+Device  7 	 Train loss 0.5219 	 LR 0.0086 	 Train images 4000 	 Round  15
+Device  7 	 Train loss 0.4553 	 LR 0.0085 	 Train images 4000 	 Round  16
+Device  7 	 Train loss 0.3994 	 LR 0.0084 	 Train images 4000 	 Round  17
+Device  7 	 Train loss 0.4757 	 LR 0.0083 	 Train images 4000 	 Round  19
+Device  7 	 Train loss 0.4118 	 LR 0.0082 	 Train images 4000 	 Round  20
+Device  7 	 Train loss 0.4493 	 LR 0.0081 	 Train images 4000 	 Round  21
+Device  7 	 Train loss 0.4616 	 LR 0.0079 	 Train images 4000 	 Round  23
+Device  7 	 Train loss 0.3175 	 LR 0.0079 	 Train images 4000 	 Round  24
+Device  7 	 Train loss 0.3850 	 LR 0.0078 	 Train images 4000 	 Round  25
+Device  7 	 Train loss 0.5951 	 LR 0.0076 	 Train images 4000 	 Round  27
+Device  7 	 Train loss 0.3392 	 LR 0.0075 	 Train images 4000 	 Round  28
+Device  7 	 Train loss 0.5575 	 LR 0.0010 	 Train images 4000 	 Round  31
+Device  7 	 Train loss 0.3750 	 LR 0.0010 	 Train images 4000 	 Round  32
+Device  7 	 Train loss 0.3212 	 LR 0.0010 	 Train images 4000 	 Round  33
+Device  7 	 Train loss 0.2888 	 LR 0.0010 	 Train images 4000 	 Round  34
+Device  7 	 Train loss 0.2840 	 LR 0.0010 	 Train images 4000 	 Round  35
+Device  7 	 Train loss 0.3518 	 LR 0.0009 	 Train images 4000 	 Round  37
+Device  7 	 Train loss 0.2664 	 LR 0.0009 	 Train images 4000 	 Round  38
+Device  7 	 Train loss 0.3342 	 LR 0.0009 	 Train images 4000 	 Round  42
+Device  7 	 Train loss 0.2999 	 LR 0.0009 	 Train images 4000 	 Round  44
+Device  7 	 Train loss 0.2216 	 LR 0.0009 	 Train images 4000 	 Round  45
+Device  7 	 Train loss 0.2611 	 LR 0.0009 	 Train images 4000 	 Round  46
+Device  7 	 Train loss 0.2043 	 LR 0.0008 	 Train images 4000 	 Round  47
+Device  7 	 Train loss 0.2132 	 LR 0.0008 	 Train images 4000 	 Round  51
+Device  7 	 Train loss 0.2143 	 LR 0.0008 	 Train images 4000 	 Round  53
+Device  7 	 Train loss 0.1733 	 LR 0.0008 	 Train images 4000 	 Round  54
+Device  7 	 Train loss 0.2209 	 LR 0.0008 	 Train images 4000 	 Round  57
+Device  7 	 Train loss 0.2473 	 LR 0.0007 	 Train images 4000 	 Round  60
+Device  7 	 Train loss 0.2268 	 LR 0.0007 	 Train images 4000 	 Round  62
+Device  7 	 Train loss 0.1568 	 LR 0.0007 	 Train images 4000 	 Round  63
+Device  7 	 Train loss 0.2471 	 LR 0.0007 	 Train images 4000 	 Round  66
+Device  7 	 Train loss 0.2054 	 LR 0.0007 	 Train images 4000 	 Round  70
+Device  7 	 Train loss 0.1881 	 LR 0.0007 	 Train images 4000 	 Round  72
+Device  7 	 Train loss 0.1728 	 LR 0.0006 	 Train images 4000 	 Round  74
+Device  7 	 Train loss 0.1168 	 LR 0.0006 	 Train images 4000 	 Round  75
+Device  7 	 Train loss 0.1666 	 LR 0.0006 	 Train images 4000 	 Round  76
+Device  7 	 Train loss 0.1140 	 LR 0.0006 	 Train images 4000 	 Round  77
+Device  7 	 Train loss 0.1199 	 LR 0.0006 	 Train images 4000 	 Round  78
+Device  7 	 Train loss 0.1462 	 LR 0.0006 	 Train images 4000 	 Round  80
+Device  7 	 Train loss 0.1286 	 LR 0.0006 	 Train images 4000 	 Round  83
+Device  7 	 Train loss 0.2115 	 LR 0.0006 	 Train images 4000 	 Round  85
+Device  7 	 Train loss 0.1581 	 LR 0.0006 	 Train images 4000 	 Round  87
+Device  7 	 Train loss 0.0983 	 LR 0.0006 	 Train images 4000 	 Round  88
+Device  7 	 Train loss 0.1221 	 LR 0.0005 	 Train images 4000 	 Round  91
+Device  7 	 Train loss 0.1050 	 LR 0.0005 	 Train images 4000 	 Round  92
+Device  7 	 Train loss 0.0899 	 LR 0.0005 	 Train images 4000 	 Round  93
+Device  7 	 Train loss 0.1018 	 LR 0.0005 	 Train images 4000 	 Round  96
+Device  7 	 Train loss 0.1367 	 LR 0.0005 	 Train images 4000 	 Round 100
+Defense dp on Dataset CIFAR10.
+Finished computations with time: 0:31:41.147458
+

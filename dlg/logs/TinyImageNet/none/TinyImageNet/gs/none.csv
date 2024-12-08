@@ -1,0 +1,191 @@
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense none against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([111])
+Proxy_labels: tensor([86])
+Initial with TinyImageNet
+Finished defence with time: 0:00:00.167838
+Attack - Iter-0: Rec_loss-0.0934.
+Attack - Iter-1000: Rec_loss-0.0351.
+Attack - Iter-2000: Rec_loss-0.0356.
+Attack - Iter-3000: Rec_loss-0.0373.
+Attack - Iter-4000: Rec_loss-0.0326.
+Attack - Iter-5000: Rec_loss-0.0306.
+Attack - Iter-6000: Rec_loss-0.0312.
+Attack - Iter-7000: Rec_loss-0.0301.
+Attack - Iter-8000: Rec_loss-0.0299.
+Attack - Iter-9000: Rec_loss-0.0298.
+Attack - Iter-9999: Rec_loss-0.0297.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 6.0941 SSIM 0.0152 LPIPS 1.5057
+Monday, 28. October 2024 11:30AM
+Finished computations with time: 0:08:56.213602
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense none against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([170])
+Proxy_labels: tensor([176])
+Initial with TinyImageNet
+Finished defence with time: 0:00:00.116834
+Attack - Iter-0: Rec_loss-0.0990.
+Attack - Iter-1000: Rec_loss-0.0058.
+Attack - Iter-2000: Rec_loss-0.0065.
+Attack - Iter-3000: Rec_loss-0.0062.
+Attack - Iter-4000: Rec_loss-0.0067.
+Attack - Iter-5000: Rec_loss-0.0053.
+Attack - Iter-6000: Rec_loss-0.0059.
+Attack - Iter-7000: Rec_loss-0.0050.
+Attack - Iter-8000: Rec_loss-0.0050.
+Attack - Iter-9000: Rec_loss-0.0053.
+Attack - Iter-9999: Rec_loss-0.0051.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 14.5803 SSIM 0.1877 LPIPS 0.7629
+Tuesday, 29. October 2024 10:53PM
+Finished computations with time: 0:05:45.573782
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense none against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([170])
+Proxy_labels: tensor([176])
+Initial with TinyImageNet
+Finished defence with time: 0:00:00.126786
+Attack - Iter-0: Rec_loss-0.0719.
+Attack - Iter-1000: Rec_loss-0.0277.
+Attack - Iter-2000: Rec_loss-0.0284.
+Attack - Iter-3000: Rec_loss-0.0297.
+Attack - Iter-4000: Rec_loss-0.0250.
+Attack - Iter-5000: Rec_loss-0.0242.
+Attack - Iter-6000: Rec_loss-0.0239.
+Attack - Iter-7000: Rec_loss-0.0232.
+Attack - Iter-8000: Rec_loss-0.0235.
+Attack - Iter-9000: Rec_loss-0.0229.
+Attack - Iter-9999: Rec_loss-0.0230.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 5.6704 SSIM 0.0171 LPIPS 1.4243
+Wednesday, 30. October 2024 10:00AM
+Finished computations with time: 0:05:43.765228
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense none against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([166])
+Proxy_labels: tensor([76])
+Initial with TinyImageNet
+Finished defence with time: 0:00:00.129917
+Attack - Iter-0: Rec_loss-0.1529.
+Attack - Iter-1000: Rec_loss-0.1046.
+Attack - Iter-2000: Rec_loss-0.0994.
+Attack - Iter-3000: Rec_loss-0.0981.
+Attack - Iter-4000: Rec_loss-0.0846.
+Attack - Iter-5000: Rec_loss-0.0808.
+Attack - Iter-6000: Rec_loss-0.0796.
+Attack - Iter-7000: Rec_loss-0.0781.
+Attack - Iter-8000: Rec_loss-0.0777.
+Attack - Iter-9000: Rec_loss-0.0774.
+Attack - Iter-9999: Rec_loss-0.0776.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 5.2792 SSIM 0.0111 LPIPS 1.4719
+Wednesday, 30. October 2024 10:11AM
+Finished computations with time: 0:08:05.939466
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.1, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense none against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([166])
+Proxy_labels: tensor([76])
+Initial with TinyImageNet
+Finished defence with time: 0:00:00.306317
+Attack - Iter-0: Rec_loss-0.1506.
+Attack - Iter-1000: Rec_loss-0.1548.
+Attack - Iter-2000: Rec_loss-0.1536.
+Attack - Iter-3000: Rec_loss-0.1491.
+Attack - Iter-4000: Rec_loss-0.1461.
+Attack - Iter-5000: Rec_loss-0.1461.
+Attack - Iter-6000: Rec_loss-0.1447.
+Attack - Iter-7000: Rec_loss-0.1447.
+Attack - Iter-8000: Rec_loss-0.1445.
+Attack - Iter-9000: Rec_loss-0.1438.
+Attack - Iter-9999: Rec_loss-0.1442.
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /home/lgd/anaconda3/envs/SNNFL/lib/python3.9/site-packages/lpips/weights/v0.1/alex.pth
+PSNR 6.7972 SSIM 0.0159 LPIPS 1.3956
+Wednesday, 30. October 2024 11:30AM
+Finished computations with time: 0:14:57.114646
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.01, lr_decay=True, tv=0.1, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.01, lr_decay=True, tv=0.1, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense none against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([130])
+Proxy_labels: tensor([180])
+Initial with TinyImageNet
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.01, lr_decay=True, tv=0.1, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense none against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([155])
+Proxy_labels: tensor([167])
+Initial with TinyImageNet
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.01, lr_decay=True, tv=0.1, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense none against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([130])
+Proxy_labels: tensor([34])
+Initial with TinyImageNet
+Finished defence with time: 0:00:00.110220
+Attack - Iter-0: Rec_loss-0.2291.
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=10000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense none against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([130])
+Proxy_labels: tensor([34])
+Initial with TinyImageNet
+Finished defence with time: 0:00:00.107048
+Attack - Iter-0: Rec_loss-0.0041.
+Attack - Iter-1000: Rec_loss-0.0008.
+Namespace(seed=42, output_dir='./logs/TinyImageNet/none', root='/home/lgd/Desktop/SNNFL/datasets', dataset='TinyImageNet', num_workers=2, batch_size=1, num_sen=1, batch_idx=3, pretrained=False, demo=True, attack='gs', max_iter=2000, lr=0.01, lr_decay=True, tv=0.0001, boxed=False, imprint='no_sparse', bins=10, prior=-1, defense='none', percent_num=70, layer_num=6, perturb_imprint=False, noise_name='Gaussian', loc=0.0, scale=0.0001, per_adv=1, dcs_iter=300, dcs_lr=0.1, lambda_xsim=0.01, lambda_zsim=0.01, epsilon=0.01, early_stop=True, xsim_thr=150.0, lambda_y=0.7, project=True, startpoint='none', mixup=True, precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', method='iid', TotalDevNum=10, DevNum=5, n_data=64)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+Total images 64 on TinyImageNet
+Defense none against Attack gs on Dataset TinyImageNet.
+Sensitive_labels: tensor([130])
+Proxy_labels: tensor([34])
+Initial with TinyImageNet
+Finished defence with time: 0:00:00.119977
+Attack - Iter-0: Rec_loss-0.0002.

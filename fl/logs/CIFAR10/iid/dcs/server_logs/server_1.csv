@@ -1,0 +1,129 @@
+Namespace(seed=42, output_dir='./logs', cnt=1, method='iid', TotalDevNum=10, pretrained=False, dataset='CIFAR10', resume=False, ckp_path='./weights/model_round_100.pth', defense='dcs', precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', minfit=10, mineval=10, minavl=10, num_rounds=30, save_rnd=100, train_lr=0.01, local_epochs=1, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+cuda
+Round 001 	 FL_loss 2.3691 	 FL_acc 9.3650 	 Test images 10000
+Round 002 	 FL_loss 2.5286 	 FL_acc 10.3966 	 Test images 10000
+Round 003 	 FL_loss 2.1331 	 FL_acc 19.1907 	 Test images 10000
+Round 004 	 FL_loss 1.8787 	 FL_acc 31.8610 	 Test images 10000
+Round 005 	 FL_loss 1.7240 	 FL_acc 38.0208 	 Test images 10000
+Round 006 	 FL_loss 1.6208 	 FL_acc 40.1943 	 Test images 10000
+Round 007 	 FL_loss 1.5709 	 FL_acc 42.1274 	 Test images 10000
+Round 008 	 FL_loss 1.4934 	 FL_acc 45.6430 	 Test images 10000
+Round 009 	 FL_loss 1.4293 	 FL_acc 47.3357 	 Test images 10000
+Round 010 	 FL_loss 1.5083 	 FL_acc 45.7031 	 Test images 10000
+Round 011 	 FL_loss 1.4371 	 FL_acc 48.9383 	 Test images 10000
+Round 012 	 FL_loss 1.3873 	 FL_acc 49.7897 	 Test images 10000
+Round 013 	 FL_loss 1.4138 	 FL_acc 49.8998 	 Test images 10000
+Round 014 	 FL_loss 1.4917 	 FL_acc 47.4760 	 Test images 10000
+Round 015 	 FL_loss 1.3824 	 FL_acc 51.6126 	 Test images 10000
+Round 016 	 FL_loss 1.4420 	 FL_acc 50.5108 	 Test images 10000
+Round 017 	 FL_loss 1.4899 	 FL_acc 50.0501 	 Test images 10000
+Round 018 	 FL_loss 1.4754 	 FL_acc 51.3121 	 Test images 10000
+Round 019 	 FL_loss 1.4138 	 FL_acc 52.3838 	 Test images 10000
+Round 020 	 FL_loss 1.4189 	 FL_acc 52.3938 	 Test images 10000
+Round 021 	 FL_loss 1.5238 	 FL_acc 51.9131 	 Test images 10000
+Round 022 	 FL_loss 1.4765 	 FL_acc 52.3137 	 Test images 10000
+Round 023 	 FL_loss 1.5193 	 FL_acc 51.6827 	 Test images 10000
+Round 024 	 FL_loss 1.4696 	 FL_acc 53.9663 	 Test images 10000
+Round 025 	 FL_loss 1.5064 	 FL_acc 53.2853 	 Test images 10000
+Round 026 	 FL_loss 1.5312 	 FL_acc 54.2468 	 Test images 10000
+Round 027 	 FL_loss 1.5885 	 FL_acc 52.4539 	 Test images 10000
+Round 028 	 FL_loss 1.5652 	 FL_acc 54.0164 	 Test images 10000
+Round 029 	 FL_loss 1.5952 	 FL_acc 53.8862 	 Test images 10000
+Round 030 	 FL_loss 1.5660 	 FL_acc 55.1082 	 Test images 10000
+Best FL accuracy: 55.10817337036133 on round 30
+Defense Method:  dcs
+Finished computations with time: 5:00:00.143175
+
+Namespace(seed=42, output_dir='./logs', cnt=1, method='iid', TotalDevNum=10, pretrained=False, dataset='CIFAR10', resume=False, ckp_path='./weights/model_round_100.pth', defense='dcs', precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', minfit=10, mineval=10, minavl=10, num_rounds=30, save_rnd=100, train_lr=0.01, local_epochs=1, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+cuda
+Round 001 	 FL_loss 2.4005 	 FL_acc 10.0060 	 Test images 10000
+Round 002 	 FL_loss 2.3347 	 FL_acc 17.2075 	 Test images 10000
+Round 003 	 FL_loss 1.7952 	 FL_acc 33.4936 	 Test images 10000
+Round 004 	 FL_loss 1.6385 	 FL_acc 40.3646 	 Test images 10000
+Round 005 	 FL_loss 1.5279 	 FL_acc 43.4796 	 Test images 10000
+Round 006 	 FL_loss 1.4772 	 FL_acc 44.8818 	 Test images 10000
+Round 007 	 FL_loss 1.3795 	 FL_acc 48.9884 	 Test images 10000
+Round 008 	 FL_loss 1.3747 	 FL_acc 50.6310 	 Test images 10000
+Round 009 	 FL_loss 1.3140 	 FL_acc 51.9131 	 Test images 10000
+Round 010 	 FL_loss 1.3162 	 FL_acc 51.5525 	 Test images 10000
+Round 011 	 FL_loss 1.5590 	 FL_acc 40.6751 	 Test images 10000
+Round 012 	 FL_loss 1.2664 	 FL_acc 54.6474 	 Test images 10000
+Round 013 	 FL_loss 1.1607 	 FL_acc 58.4034 	 Test images 10000
+Round 014 	 FL_loss 1.2187 	 FL_acc 55.7492 	 Test images 10000
+Round 015 	 FL_loss 1.1028 	 FL_acc 60.9675 	 Test images 10000
+Round 016 	 FL_loss 1.0609 	 FL_acc 62.5901 	 Test images 10000
+Round 017 	 FL_loss 1.6067 	 FL_acc 43.3393 	 Test images 10000
+Round 018 	 FL_loss 1.1898 	 FL_acc 57.5821 	 Test images 10000
+Round 019 	 FL_loss 1.1721 	 FL_acc 58.4435 	 Test images 10000
+Round 020 	 FL_loss 1.0087 	 FL_acc 64.0625 	 Test images 10000
+Round 021 	 FL_loss 2.5125 	 FL_acc 22.4159 	 Test images 10000
+Round 022 	 FL_loss 1.1242 	 FL_acc 59.4952 	 Test images 10000
+Round 023 	 FL_loss 2.4333 	 FL_acc 20.5529 	 Test images 10000
+Round 024 	 FL_loss 0.9306 	 FL_acc 66.5465 	 Test images 10000
+Round 025 	 FL_loss 1.9921 	 FL_acc 29.5373 	 Test images 10000
+Round 026 	 FL_loss 0.8507 	 FL_acc 69.9820 	 Test images 10000
+Round 027 	 FL_loss 1.2443 	 FL_acc 55.0781 	 Test images 10000
+Round 028 	 FL_loss 1.3109 	 FL_acc 55.8494 	 Test images 10000
+Round 029 	 FL_loss 1.0384 	 FL_acc 63.7220 	 Test images 10000
+Round 030 	 FL_loss 0.7856 	 FL_acc 72.6062 	 Test images 10000
+Best FL accuracy: 72.60617065429688 on round 30
+Defense Method:  dcs
+Finished computations with time: 6:35:19.182419
+
+Namespace(seed=42, output_dir='./logs', cnt=1, method='iid', TotalDevNum=10, pretrained=False, dataset='CIFAR10', resume=False, ckp_path='./weights/model_round_100.pth', defense='dcs', precode_size=256, beta=0.001, aug_list='21-13-3+7-4-15', minfit=10, mineval=10, minavl=10, num_rounds=50, save_rnd=100, train_lr=0.01, local_epochs=1, device_id=-1)
+Currently evaluating -------------------------------:
+CPUs: 24, GPUs: 1 on ubuntu.
+GPU : NVIDIA GeForce RTX 4090
+cuda
+Round 001 	 FL_loss 2.3826 	 FL_acc 10.0060 	 Test images 10000
+Round 002 	 FL_loss 2.3307 	 FL_acc 10.4367 	 Test images 10000
+Round 003 	 FL_loss 2.0452 	 FL_acc 25.6911 	 Test images 10000
+Round 004 	 FL_loss 2.0170 	 FL_acc 22.3558 	 Test images 10000
+Round 005 	 FL_loss 1.8228 	 FL_acc 36.9692 	 Test images 10000
+Round 006 	 FL_loss 1.7798 	 FL_acc 38.0709 	 Test images 10000
+Round 007 	 FL_loss 1.7803 	 FL_acc 42.1474 	 Test images 10000
+Round 008 	 FL_loss 1.6629 	 FL_acc 42.3377 	 Test images 10000
+Round 009 	 FL_loss 2.0676 	 FL_acc 25.1703 	 Test images 10000
+Round 010 	 FL_loss 1.5623 	 FL_acc 46.1438 	 Test images 10000
+Round 011 	 FL_loss 1.5640 	 FL_acc 43.4696 	 Test images 10000
+Round 012 	 FL_loss 1.5957 	 FL_acc 45.3626 	 Test images 10000
+Round 013 	 FL_loss 1.8320 	 FL_acc 36.8690 	 Test images 10000
+Round 014 	 FL_loss 1.4281 	 FL_acc 49.1687 	 Test images 10000
+Round 015 	 FL_loss 2.0911 	 FL_acc 25.3706 	 Test images 10000
+Round 016 	 FL_loss 1.4715 	 FL_acc 47.9567 	 Test images 10000
+Round 017 	 FL_loss 2.0387 	 FL_acc 32.3317 	 Test images 10000
+Round 018 	 FL_loss 1.3764 	 FL_acc 51.1919 	 Test images 10000
+Round 019 	 FL_loss 1.6940 	 FL_acc 48.2272 	 Test images 10000
+Round 020 	 FL_loss 1.5796 	 FL_acc 46.5445 	 Test images 10000
+Round 021 	 FL_loss 2.0536 	 FL_acc 28.3454 	 Test images 10000
+Round 022 	 FL_loss 1.3177 	 FL_acc 52.7444 	 Test images 10000
+Round 023 	 FL_loss 2.0271 	 FL_acc 35.2865 	 Test images 10000
+Round 024 	 FL_loss 1.3760 	 FL_acc 52.7744 	 Test images 10000
+Round 025 	 FL_loss 1.6046 	 FL_acc 47.1955 	 Test images 10000
+Round 026 	 FL_loss 2.1345 	 FL_acc 28.6158 	 Test images 10000
+Round 027 	 FL_loss 1.5129 	 FL_acc 49.1286 	 Test images 10000
+Round 028 	 FL_loss 1.5141 	 FL_acc 48.6979 	 Test images 10000
+Round 029 	 FL_loss 1.4121 	 FL_acc 50.5609 	 Test images 10000
+Round 030 	 FL_loss 1.2633 	 FL_acc 57.3417 	 Test images 10000
+Round 031 	 FL_loss 1.2806 	 FL_acc 57.1815 	 Test images 10000
+Round 032 	 FL_loss 1.2876 	 FL_acc 57.2115 	 Test images 10000
+Round 033 	 FL_loss 1.2866 	 FL_acc 57.2216 	 Test images 10000
+Round 034 	 FL_loss 1.3064 	 FL_acc 56.8610 	 Test images 10000
+Round 035 	 FL_loss 1.3115 	 FL_acc 57.0813 	  12, keTest images 10000
+Round 044 	 FL_loss 1.3394 	 FL_acc 56.1298 	 Test images 10000
+Round 045 	 FL_loss 1.3692 	 FL_acc 56.6907 	 Test images 10000
+Round 046 	 FL_loss 1.3859 	 FL_acc 57.0513 	 Test images 10000
+Round 047 	 FL_loss 1.3826 	 FL_acc 57.1014 	 Test images 10000
+Round 048 	 FL_loss 1.3788 	 FL_acc 56.7007 	 Test images 10000
+Round 049 	 FL_loss 1.4077 	 FL_acc 56.6707 	 Test images 10000
+Round 050 	 FL_loss 1.3645 	 FL_acc 56.0497 	 Test images 10000
+Best FL accuracy: 57.34174728393555 on round 30
+Defense Method:  dcs
+Finished computations with time: 5:22:00.647266
+
